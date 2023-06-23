@@ -10,8 +10,8 @@ stages:
     outs:
     - path: data/inputs/datasets/ATMP/papers
       hash: md5
-      md5: 17ace39c9a8ab38e3f6249d4feec335e.dir
-      size: 197874985
+      md5: dc533021dd1dc49f90a91021d7de6f26.dir
+      size: 174154022
       nfiles: 87
   download_breast_cancer:
     cmd: python prepare.py download --dataset breast-cancer
@@ -83,15 +83,15 @@ stages:
     deps:
     - path: data/inputs/datasets/ATMP/papers
       hash: md5
-      md5: 17ace39c9a8ab38e3f6249d4feec335e.dir
-      size: 197874985
+      md5: dc533021dd1dc49f90a91021d7de6f26.dir
+      size: 174154022
       nfiles: 87
     outs:
     - path: data/inputs/datasets/ATMP/parsed_papers
       hash: md5
-      md5: d751713988987e9331980363e24189ce.dir
-      size: 0
-      nfiles: 0
+      md5: eba3a53fb20c40f6fff78b346f1a9e33.dir
+      size: 3826313
+      nfiles: 74
   parse_CVD:
     cmd: python prepare.py parse --dataset CVD
     deps:
