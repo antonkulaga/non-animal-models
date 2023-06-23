@@ -1,0 +1,20 @@
+Model no:	Number 	Model of breast cancer which is described in a paper.	NA
+Breast cancer type	Drop-down list	Type of breast cancer.	BC (Breast Cancer) IBC (Inflammatory Breast Cancer) BC/IBC
+Breast cancer subtype	Drop-down list	Morphological, molecular and clinical characteristics investigated in the model.	For example: BC (breast cancer) Claudin-low BC DCIS (Ductal Carcinoma in Situ) IBC (Inflammatory Breast Cancer) IDC (Invasive Ductal Carcinoma) IDC/ILC ((Invasive Ductal Carcinoma/Invasive Lobular Carcinoma)
+Disease features	Drop-down list	The disease feature studied by the model.	For example: Cancer initiation and development Angiogenesis Metastasis Cancer landscape Drug discovery and/or testing
+Category	Drop-down list	The category of non-animal model assigned to the model.	In vitro In silico In vitro/in silico
+Type	Drop-down list	More specifications of the model category.	Cells Cell-free Ex vivo Computational Algorithm Simulation Mathematical
+Cells	Drop-down list	If the model employs cells, this field specifies which kind of cells are used.	Immortalised Primary Stem cells n/a
+Source	Drop-down list	Biological material source, if any.	MCF-7 MDA-MB-231 fibroblasts and endothelial cells liquid biopsy
+Cell culture type	Drop-down list	If the model employs cells, this field specifies the type of cell culture.	Culture Co-culture MPS (Microphysiological systems)
+Cel culture dimensions	Drop-down list	If the model employs cells, this field specifies the dimensions of the cell culture.	2D 2.5D 3D
+3D	Drop-down list	If the model uses 3D cell cultures, this field specifies the type of the 3D dimension.	Scaffolds Spheroids Organoid
+Ex vivo	Drop-down list	If the model is based on ex vivo cells/tissues, this field specifies the type of materials.	Biopsies Liquid biopsies Organ slice Whole organ
+Applications	Drop-down list	Main scientific aim or application of the model.	For example: Diagnosis of diseases Model/method development Diseases mechanism Drug development/testing
+Biological endpoints	Drop-down list	List of potential biological endpoints used in a model system to describe the disease mechanism and/or study focus.	For example: Cytotoxicity Cell proliferation Invasion Metabolic activity
+Throughput	Drop-down list	Regarding productivity/automatisation of the model.	High Low Medium
+Potential		Possible multiple model application in addressing disease features.	Yes (The method/model has future potential for its breast cancer applications) No (The method/model has no future potential for its breast cancer applications) n/a (not specified)
+Relevance		Biological relevance of the model for the disease feature in replacing animal models.	Direct (The model is sufficient for the conclusions of the study) Supportive (The model is partially supporting the conclusions of the study) n/a (Not specified by authors)
+DOI or link	Free text	Digital Object Identification number to retrieve the publication abstract. If not available, an alternative link is provided.	NA
+First author name	Free text	Name of the first author of the peer-reviewed article.	NA
+Year	Free text	Publication year from 2014 to 2019.	NA

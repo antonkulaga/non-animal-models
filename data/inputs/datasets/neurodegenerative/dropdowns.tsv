@@ -1,0 +1,56 @@
+Disease area	Disease-feature	Category	Type	Application/aim	Biological or disease-specific endpoint	Assay Throughput/ Content
+AD	Cholinergic dysfunction/degeneration	Human/patient ex-vivo tissue or body fluids (brain biopsy, CSF, post-mortem)	Blood	Diagnosis of disease	Activation of microglia	High (automatic)/high
+ALS	Cognitive functional problems	Human/patient primary or stem cells 	Brain (or CNS) tissue	Disease mechanism (exp/theor)	Apoptosis/cell death	High (automatic)/medium
+FTD	Dopaminergic neurodegeneration	Human-derived cell lines	Co-culture model (multiple cells)	Disease therapy developm	Basal ganglia signaling	High (automatic)/low
+MS	Energy metabolism	2D or 3D co-culture	CSF	Drug developm/ testing	BBB (dys-)function	Low-medium/high
+PD	Exploratory/ no specific feature	Organoid model 	Differentiated human cells: neuronal	Model/method development - experim	Calcium (dys-)regulation	Low-medium/medium
+Several NDD	Locomotor dysfunction	Biochemical/cell-free assay	Differentiated human cells: non-neuronal CNS	Model/method development - theoret	Changed gene expression	Low-medium/low
+Other diseases	Neuronal loss	Lab/brain on chip or microfluidic system	Differentiated human cells: non-neuronal, non-CNS	Model/method validation	Changed protein expression	not applicable
+not applicable	Neuroinflammation	Computational/in silico	Dopamin. neuronal precursor cell line	Neuroprotection/neurotoxicity	Cholinergic signalling/esterases	
+	Protein aggregation	Other	Exosomes	Other	Cognitive dysfunction	
+	na		Fibrils		Cytoskeletal effects: morphology of cells/axon/neurite..	
+			Human-derived immortalised cell lines: neuronal		DNA damage	
+			Human-derived immortalised cell lines: non-neuronal CNS		Dopamine dysregulation	
+			Human-derived immortalised cell lines: non-neuronal, non CNS		Dopamine release and/or uptake in cells	
+			In silico model		Dopaminergic neurodegeneration in substantia nigra	
+			Midbrain organoid		Electrophysiological characterisation	
+			Multipotent human stem cells: neuronal		Endoplasmic reticulum stress	
+			Multipotent human stem cells: non-neuronal CNS		Epigenetic changes	
+			Multipotent human stem cells: non-neuronal, non CNS		Glutathione depletion	
+			Neurospheres/3D model		Impaired autophagy	
+			Non-differentiated human stem cells : embryonic		Impaired synaptic/vesicular function, transport or morphology	
+			Non-differentiated human stem cells : iPSC		Inflammation	
+			Oligomers		Locomotor function	
+			Peptides		Lymphocytes activation	
+			Polymers/hydrogels		Lysosomal dysfunction	
+			Proteins		Markers for  cell differentiation (e.g. astrocytes, oligodendroctyes, etc.)	
+			Other		Markers for dopaminergic (DA) neurons	
+					Markers for mesenchymal stem cells	
+					Markers for motor neurons	
+					Markers for neural stem cells	
+					Markers for noradrenergic neurons (NAN)	
+					Markers for pluripotency of stem cells	
+					Markers for  cell differentiation (e.g. astrocytes, oligodendroctyes, etc.)	
+					Metabolomics analysis	
+					MicroRNA changes	
+					Mitochondrial dysfunction	
+					Multiple biological endpoints	
+					Multiple: cell characterisation/differentiation/maturation	
+					Neurodegeneration: hippocampal or other	
+					Neuronal growth/connectivity	
+					Oxidative/nitrosative stress	
+					Protein dysfunction: amyloid peptide (any version)	
+					Protein dysfunction: ApoE	
+					Protein dysfunction: APP	
+					Protein dysfunction: a-synuclein	
+					Protein dysfunction: BACE1	
+					Protein dysfunction: DJ-1	
+					Protein dysfunction: gamma secretase (or components)	
+					Protein dysfunction: Lewy bodies	
+					Protein dysfunction: LRRK2	
+					Protein dysfunction: multiple	
+					Protein dysfunction: Parkin/Pink1	
+					Protein dysfunction: Tau (phosphorylation)	
+					Protein dysfunction: Ubiquitin -proteasome	
+					not applicable	
+					Other	

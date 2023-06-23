@@ -1,0 +1,85 @@
+Field	Field Type	Drop-Down Options	Notes
+Model no.	Number	 NA	This number refers to a model of a respiratory disease which is described in a paper. The same paper can describe more than a model.  
+			
+			
+Disease Area	Drop-down list	For example:	Upon abstract screening, papers were broadly categorised by disease area.
+		Pulmonary Disease - General	
+		Asthma	
+		COPD	
+		Lung Cancer	
+		Pulmonary Fibrosis	
+		Cysic Fibrosis	
+Disease Feature	Drop-down list	For example:	Specific endpoints of the disease with options for " Exploratory/ no specific feature"  and "na". 
+		Elastin Viability	
+		Exploratory/ no specific feature	
+		Inflammation	
+		Protein aggregation	
+		Surfactant levels	
+		Tissue/Cell Viability	
+		Vasoconstriction	
+Category	Drop-down list	For example:	Papers were categorised during the screening phase of abstracts, using the some model types decided upfront.
+		2D or 3D co-culture	
+		Biochemical/cell-free assay	
+		Chip or microfluidic system	
+		Computational/in silico	
+		Human/patient ex-vivo tissue or body fluids	
+		Human/patient primary or stem cells	
+		Human-derived cell lines	
+		Organoid model	
+		Other	
+Type	Drop-down list	For example:	More specifications, if applicable, on the model used. 
+		Human pulmonary vascular smooth muscle cells	
+		Human Precision-Cut Lung Slices (PCLS)	
+		Human samples from Lung Disease Biobank (Germany).	
+		human nasal epithelial cells (hNECs)	
+		RPMI2650 cell line	
+		A549 cell line	
+		HFL-1 cell line	
+		Co-culture model (multiple cells)	
+		Computational model	
+		CSF	
+Application	Drop-down list	For example:	Main scientific aim or application of the model. 
+		Comparison of barrier integrity	
+		Diagnosis of disease	
+		Disease mechanism (exp/theor)	
+		Disease therapy developm	
+		Drug developm/ testing	
+		Identification of Biomarkers	
+		Mimics lung microenvironment	
+		Model development - experim	
+		Model development - theoret	
+		Model validation	
+		Study of lung surfactant	
+Biological endpoints	Drop-down list	For example:	List of potential biological endpoints, used in a model system to describe either the characteristics of a model or changes in the model system related to disease feature. 
+		Apoptosis	
+		Chemotaxis	
+		Cytokine Release	
+		Gene expression	
+		Imaging	
+		Immunohistochemistry	
+		Infection	
+		Inflammatory Mediators	
+		Metabolism	
+		mRNA expression	
+		Phagocytosis	
+		Protein	
+		Repair	
+		Tissue / Cell Viability	
+Throughput	Drop-down list	High (Automated)	If applicable, the models is described in tems of throughput.
+		Medium / Low (Lab scale)	
+		Not relevant (e.g. In silico)	
+Potential	Drop-down list	For example:	Potential for future development. This is subjective assessment.
+		Biomarker Discovery	
+		Disease Progression	
+		Drug Development	
+		Drug Discovery	
+		Mechanistic Studies	
+		Pathogenesis	
+		Toxic insult/response	
+		Unknown	
+Notes	Free text	NA	
+Reference	Free text	NA	Title of the paper which describes the model of respiratory disease.
+DOI	Free Text	NA	DOI and link of the paper which describes the model of respiratory disease.
+Author	Free Text	NA	Author(s) of the paper which describes the model of respiratory disease.
+Year	Free Text	NA	Year of publication of the paper which describes the model of respiratory disease.
+Citation Index: Scopus and WOS	Number	NA	Scopus and Web of Science citation indexes for the paper which describes the model of respiratory disease. It provides an indication of model maturity and use. It is automatically extraction from DOI reference. 

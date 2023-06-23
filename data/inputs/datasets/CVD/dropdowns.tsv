@@ -1,0 +1,295 @@
+Disease Area	Disease Feature	Category	Type	Application	Application Sub-Category	Biological Endpoints	Throughput	Relevance	Status	Year
+Aneurysm	Aorta	ex vivo	2D culture 	Diagnosis of disease	Device development	Abdominal aortic aneurysm	High (Automated)	Direct	Optimisation	2013
+Arrhythmias	Aortic Valve	in silico	3D culture	Disease mechanism (exp/theor)	Device effectiveness evaluation	Abdominal vascular graft infection	Medium / Low (Lab scale)	Predictive	Standardised 	2014
+Cardiomyopathies 	Arrhythmias, Cardiac	in vitro with cells	FEM	Disease therapy development	Diagnosis of disease	Ablation of Atrial Fibrillation	Not relevant (e.g. in silico)	Supportive	Under development 	2015
+Cardiovascular Abnormalities including CCD 	Cardiac Surgical Procedures	in vitro without cells	NA		Disease effects on specific organs	Acute myocardial infarction		Unknown	Under validation	2016
+Cardiovascular Surgical and interventional Procedures	Carotid		others (including analytical models, cell population dynamics etc.)		Disease etiology and risk factors	Alagille syndrome				2017
+Heart Failure 	Cerebral				Disease mechanism and progression	Aneurysm clipping repair				2018
+Heart Valve Diseases 	Coronary				General disease effects on the body	Aneurysm endovascular repair				2019
+Myocardia Ischemia	Mitral Valve				Prediction of device effects	Aneurysm endovascular sealing				
+Occlusive Disease 	NA				Prediction of post-intervention outcomes	Aneurysm growth				
+	Peripheral vessel				Prediction of prosthesis profile	Aneurysm hemodynamics				
+	Pulmonary Valve				Prosthesis development	Aneurysm rupture				
+	Reperfusion				Prosthesis effectiveness evaluation	Aneurysm stent repair				
+	Tricuspid Valve				Surgical and/or interventional planning	Annuloplasty				
+	Vascular Surgical Procedures				Treatment strategies evaluation	Anterior communicating artery aneurysms				
+	Veins					Antiplatelet drugs efficacy with LVAD				
+						Antithrombotic graft				
+						Aortic arch replacement				
+						Aortic arch rupture risk				
+						Aortic bileaflet mechanical heart valve				
+						Aortic calcification				
+						Aortic coarctation				
+						Aortic dilatation				
+						Aortic dissection				
+						Aortic regurgitation				
+						Aortic repair				
+						Aortic root hemodynamics				
+						Aortic root rupture				
+						Aortic thrombosis				
+						Aortic valve disease				
+						Aortic valve dynamics				
+						Aortic valve failure				
+						Aortic valve regurgitation				
+						Aortic valve replacement				
+						ARMC electromechanical characterisation 				
+						Arrhythmogenesis				
+						Arrhythmogenic right ventricular cardiomyopathy iPSC study				
+						Arrhythmogenic right ventricular dysplasia iPSC study				
+						Arterial wall stiffening				
+						Arteriovenous fistula				
+						Arteriovenous hemodialysis fistula				
+						Artificial blood vessel				
+						Assessment of antiarrhythmic potential of drug candidates				
+						Atheroembolic events				
+						Atherosclerosis				
+						Atherosclerotic lesion formation				
+						Atherosclerotic plaque				
+						Atherosclerotic stenosis of extracranial carotid arteries				
+						Atrial fibrillation				
+						Atrial fibrillation suppression				
+						Atrial flutter / atrial fibrillation				
+						Atrial septal occluder				
+						Atrioventricular valve regurgitation				
+						Barth syndrome iPSC study				
+						Bicuspid aortic valve				
+						Bifurcation stenting				
+						Bioprosthetic heart valves				
+						Blood clot of inferior vena cava				
+						Blood pressure estimation				
+						Bypass grafts configuration in coronary artery disease				
+						Calcific obstraction of RVOT				
+						Calcium displacement				
+						Cannulation effects on cerebral perfusion				
+						Cardiac growth and remodeling				
+						Cardiac malformations				
+						Cardiac patches realisation feasibility				
+						Cardiac perfusion				
+						Cardiac resynchronisation outcomes prediction				
+						Cardiac surgery and interventional planning				
+						Carotid atherosclerotic plaque				
+						Carotid restenosis				
+						Cell regrowth in coronary diseases				
+						Cerebral aneurysm				
+						Chordae tendineae calcification 				
+						Coagulation abnormality				
+						Complex aortic diseases				
+						Congenital heart disease				
+						Congenital pulmonary valve malformation				
+						CorCap effectiveness characterisation				
+						Coronary arteries plaque				
+						Coronary artery aneurysms				
+						Coronary artery anomalies				
+						Coronary artery disease				
+						Coronary artery fistulae				
+						Coronary artery stenosis				
+						Coronary bifurcation lesions				
+						Coronary bifurcation stenting				
+						Coronary disease				
+						Coronary hemodynamics				
+						Coronary lesions				
+						Coronary microcirculation				
+						Coronary obstruction				
+						Coronary obstruction after TAVI valve-in-valve				
+						Coronary plaques				
+						Coronary restenosis				
+						Coronary stent fracture				
+						Coronary stent hemocompatibility 				
+						Coronary stent therapy				
+						DCM Fluidynamic characterisation				
+						Delayed afterdepolarisations effects on arrhythmia trigger				
+						Design of Cardiac microphysiological devices				
+						Detection of drug-induced arrhythmia and  assessment of preclinical cardiac toxicity				
+						Detection of trigger mechanism in familial atrial fibrillation				
+						Determination of mechanisms by which atrial fibrosis contributes to atrial fibrillation				
+						Development of patient-specific clinical regimens				
+						Development of screening assays for testing individual drug reactions				
+						Dilated Cardiomyopathy iPSC study				
+						Dissection hemodynamics				
+						Double outlet right ventricle				
+						Drugs effects on atrial electrophysiology				
+						Early myocardial ischemia				
+						Effect of arterial predilation before stenting				
+						Effect of DCHS1 on mitral valve				
+						Effect of plasma endothelial microparticles on valve regurgitation and stenosis				
+						Effects of arrhythmia on ventricular contraction				
+						Electromechanical model of asynchronous heart				
+						Electromechanical model of cardiac resynchronisation  				
+						Electromechanical model of failing heart				
+						Endothelial function in carotid artery				
+						Epicardial pacing				
+						Evaluation of changes in AV nodal properties during atrial fibrillation				
+						Evaluation of pro-arrhythmic potential of drugs and drug candidates				
+						Exercise in Fontan patients				
+						Extracellular ventricular model				
+						Failed mitral surgical bioprostheses				
+						Failure mechanisms of Peripheral intravenous catheters				
+						Failure of bioprosthetic heart valves				
+						Femoral artery stenosis				
+						Fontan circulation				
+						Fontan circulation correction				
+						Fontan connection				
+						FTR treatment evaluation				
+						Functional assessment of arrhythmia response to drugs				
+						Functional cardiac tissue feasibility				
+						Functionally targeted interventions for the treatment of arrhythmia				
+						Gene correction effectiveness on R14del mutation				
+						Gene therapy of hypertrophic cardiomyopathy effectiveness evaluation				
+						Graft failure in Peripheral Vascular Disease and Coronary Artery Disease				
+						Grafts for aneurysm and dissections				
+						Heart failure				
+						Heart valve fluid dynamic evaluation				
+						Heart valve-related disease				
+	 					Hemodynamics in the total cavopulmonary connection				
+						Human iPSC cardiomyocytes production				
+						Human myocardium matrix realisation feasibility				
+						Hypertension complications				
+						Hypertrophic cardiomyopathy energetic gene study				
+						Hypertrophic cardiomyopathy iPSC study				
+						Hypertrophic cardiomyopathy troponin study				
+						Hypoxia/reoxygenation injury				
+						Identification of atrial regions responsible for AF perpetuation				
+						Identification of therapeutic strategies for  arrhythmia-provoking situations				
+						Induced vasorelaxation				
+						Inferior vena cava filters to prevent pulmonary embolism				
+						Inflammation related to platelet and leukocyte				
+						Influence of sarcoplasmic reticulum (SR) calcium release on arrhythmias				
+						Inter atrial wall intervention				
+						Intra-stent thrombi				
+						Intracranial aneurysms 				
+						Intraluminal thrombus formation				
+						Intraventricular pressure exstimation				
+						Ischemia diagnosis				
+						Lead position effect on cardiac resynchronisation				
+						Leaflet thrombosis				
+						Leaflets stenosis and calcification				
+						Left atrial appendage closure				
+						Left atrial appendage occlusion				
+						Left coronary circulation				
+						Left ventricular thrombosis evaluation				
+						LVAD Cannula effect				
+						LVAD Cannula effect and thrombus evaluation				
+						LVAD fluidodynamic evaluation				
+						LVAD systems hemodynamic comparison				
+						LVAD thrombus evaluation				
+						Marfan aorta				
+						Marfan syndrome				
+						MicroRNA on mitral valve prolapse				
+						Mitral annular calcification				
+						Mitral Valve Intervention Repair				
+						Mitral valve myofibroblastic activation evaluation				
+						Mitral valve prolaps				
+						Mitral valve regurgitation				
+						Mitral valve remodeling evaluation				
+						Mitral valve scaffold realisation feasibility				
+						Monitoring of changes in cardiac performance under various conditions				
+						MV fluidynamics charcterisation				
+						MV FSI characterisation				
+						MV geometry imaging reconstruction				
+						MV kinetics characterisation				
+						Myocardial infarction				
+						Myocardial infarction repair				
+						Myocardial ischemia/reperfusion injury				
+						Myocardial Stiffness measurement				
+						Myocardium modeling				
+						Narrowed/leaking pulmonary valve				
+						Neochord effectiveness evaluation				
+						Optogenetic mechanisms to restore normal duration of cardiac action potential				
+						Osteoprotegerin on mitral valve prolapse				
+						Paravalvular leak				
+						Pathophysiology of the myocardium				
+						Perfusion of vascular conduits				
+						Planning of thoracic surgery				
+						Platelet proteome modification in heart failure patients				
+						Polymeric aortic valve				
+						Prediction of arrhythmia risk induced by drugs				
+						Prediction of arrhythmias risk				
+						Prediction of platelet activation in LVAD systems				
+						Prediction of proarrhythmia risk at non-clinical drug development phase				
+						Prediction of QT prolongation;  evaluation of cardiac safety liabilities of drug candidates				
+						Proarrhythmia prediction; in silico modeling prediction of proarrhythmic risk				
+						Quantitative analysis of action potential parameters				
+						Regeneration of cardiovascular tissues				
+						Regurgitation				
+						Repair procedure evaluation				
+						Right ventricular failure				
+						Risk of stroke				
+						Rotary blood pumps interactions				
+						Rupture of ballon-expandable stent				
+						Rupture risk of plaque				
+						RVOT obstuction				
+						Scaffold implant complications				
+						Septal myectomy				
+						Severe aortic stenosis 				
+						Shortening of  QT duration				
+						Shunt banding				
+						Single ventricle				
+						Single ventricle physiology and coronary aneurysms caused by Kawasaki disease				
+						Single-ventricle physiology				
+						Sinus venosus atrial septal defect and partial anomalous pulmonary venous return of the right upper pulmonary vein				
+						Stenosis of right coronary artery				
+						Stenosis of vessels				
+						Stent failure				
+						Stent fracture in paripheral artery disease  				
+						Stent procedure for coronary bifurcation				
+						Stent resistence in right ventricular outflow tract				
+						Stenting procedure for severe carotid stenosis				
+						Strain regulation on mitral valve regurgitation				
+						Stroke				
+						Study of cardiac drug-related cardiotoxicity response				
+						Subclavian steal syndrome				
+						Subclavian stenoses				
+						Surgical planning for congenital heart defect				
+						Surgical procedure for uperior sinus venosus atrial septal defect  and partial anomalous pulmonary venous drainage				
+						SVR evaluation				
+						Tetralogy of Fallot				
+						Thoracic aorta aneurysm				
+						Thoracic endovascular aortic repair				
+						Thrombosis after Y-graft Fontan procedure				
+						Thrombosis and restenosis				
+						Thrombosis risk of VAD				
+						Thrombus formation				
+						Tissue accumulation on peripheral artery stents				
+						Tissue and organ replacement therapies				
+						Tissue remodeling of native heart valves				
+						Tissue repair and organ replacements				
+						TMVR  phantom simulator				
+						TMVR design				
+						TMVR outcome prediction				
+						TMVR simulator				
+						Total artificial heart design				
+						Transcatheter aortic valve implantation				
+						Transcatheter aortic valve replacement				
+						Transverse aortic arch hypoplasia				
+						Treatment of Tetralogy of Fallot				
+						Tricuspid atresia				
+						TV dynamic characterisation				
+						TV microstructure characterisation				
+						TV prosthesis design				
+						TV repair treatment evaluation				
+						TV surgical evaluation				
+						Underdeployment in stent apposition 				
+						Understanding  of the behavior of long QT forms which can induce arrhythmias				
+						Understanding of the drug effects on human ventricular activity				
+						Understanding of the mechanisms for atrial fibrillation termination				
+						Understanding of the molecular basis of antiarrhythmics				
+						Understanding of the molecular basis of antiarrhythmics; assessment of arrhythmia response to drugs				
+						Understanding of the molecular basis of inherited arrhythmia				
+						Understanding of the proarrhythmic potential of drugs				
+						Understanding of the refractoriness role to prevent arrhythmias				
+						Understanding of ventricular fibrillation risk induced by drugs				
+						Understanting of the genetic mutation effects on ventricular tachycardia				
+						Valve failure				
+						Valve insufficiency				
+						Valve mechanics				
+						Vascular access dysfunction				
+						Vascular genetic reactivity				
+						Vascular hemodynamics				
+						Vascular stent resistence evaluation				
+						Vein occlusion				
+						Vein of Galen malformation 				
+						Venous system abnormalities in central nervous system				
+						Vortex-ring mixing evaluation				
+						Y graft effects on flow				
+						Vortex-ring mixing evaluation				
+						Y graft effects on flow				

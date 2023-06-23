@@ -1,0 +1,33 @@
+name: non-animal-models
+channels:
+  - conda-forge
+  - bioconda
+  - pytorch
+  - plotly
+  - defaults
+dependencies:
+  - python=3.10
+  - more-itertools
+  - setuptools
+  - click
+  - jupyterlab
+  - tiktoken
+  - dash
+  - python-dotenv
+  - pytorch
+  - openai
+  - tesseract
+  - dash
+  - dash-html-components
+  - dash-bootstrap-components
+  - uvicorn
+  - dvc
+  - pip:
+      - getpaper
+      - polars
+      - langchain>=0.0.202
+      - dvc_gdrive
+      - chromadb
+      - scidownl
+      - 'git+https://github.com/facebookresearch/detectron2.git@e2ce8dc#egg=detectron2'
+      - google-search-results

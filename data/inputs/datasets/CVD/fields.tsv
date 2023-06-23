@@ -1,0 +1,67 @@
+Field	Field type	Definition	Drop-down options
+Model #	Number 	Model of cardiovascular disease which is described in the peer-reviewed article	ΝΑ
+Disease area	Drop-down list	Type of cardiovascular disease studied	Aneurysm
+			Arrhythmias
+			Cardiomyopathies 
+			Cardiovascular Abnormalities including CCD 
+			Cardiovascular Surgical and interventional Procedures
+			Heart Failure 
+			Heart Valve Diseases 
+			Myocardia Ischemia
+			Occlusive Disease 
+Disease feature	Drop-down list	The disease feature studied by the model	Aorta
+			Aortic Valve
+			Arrhythmias, Cardiac
+			Cardiac Surgical Procedures
+			Carotid
+			Cerebral
+			Coronary
+			Mitral Valve
+			NA
+			Peripheral vessel
+			Pulmonary Valve
+			Reperfusion
+			Tricuspid Valve
+			Vascular Surgical Procedures
+			Veins
+Category	Drop-down list	The category of non-animal model assigned to the model	ex vivo
+			in silico
+			in vitro with cells
+			in vitro without cells
+Type	Drop-down list	More specifications - if applicable - of the model category	2D culture 
+			3D culture
+			FEM
+			NA
+			others (including analytical models, cell population dynamics etc.)
+Application	Drop-down list	Main scientific aim or application of the model	Diagnosis of disease
+			Disease mechanism (exp/theor)
+			Disease therapy development
+Application Sub-Category	Drop-down list	More specifications of the application category	Device development
+			Device effectiveness evaluation
+			Diagnosis of disease
+			Disease effects on specific organs
+			Disease etiology and risk factors
+			Disease mechanism and progression
+			General disease effects on the body
+			Prediction of device effects
+			Prediction of post-intervention outcomes
+			Prediction of prosthesis profile
+			Prosthesis development
+			Prosthesis effectiveness evaluation
+			Surgical and/or interventional planning
+			Treatment strategies evaluation
+Biological Endpoints	Drop-down list	List of potential biological endpoints used in a model system to describe the disease mechanism and/or study focus	295 unique biological endpoints to select from
+Throughput	Drop-down list	Regarding productivity/automatisation of the model	High (Automated)
+			Medium / Low (Lab scale)
+			Not relevant (e.g. in silico)
+Relevance	Drop-down list	Biological relevance of the model for the cardiovascular disease feature in replacing animal models	Direct
+			Predictive
+			Supportive
+			Unknown
+Status	Drop-down list	Model developmental stage	Optimisation
+			Standardised 
+			Under development 
+			Under validation
+Year	Drop-down list	Publication year of the peer-reviewed article	2013; 2014; 2015; 2016; 2017; 2018; 2019
+First author name	Free text	Name of the first author of the peer-reviewed article	ΝΑ
+DOI 	Free text	Digital Object Identification number to access the publication's abstract	ΝΑ

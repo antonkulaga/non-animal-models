@@ -1,0 +1,153 @@
+Disease Area	Disease Feature	Category	Specific Category	Type	Application	Biological Endpoints	Throughput	Potential
+Allergic rhinitis	Airflow patterns	2D or 3D co-culture		1205Lu metastatic melanoma	Comparison of barrier integrity 	Airway Constriction	High Throughput(Automated)	Biomarker Discovery
+Asthma	Airway Remodelling	2D or 3D Culture		16HBE	Diagnosis of disease	Airway remodelling	Medium / Low (Lab scale)	Disease Progression
+Cigarettes	Angiogenesis	3D Spheroid Co-culture		16HBE14o- Human Bronchial Epithelial Cell Line	Disease mechanism (exp/theor)	Airway Surface Liquid (ASL) volume	Not relevant (e.g. In silico)	Drug Development
+COPD	Barrier Function / Integrity	Biochemical/cell-free assay		1HAEo2 cells 	Disease therapy development	Apoptosis		Drug Discovery
+Cystic Fibrosis	Bronchial Dysplasia	Bioreactor		3T3 Mouse fetal fibroblasts	Disease Treament	Bioeleectric Properties		High Potential to become a disease model
+Lung Cancer	Bronchoconstriction / Bronchodilation	Chip or microfluidic system		3T3J2 Swiss mouse fibroblast cell line	Drug development/ testing	Cell /  Tissue Morphology		Mechanistic Studies
+Pulmonary Fibrosis	Chloride channel function	Computational/in silico		3T3-L1 pre-adipose cells	Identification of Biomarkers	Cell / Tissue Contraction		Pathogenesis
+Respiratory Disease - General	CTFR Activity	Human/patient ex-vivo tissue or body fluids 		95-D human lung carcinoma	Inhalation toxicity	Cell migration		Personalised therapy
+Toxicity	Drug resistance (chemotherapy)	Human/patient primary or stem cells 		A549 cell line	Lung injury	Cell motility		Toxic insult/response
+Tuberculosis	EGF/EGFR expression	Human-derived cell lines		Airway epithelial ALI culture	Mimics lung microenvironment	Cell proliferation		Unknown
+	Elastin Viability	Organoid model 		Alveolar epithelial type II (ATII) cells 	Mimics tumour development	Cellular crosstalk		
+	Emphysema	Other		Alveolar macrophages	Model development - experim	Chemotaxis		
+	Epithelial Mesenchymal Transition (EMT)	Spheroid		Anip973	Model development - theoret	Cillia beating Frequency		
+	Epithelial/fibroblastic cross-talk			BAL Eosinophils	Model of Human Airway Mucosa	CTFR Activity		
+	Exploratory/ no specific feature			BEAS2B	Model validation	Cytokine Release		
+	Gene expression			BEAS-2B	Study of lung surfactant	Cytotoxicity		
+	Goblet Cell metaplasia			BJ fibroblasts	Toxicity	DNA damage		
+	Healing / repair			Bronchial epithelial biopsy tissue 		Elastin levels		
+	Hypoxia			Calu-3		Epithelial Mesenchymal Transition (EMT)		
+	Idiopathic Pulmonary Fibrosis (IPF)			Calu-6		Gene expression		
+	Infection			Cancer-associated fibroblasts (LuCAFs)		Imaging		
+	Inflammation			CCL-153		Immunohistochemistry/immunofluorescence		
+	Metastasis			CCL-210 fibroblasts		Infection		
+	Mucosal Clearance			CF cell line (CuFi-1)		Inflammatory Mediators		
+	Mucous Production			CFBE41o-		Intracellular Ca2＋ changes		
+	Oxidative stress			CL1-5		Macrophage activity		
+	Primary ciliary dyskinesia (PCD) 			Colo66		Metabolism		
+	Protein aggregation			Cystic Fibrosis Bronchial Epithelial Cell Line (CF8Flp)		Migration and invasion		
+	Protein expression			Cystic Fibrosis human bronchial epithelial (CFBE) cells		Mitochondrial membrane potential (δΨm)		
+	Senescence			cytokine-induced killer cells		Morphology		
+	Sensitisation			Decellularised human lungs 		mRNA expression		
+	Small airway smooth muscle			Endobronchial biopsy specimens (EBBs)		Mucociliary Clearance		
+	Structural Changes			EpiAirway (primary BEC)		Mucosal tissue		
+	Surfactant levels			Erythroleukaemia cells		Mucous production		
+	Tissue/Cell Viability			H1299 human lung carcinoma		Myofibroblast differentiation		
+	Toxicity			H1650		Other		
+	Tumour microenvironment			H292 human lung tumour		Phagocytosis		
+	Vasoconstriction			H292 human muco-epidermoid bronchiolar carcinoma cell line (ATCC)		Proliferation		
+				H358 Bronchioalveolar carcinoma		Protein		
+				H446		Protein Expression		
+				H460 human lung carcinoma		Reactive Oxygen Species (ROS)		
+				H520		Repair		
+				H69		Tissue / Cell Viability		
+				HBEC		Trans Epithelial Electrical Resistance (TEER)		
+				HBEC-4		Vascularisation		
+				HCC827		Wnt signaling pathway		
+				HEK293T cells				
+				HepRG (liver cells)				
+				HFL-1 cell line				
+				Human adipose-derived stem cells (hASCs)				
+				Human Airway Epithelial cells (CFBE41o)				
+				Human Airway Epithelial Cells (hAEC)				
+				Human Airway Epithelial Cells of Nasal origin (hAECN)				
+				Human airway epithelium (NuLi-1)				
+				Human airway smooth muscle cells (HASMCs)				
+				Human Bronchial Smooth Muscle Cells (HBSMC)				
+				Human bronchial smooth muscular thin films (bMTF)				
+				Human CL-1548 cells				
+				Human Dendritic Cells (DC)				
+				Human ECFC-EC endothelial cells				
+				Human fetal airway smooth muscle (ASM) cells				
+				Human fetal lung fibroblasts IMR-90				
+				Human lung adenocarcinoma (HCC)				
+				Human lung fibroblasts 				
+				Human lung microvascular endothelial cells HMVEC				
+				Human lung parenchyma				
+				Human lung tumour tissue				
+				Human MDDC monocyte-derived dendritic cells				
+				Human MDM monocyte-derived macrophages				
+				Human microvascular endothelial cells				
+				human nasal epithelial cells (hNECs)				
+				Human Nasal Turbinate Slices				
+				Human neonatal dermal fibroblasts				
+				Human NSCLC				
+				Human parenchymal lung tissue 				
+				Human PBMC				
+				Human Pericytes				
+				Human pluripotent stem cells (hPSCs)				
+				Human Precision-Cut Lung Slices (PCLS)				
+				Human primary dermal fibroblasts				
+				Human primary neutrophils				
+				Human Primary Pulmonary Artery Smooth Muscle Cells (PASMC) 				
+				Human pulmonary artery endothelial cells (HPAEC)				
+				Human Pulmonary Artery Tissue				
+				Human pulmonary epithelial cell lines NCI-H441				
+				Human pulmonary vascular smooth muscle cells				
+				Human Reconstituted Nasal Epithelium (hRNE)				
+				Human Small Airway Epithelial Cells (SAEC)				
+				Human small cell lung cancer WA-hT				
+				HUVEC ATCC				
+				HUVEC isolated from human umbilical cords 				
+				Immortalised human fetal hepatocytes				
+				in silico/ mathemathical model				
+				Induced pluripotent stem cell-derived mesenchymal stem cells (iPSC-MSCs) 				
+				induced Pluripotent stem cells (iPSCs)				
+				Jurkat E6.1 T cells				
+				Lewis lung cancer LLC				
+				Lung Tissue (unspecified)				
+				Lung-cancer associated fibroblasts				
+				Macrophages				
+				Mai9 Human malignant pleural effusion-derived				
+				MCR5 Fibroblasts				
+				Mesenchymal Stem Cells (MSCs)				
+				MeT-5A human pleural mesothelial cell line (PMC) 				
+				Mouse 344SQ cells				
+				Mouse lung adenocarcinoma Lacun. 3				
+				Mouse lung epithelial cells				
+				Mouse stromal fibroblasts WA-mFib cells				
+				MRC-5				
+				MRC5 fibroblasts				
+				murine 344SQ				
+				murine 393P				
+				Myeloid-derived suppressor cells				
+				Nasal ciliary cell sheets (human -derived)				
+				Nasopharyngeal cancer cell line				
+				NCI-H157				
+				NCI-H1975				
+				NCI-H1993				
+				NCI-H23				
+				NCI-H292 cells				
+				NCI-H460				
+				NCI-H522				
+				NCI-H596				
+				NHBE cell line				
+				NIH 3 T3 murine fibroblast cells				
+				Normal human lung fibroblasts				
+				OncoCil Air cultures				
+				Other				
+				Patient serum				
+				Perivascular cells				
+				Precision cut lung slices				
+				Primary bronchial epithelial cells (PBEC)				
+				Primary HAEC at ALI				
+				Primary human ASMCs				
+				Primary human BEC				
+				Primary human bronchial fibroblasts				
+				Primary human NHBE cells				
+				Primary human tracheobronchial epithelial cells 				
+				Primary human airway epithelial (PHAE) cells				
+				Primary mouse lung fibroblasts				
+				Rat heart-lung block				
+				RPMI2650 cell line - nasal mucosa				
+				See notes				
+				SHP77				
+				Small airway epithelial cells (SAEC)				
+				SPCA-1 human lung adenocarcinoma				
+				Synthetic sputum				
+				THP-1 cell line				
+				VXN2- primary lung tumour cell line				
+				Wi-38 Human fibroblasts				
+				WM852 metastatic melanoma				
+				Xenograft tumour tissue				

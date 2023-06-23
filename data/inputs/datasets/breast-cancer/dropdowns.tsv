@@ -1,0 +1,1623 @@
+Breast cancer type	Disease area	Disease features	Category	Type	Cells	Source	Cell culture type	Cell culture dimensions	3D type	Ex vivo	Applications	Biological endpoints	Throughput	Potential	Relevance
+BC	BC	Angiogenesis	In silico	Algorithms	Immortalised cells	182R-6	Co-culture	2.5D	n/a	Biopsies	Diagnosis of disease	14–3-3Σ	High	n/a	Direct
+IBC	Claudin-low BC	Anti-cancer drug delivery system	In vitro	Cell free	n/a	184A1	Culture	2D	Organoids	Liquid biopsies	Disease mechanism (exp./theor.)	CA 15-3	Low	No	n/a
+	DCIS	Cancer Initiation and Development		Computational	Primary cell culture	184B5	MPS	3D	Scaffolds	n/a	Disease therapy develop.	17ΒHSD2	Medium	Yes	Supportive
+	IBC	Cancer landscape		Ex vivo	Stem cells	184-HTERT	n/a	n/a	Spheroids	Organ slice	Drug develop./testing	17ΒHSD5			
+	IDC	Cancer stem cells		Mathematical	Stem-cell like	212MT-1					Model/method develop. (exp.)	1A4			
+	IDC/ILC	Cell culture strategy		Simulation		21MT-1					Model/method develop. (theor.)	1K3R4E			
+		Circulating Cancer Cells/DNA Identification and Profiling				21MT-2					Model/method develop.(exp./theor.)	2,3-DIOXYGENASE			
+		Drug Discovery and/or Testing				21NT					Model/method qualification	2B4			
+		Immunology				21PT						4EBPI			
+		Immunosensor				21T						4-KINASE			
+		Immunotherapy				226L						5-HT7			
+		Lumenogenesis				293A						5Α-REDUCTASE1			
+		Metastasis				293T						96-WELL			
+		Microenvironment				3T3-L1						A/B			
+		Microenvironment-Tumor Interactions				578BST						A13			
+		Patient stratification				578T						A2B			
+		Pharmacokinetic study				A375						A2M			
+		Pharmacological/Physical Treatment				A431						ABC			
+		Risk Determination 				A549						ABCB1/P-GLYCOPROTEIN			
+		Tumor Detection and Classification				A-549						ABCC5			
+		Tumor Landscape				ADIPOCYTES						ABCG2			
+						ADIPOSE						ABCG-2			
+						ADIPOSE-DERIVED						ABL			
+						ADSC						ABNORMALITIES			
+						AS-B145-1R						ABSORBANCE			
+						ASCS						ABSORPTION			
+						ATCC						ACAT1			
+						AU565						ACCUMULATION			
+						BC-051						ACCURACY			
+						BC-052						ACID			
+						BC80						ACROSS			
+						BCAP						ACTB			
+						BCAP37						ACTIN			
+						BCBM						ACTIVATING			
+						BCK4						ACTIVATION			
+						BCSCS						ACTIVITIES			
+						BIOPSY						ACTIVITY			
+						BM-468						ADAM12			
+						BRAIN						ADAMS			
+						BRC-17 						ADDUCT			
+						BRC-196 						ADENOSINE			
+						BRC-31						ADHERENT			
+						BRC-32 						ADHESION			
+						BRC-36 						ADIPOCYTE			
+						BRM2A						ADIPOSE			
+						BSMCF						ADJUVANT			
+						BSMCFLUCIFERASE						ADLH			
+						BT20						ADMET			
+						BT424						ADVANCED			
+						BT474						AEROBIC			
+						BT474R						AGE			
+						BT483						AGES			
+						BT549						AGGREGATION			
+						BTH474						AGO			
+						CA1H						AGR2			
+						CAFS						AGTR2			
+						CAFS-CM						AHR			
+						CAL-120						AIB1			
+						CAL-148						AKR1B1			
+						CAL-51						AKR1B10			
+						CAL-85-1						AKT			
+						CAMA-1						AKT1			
+						CCD-1126SK						AKT2			
+						CD24						AKY			
+						CD44						ALDEFLUOR			
+						CF-7						ALDH			
+						CK5PRO-GFP-T47D						ALDH1			
+						CN34						ALDH1A			
+						CN34-BRM2C						ALDH1A1			
+						CN34-LM1A						ALDH1A1-POSITIVE			
+						CN34-PARENTAL						ALDH1A3			
+						CRL-2314						ALDH2			
+						CRL-2315						ALG3			
+						CRL-2321						ALIGNMENT			
+						CRL-2322						ALKALINE			
+						CRL-2329						ALLELE			
+						CRL-2338						ALPHA			
+						DA-MB-231						ALPHA2-ADRENOCEPTOR/ERK			
+						DB‐7						ALPHA-SMOOTH			
+						DCIS						ALTERATION			
+						DCS						ALTERATIONS			
+						DERIVATIVES						ALU			
+						DERIVED						AMI-1			
+						DFS						AMPK			
+						DT22						AMPK/MTOR/P70S6K			
+						DT28						AMPKΑ			
+						DU4475						ANALYSIS			
+						DU-4475						ANEUPLOIDY			
+						ECFC-ECS						ANG-2			
+						EFM192A						ANGIOGENESIS			
+						ENDOTHELIAL						ANGIOGENIC			
+						EPITHELIAL						ANI-7			
+						ERBB2						ANNEXIN			
+						ER-SRC						ANNEXIN-V			
+						EVSA-T						ANOIKIS			
+						FIBROBLASTS						ANTI-CANCER			
+						GLIAL						ANTIGEN			
+						GP2-293						ANTI-HER3			
+						HB2						ANTI-INFLAMMATORY			
+						HBL-100						ANTIPROLIFERATIVE			
+						HBTAEC						AP-1			
+						HC1143						APC			
+						HCC1008						APEX1/REF1			
+						HCC114						APICAL-BASAL			
+						HCC1143						APLPHASMA			
+						HCC1187						APOPTOSIS			
+						HCC1187						APOPTOTIC			
+						HCC1395						APPLICATION			
+						HCC1419						AREG			
+						HCC1428						ARID3B			
+						HCC1500						ARNT			
+						HCC1519						AROMATASE			
+						HCC1569						ASSAY			
+						HCC1599						AT1B3			
+						HCC1806						ATF			
+						HCC1937						ATF-1			
+						HCC-1937						ATF6			
+						HCC1954						ATGL-DEPENDENT			
+						HCC-1954						ATM			
+						HCC1994						ATP			
+						HCC202						ATTACHMENT			
+						HCC2218						AURKA			
+						HCC2998						AURORA			
+						HCC38						AUTOCRINE			
+						HCC70						AUTOPHAGE			
+						HCC712						AUTOPHAGY			
+						HCT116						AVPR1A			
+						HDQ-P1						AXL			
+						HER2						BAD			
+						HID-28						BAG1			
+						HL60,U937						BAK			
+						HME						BAX			
+						HMEC						B-CAF			
+						HMEC-1						BCAR4			
+						HMT-3522						BCL(X)L			
+						H‐RAS						BCL11			
+						HRAS‐TRANSFORMED						BCL2			
+						HS 578T						BCL-2			
+						HS27A						BCRP			
+						HS371.TCAFS						BCSCS			
+						HS‐578						BDNF			
+						HS-578T						BECLIN			
+						HS-578T						BECLIN-1			
+						HS785BST						BEGFR2			
+						HSS78T						BER1			
+						HTB-113						BETA-CATENIN			
+						HTB-121						BFGF			
+						HTB-122						BIM			
+						HTB-126						BIOCOMPATIBILITY			
+						HTB-127						BIOMARKER			
+						HTB-130						BIP			
+						HTB-132						BIRC5			
+						HTB-19						BM1I			
+						HTB-20						BMI1			
+						HTB-23						BMP-2/4			
+						HTB-25						BOD1			
+						HTB-26						BOLCS			
+						HTB-27						BRACHYURY			
+						HTERT-HME1						BRANCH			
+						HUVEC						BRANCHES			
+						IBC						BRANCHING			
+						IMMATURE						BRCA1			
+						IMMORTALIZED						BRCA-1			
+						IMR-90						BRCA2			
+						INFECTION						BRCA-II			
+						INFS-CM						BRD4			
+						INVASIVE						BREAKS			
+						JIMT-1						BREAST			
+						KAT						BRK			
+						KM12						BRSM1			
+						KPL4						BST-2			
+						LCC2						BURDEN			
+						LCC9						BYTHE			
+						LM2						C11			
+						LM2-4175						C13			
+						LMMCF						C18			
+						LOW‐METASTATIC						C22ORF28			
+						LYMPHOBLASTOID						C44			
+						LYMPHOCYTES						CA12			
+						M13SV1						CA9			
+						M13SV1-R2-2						CAF			
+						M13SV1-R2-N1						CAIX			
+						M-4A4						CALCR			
+						MACROPHAGES						CALCRL			
+						MB231						CALMODULIN			
+						MB436						CALPONIN			
+						MB468						CAMP			
+						MC3T3-E1						CANCER			
+						MCF						CAP1			
+						MCF/HER2						CARBOXYPEPTIDASE			
+						MCF10						CARCINOMA			
+						MCF10A						CASPASE			
+						MCF10A M1-M4						CASPASE3			
+						MCF10A.NEUT						CASPASE-3			
+						MCF10A1						CASPASE‐3			
+						MCF10ADCIS						CASPASE-3/7			
+						MCF10A-NEUN						CASPASE‐3/7			
+						MCF10AT						CASPASE-7			
+						MCF10AT1						CASPASE-8			
+						MCF10A-TR						CASPASE-9			
+						MCF10CA1A						CASPASE‐9			
+						MCF10CA1A						CATHEPSIN			
+						MCF10DCIS						CAVEOLAE-DEPENDENT			
+						MCF10F						CAVEOLIN-1			
+						MCF10-NEUN						CBL-B			
+						MCF12A						C-C3			
+						MCF7						CCF-DNA			
+						MCF‑7						CCK8			
+						MCF7,SUM102PT						CCL11			
+						MCF7/182R-6						CCL2			
+						MCF7/ADM						CCL22			
+						MCF7/C6						CCL4			
+						MCF7/CSCS						CCL5			
+						MCF7/HER2						CCNA2			
+						MCF‐7/LCC2						CCNB2			
+						MCF‐7/LCC9						CCND2			
+						MCF7/PTX						CCNJ			
+						MCF7/S0.5						CCX771			
+						MCF7/TAMR-1						CD10			
+						MCF7/VP16						CD105			
+						MCF7-C3						CD107A			
+						MCF7R						CD116			
+						MCF‐7R						CD127			
+						MCF7-T47D						CD133			
+						MCFHER2						CD14			
+						MCFS						CD140Β			
+						MCHERRY-LABELED						CD147			
+						MCTS						CD15			
+						MDA-231						CD16			
+						MDA-453						CD166			
+						MDA-IBC3						CD206			
+						MDAKB2						CD227			
+						MDA-LM2						CD234			
+						MDA-MB						CD24			
+						MDA-MB-134						CD25			
+						MDA-MB-157						CD29			
+						MDA-MB-157						CD31			
+						MDA-MB-175						CD36			
+						MDA-MB-23						CD4			
+						MDA-MB-231						CD40			
+						MDA‑MB‑231						CD44			
+						MDA-MB-231(LUC						CD44/CD24			
+						MDA-MB-231,HB-2						CD44/CD24/ESA			
+						MDA-MB-231,MCF7						CD45			
+						MDA-MB-231,MDA-MB-468						CD47			
+						MDA-MB-231/LUC						CD49			
+						MDA-MB-231BO						CD49C			
+						MDA-MB-231BR						CD49F			
+						MDA‐MB‐231BR						CD56			
+						MDA-MB-231BRM-2A						CD61			
+						MDA-MB-231-C3						CD68			
+						MDA-MB-231-ERΒ						CD69			
+						MDA-MB-231-H2N						CD8			
+						MDA-MB-231HM						CD80			
+						MDA‐MB‐231‐LVBR3						CD86			
+						MDA-MB-231-SCP2						CD9			
+						MDA-MB-231-TXSA						CD90			
+						MDA-MB-321						CD95			
+						MDA-MB-330						CD95L			
+						MDA-MB-361						CDC20			
+						MDA‐MB‐361						CDC42			
+						MDA-MB-415						CDH1			
+						MDA-MB-435						CDH2			
+						MDA-MB-435						CDH3			
+						MDA-MB-435S						CDH5			
+						MDA-MB-436						CDK			
+						MDA‐MB‐436						CDK1/CDC2			
+						MDA-MB-453						CDK2			
+						MDA‐MB-453						CDK4			
+						MDA-MB-453R						CDK-4			
+						MDA-MB-468						CDK‐4			
+						MDA‐MB‐468						CDK‐6			
+						MDA-MB-468CAL120						CEACAM1			
+						MDA-MB-469						CELL			
+						MDA-MD-231						CELL-ADHERENCE			
+						MDA-MD-468						CELL-ADHESION			
+						MDA-PARENTAL						CELL-CELL			
+						MECS						CELL-CYCLE			
+						MEGM						CELL-FREE			
+						ME-MB-231						CELLS			
+						METASTASES						CELLULAR			
+						MFM-223						CEP70			
+						MMC						CERNET_CC			
+						MONOCYTE-DERIVED						CFDI			
+						MONOCYTES						CFDNA			
+						MSCS						CHANGE			
+						N/A						CHANGES			
+						NCI-N87,SNU-I						CHANNELS			
+						NFS						CHEK1			
+						NK92						CHEK2			
+						NK-CELLS						CHEMOATTRACTANT			
+						NM-2C5						CHEMOKINES			
+						NONINVASIVE						CHEMOSENSITIVITY			
+						OSTEOBLASTS						CHEMOTACTIC			
+						OSTEOCYTES						CHK1			
+						PATIENT-DERIVED						CHK‐Α			
+						PBMCS						CHOLESTEROL			
+						PCMB						CHOLESTERYL			
+						PL45						CHOLINE			
+						PRIMARY						CHOP			
+						RPMI1640						C‑H‑RAS			
+						SK‐BR‐3						CHROMOSOME			
+						STROMAL						CIP1/WAF‐1			
+						SUM102						CIRCULATING			
+						SUM1315						CK14			
+						SUM1315MO2						CK-14			
+						SUM149						CK17			
+						SUM149PT						CK18			
+						SUM159						CK19			
+						SUM159PT						CK5			
+						SUM190						CK5/6			
+						SUM190PT						CK8			
+						SUM225						C-KIT			
+						SUM225CWN						CLASS			
+						SUM255						CLAUDIN-1			
+						SUM44						CLEAVED			
+						SUM49PY						CLIC3			
+						SUM59PT						CLINICAL			
+						SW480						CLONOGENICITY			
+						SW527						CMET			
+						SW620						C-MET			
+						T1K						C-MYC			
+						T4-2						CNV			
+						T‐47D						CNVS			
+						T47D-C42W						COL13			
+						T49D						COL1A1			
+						TAMR-1						COL5A1			
+						T-CELLS						COL6A2			
+						TNBC						COLLAGEN			
+						TRMCF						COLLAGEN-I/FIBRONECTIN			
+						U251						COLONY			
+						U87						COMPLEX			
+						UACC3199						COMPLEXES			
+						XTMCF						COMPOSITION			
+						ZR-75-1						COMPTON			
+						ZR-75-30						CONCENTRATION			
+												CONSUMPTION			
+												CONTENT			
+												CONTRACTILITY			
+												COOPERATIVE			
+												COPY			
+												CORRELATION			
+												COUNT			
+												COUNTING			
+												COX2			
+												COX-2			
+												COX‐2			
+												COXIV			
+												CPB2			
+												CPT1A			
+												CR1			
+												CRGD-MODIFIED			
+												CRK			
+												CRKL			
+												CSF-1/CSF-1R			
+												CSF2			
+												C-SRC			
+												CT20			
+												CTNNB1			
+												CURVE			
+												CURVES			
+												CXCL10			
+												CXCL12			
+												CXCL14			
+												CXCL16			
+												CXCL9			
+												CXCR4			
+												CXCR7			
+												CY5.5-P25			
+												CY5.5-P51			
+												CYB5R3			
+												CYCLE			
+												CYCLIN			
+												CYCLIN-D1			
+												CYLCE			
+												CYP1			
+												CYP19			
+												CYP1A1			
+												CYP1B1			
+												CYP24A1			
+												CYP34A			
+												CYP4Z1			
+												CYP4Z2P			
+												CYR6			
+												CYR62			
+												CYTOKERATIN			
+												CYTOKERATIN-8			
+												CYTOKINE			
+												CYTOKINE/CHEMOKINE			
+												CYTOKINES			
+												CYTOMEGALOVIRUS			
+												CYTOSKELETAL			
+												CYTOSKELETON			
+												CYTOTOXICITY			
+												D1,E1			
+												D44			
+												DAMAGE			
+												DAPI			
+												DARPP			
+												DCDC2			
+												DD2R			
+												DDIT3/CHOP			
+												DDR1			
+												DEATH			
+												DEGRADATION			
+												DELIVERY			
+												DENDRITIC			
+												DENSITY			
+												DETERMINATION			
+												DIFFERENCES			
+												DIFFERENTIATION			
+												DIRAS1			
+												DISCRIMINANT			
+												DISEASE			
+												DISPLAYED			
+												DISTRIBUTION			
+												DLC1			
+												DLG1			
+												DLK1			
+												DNA			
+												DNAJC13			
+												DNMT			
+												DNMT1			
+												DOPPLER			
+												DORMANCY			
+												DOUBLE			
+												DR4			
+												DR5			
+												DRAM-1			
+												DROPLET			
+												DROPLETS			
+												DRUG			
+												DTOM			
+												DVL1			
+												DYE			
+												DYNAMICS			
+												E1-ACTIVATING			
+												E2A.E12			
+												E2F5			
+												EBA-1			
+												E-CADHERIN			
+												ECSOD			
+												EDH2			
+												EDU			
+												EFFECTS			
+												EFFICACY			
+												EFFICIENCY			
+												EGF			
+												EGF1R			
+												EGFR			
+												EGFR/PI3K/AKT			
+												EGFR1/3			
+												EIF2Α			
+												EIF3A			
+												ELAFIN			
+												ELECTROPORATED			
+												ELEMENTS			
+												ELF5			
+												EMBOLI			
+												EMMPRIN			
+												EMSY			
+												EMT			
+												END			
+												ENDOCYTOSIS			
+												ENDOSOMES			
+												ENDOTHELIAL			
+												ENDOTHELIUM			
+												ENOLASE			
+												ENOS			
+												ENTERING			
+												ENZYMES			
+												EP4			
+												EP4/STAT3			
+												EPCAM			
+												EPHA7			
+												EPHB2			
+												EPIDERMAL			
+												EPITHELIAL			
+												EPSTEIN–BARR			
+												ER-ALPHA			
+												ERBB/HER			
+												ERBB2			
+												ERBB2/NEU/HER2			
+												ERBB3			
+												ERBB4			
+												ERC			
+												ERCC1			
+												ERE			
+												ERK			
+												ERK/MAPK			
+												ERK1/2			
+												ERK2			
+												ERK2/2			
+												ERP44			
+												ERP57			
+												ERRGAMMA			
+												ERROR			
+												ERΑ			
+												ER-Α			
+												ERΒ			
+												ERΒ1			
+												ESA			
+												E-SELECTIN			
+												ESR1			
+												ESRRG			
+												ESTER			
+												ESTROGEN			
+												ESTROGEN-RELATED			
+												EVL			
+												EXCRETION			
+												EXIT			
+												EXOSOME			
+												EXOSOMES			
+												EXPRESSION			
+												EXTRACELLULAR			
+												EXTRAVASATION			
+												EZRIN			
+												EZRIN–RADIXIN–MOESIN			
+												F-ACTIN			
+												FACTOR			
+												FACTOR-Α			
+												FAD			
+												FAK			
+												FALSE			
+												FAP			
+												FAS			
+												FASCIN			
+												FASN			
+												FEATURES			
+												FGF1			
+												FGF19			
+												FGFR1			
+												FGFR4			
+												FIBROBLAST			
+												FIBROBLASTS			
+												FIBRONECTIN			
+												FILOPODIA			
+												FLOW			
+												FLT			
+												FLUORESCENCE			
+												FLUORESCENT			
+												F-MEASURE			
+												FN1			
+												FOCI			
+												FOMATION			
+												FORCE			
+												FORMATION			
+												FORMING			
+												FOS			
+												FOXN2			
+												FOXO3			
+												FOXP3			
+												FPR			
+												FRA-1			
+												FRAGMENTATION			
+												FREE			
+												FREQUENCES			
+												FRIEND			
+												FRK			
+												FSP			
+												FUBP1			
+												FUNDC1			
+												FYN			
+												G3BP1			
+												GATA			
+												GATA3			
+												GATA-3			
+												GCDFP15			
+												G-CSF			
+												GDF			
+												GDIR2			
+												GENE			
+												GENES			
+												GENOME			
+												GENOME-WIDE			
+												GENOMIC			
+												GFR			
+												GH1			
+												GIANT			
+												GIT-1			
+												GLI1			
+												GLI1/TGLI1			
+												GLICOLYSIS			
+												GLO			
+												GLUCOSAMINE			
+												GLUCOSE			
+												GLUT1			
+												GLUT‐1			
+												GLUTAMATE			
+												GLUTAMIC			
+												GLUTAMINE			
+												GLYCATION			
+												GLYCOLYSIS			
+												GLYCOPROTEIN			
+												GM130			
+												GM-CSF			
+												GOLD			
+												GOLGI			
+												GPER			
+												GPNMB			
+												GRADE			
+												GRANULIN			
+												GRAYSCALE			
+												GRM/MGLUR			
+												GRN			
+												GROWTH			
+												GSK3B			
+												GSK3Β			
+												GSK-3Β			
+												GSK3Β/Β-CATENIN			
+												H19			
+												H3K27			
+												H3K27ME3			
+												H3K4			
+												H3K4ME3			
+												H3K9ME3/S10P			
+												H4K20			
+												HAS3			
+												HCMV			
+												HDAC			
+												HDL-INDUCED			
+												HEDGEHOG			
+												HELPER			
+												HER1			
+												HER2			
+												HER-2			
+												HER2/CYTOKERATIN			
+												HER2/HER3			
+												HER2/NEU			
+												HER-2/NEU			
+												HER3			
+												HER4			
+												HERPES			
+												HES1			
+												HETEROGENEITY			
+												HETEROGENICITY			
+												HETEROZYGOSITY			
+												HGF			
+												HHV-8			
+												HIF			
+												HIF-1			
+												HIF-1,HIF-2			
+												HIF-1A			
+												HIF1Α			
+												HIF-1Α			
+												HIF‐1Α			
+												HIF-2			
+												HIF-2A			
+												HIF-2Α			
+												HIFΑ			
+												HIGH			
+												HIPOXIA			
+												HIPPO			
+												HIST1H3C			
+												HLA			
+												HLA,B			
+												HLA-DR			
+												HMGN5			
+												HMW-CK			
+												HMWK			
+												HNRNP			
+												HOAXA9			
+												HOMEOBOX			
+												HOMOLOGOUS			
+												HOTAIR			
+												HOXA11‑AS			
+												HOXA6			
+												HOXB4			
+												HOXC11			
+												HOXC8			
+												HPI/AMF			
+												HPV-16			
+												H‐RAS			
+												HS-27			
+												HSF2			
+												HSP70			
+												HSP90			
+												HUMAN			
+												HUR			
+												HYDROGEL			
+												HYPOXIA			
+												ICAM			
+												ICAM1			
+												ICAM-1			
+												ICOS			
+												ID2			
+												ID4			
+												IDENTIFICATION			
+												IDO			
+												IF4E			
+												IFNA2			
+												IFNΑ-2B			
+												IFN-Γ			
+												IG58/59			
+												IG65/66			
+												IGF1R			
+												IGF-1R			
+												IGFBP-5			
+												IGFL2‐AS1			
+												IID			
+												IIIΒ			
+												IKKALPHA			
+												IKKBETA			
+												IKKΕ			
+												IL)-1Β			
+												IL-1			
+												IL-10			
+												IL-10RB			
+												IL-12			
+												IL-13			
+												IL-17B			
+												IL-19			
+												IL1B			
+												IL1-BETA			
+												IL1Α			
+												IL-1Α			
+												IL1Β			
+												IL-2			
+												IL-3			
+												IL-3Β			
+												IL-4			
+												IL6			
+												IL-6			
+												IL-6/STAT3			
+												IL‐6/STAT3			
+												IL8			
+												IL-8			
+												IL-8/CXCL8			
+												IL-R2A			
+												IMMUNO-LOCALIZATION			
+												IMMUNOSENSOR			
+												IMP3			
+												INCIDENCE			
+												INCREMENT			
+												INDEX			
+												INDOLEAMINE			
+												INFILTRATION			
+												INFLAMMATORY			
+												INFRA-RED			
+												ING1			
+												INHIBITION			
+												INHIBITOR			
+												INK4C			
+												INOS			
+												INSTABILITY			
+												INTEGRIN			
+												INTEGRINS			
+												INTEGRIN-UPAR			
+												INTEGRITY			
+												INTENSITY			
+												INTERACTION			
+												INTERFERON			
+												INTERFERON-Γ			
+												INTERLEUKIN-10			
+												INTERLEUKIN-8			
+												INTRACELLULAR			
+												INTRATUMOR			
+												INTRA-TUMOR			
+												INTRAVASATION			
+												INVADOPODIA			
+												INVASION			
+												INVASIVENESS			
+												IP10			
+												IQGAP1			
+												IRS1			
+												IRX2			
+												ITGA1			
+												ITGA11			
+												ITGA2			
+												ITGA3			
+												ITGA4			
+												ITGA5			
+												ITGAV			
+												ITGB1			
+												ITGB3			
+												ITGB4			
+												JAG1			
+												JAG2			
+												JAGGED			
+												JAK2			
+												JAK2-STAT3			
+												JNK			
+												JUNCTION			
+												JWA			
+												K641			
+												KAPPA			
+												KARYOTYPE			
+												KERATIN19			
+												KFL4			
+												KI67			
+												KI-67			
+												KIF11			
+												KINASE			
+												KINASES			
+												KININOGEN			
+												KIP1			
+												KLF4			
+												KRT19			
+												KRT5			
+												KRT8			
+												KYNASE			
+												L1CAM			
+												LACTATE			
+												LACTIC			
+												LAMA5			
+												LAMELIPODIA/FILOPODIA			
+												LANDSCAPE			
+												LAPTM4B			
+												LC3BI			
+												LC3BII			
+												LCK			
+												LDA			
+												LDH			
+												LDHA			
+												LDLR			
+												LENGHT			
+												LEPTIN			
+												LET-7			
+												LET-7A			
+												LET-7C			
+												LEVEL			
+												LEVELS			
+												LIFR			
+												LIGAND			
+												LIGANDS			
+												LIN			
+												LINE			
+												LINE1			
+												LINE1‐MET			
+												LINEAR			
+												LIPASE–DEPENDENT			
+												LIPID			
+												LIPIN1			
+												LIPOLYTIC			
+												LIVE-FLUORESCENT			
+												LKB1			
+												LL-37			
+												LNCRNA			
+												LOAD			
+												LOCALISATION			
+												LOCALIZATION			
+												LONG			
+												LOSS			
+												LOX			
+												LOX-LIKE			
+												LPAR1			
+												LPAR2			
+												LPAR3			
+												LRP6			
+												LSBIO			
+												LUCIFERASE			
+												LUMEN			
+												LYMPH			
+												LYMPHATIC			
+												LYMPHOCYTES			
+												LYN			
+												LYSATE			
+												LYSATES			
+												LYSOSOMES			
+												MACC1			
+												MACROPHAGE			
+												MACROPHAGES			
+												MADM2			
+												MAGE-A1			
+												MAMMAGLOBIN			
+												MAMMASEQ			
+												MAMMOGRAPHY			
+												MAMMOSPHERE			
+												MAP3K1			
+												MAPK			
+												MAPK/ERK			
+												MAPKAPK2			
+												MAPKAPK-2			
+												MAPKK			
+												MARKER			
+												MASS			
+												MASTL			
+												MATRIX			
+												MATURATION			
+												MCAM			
+												MCL1			
+												MCP-1			
+												MCT1			
+												MCT4			
+												MDIA1			
+												MDIA2			
+												MDM2			
+												MDM4			
+												MEASUREMENT			
+												MEATBOLISM			
+												MED23			
+												MEK/ERK			
+												MEMBRANE			
+												MESENCHYMAL			
+												METABLOLISM			
+												METABOLIC			
+												METABOLISM			
+												METABOLOMIC			
+												METASTASIS			
+												METASTATIC			
+												METERΑ/SRC/PI3K			
+												METHIONINE			
+												METHYLATION			
+												MFGE8			
+												MGMT			
+												MIB-1			
+												MICRORNA			
+												MICRORNA-1			
+												MICRORNA-154			
+												MICRORNA-193B			
+												MICRORNA-205			
+												MICRORNA-206			
+												MICRORNA-29			
+												MICRORNA‐34A			
+												MICRORNA-3646			
+												MICRORNA‐409‐3P			
+												MICRORNA-645			
+												MIGRATION			
+												MIGRATION,LPL			
+												MIGRATION/INVASION			
+												MINERALIZED			
+												MIR			
+												MIR-10			
+												MIR-100			
+												MIR-106A/B			
+												MIR-106B			
+												MIR‐10B			
+												MIR-1226			
+												MIR-124			
+												MIR-124-3P			
+												MIR-1246			
+												MIR-125A			
+												MIR-125A-3P			
+												MIR-1268A			
+												MIR-128			
+												MIR-1287-5P			
+												MIR-130A			
+												MIR-138			
+												MIR-139			
+												MIR-140			
+												MIR-140-5P			
+												MIR-142			
+												MIR-142-3P			
+												MIR-144			
+												MIR-149			
+												MIR-150			
+												MIR-155			
+												MIR-16			
+												MIR17			
+												MIR-17/92			
+												MIR-197			
+												MIR-19A			
+												MIR-19B			
+												MIR-200B			
+												MIR200C			
+												MIR-200C			
+												MIR-204			
+												MIR205			
+												MIR-205-5P			
+												MIR-20A			
+												MIR-21			
+												MIR-210			
+												MIR-211			
+												MIR-219A-5P			
+												MIR-222			
+												MIR-224			
+												MIR-23B			
+												MIR243P			
+												MIR-27B			
+												MIR-29A			
+												MIR29B			
+												MIR-29C			
+												MIR-301A			
+												MIR-3178			
+												MIR-320B			
+												MIR-33A			
+												MIR-34			
+												MIR-34A			
+												MIR-3613			
+												MIR-361-5P			
+												MIR-3646			
+												MIR-423			
+												MIR-4258			
+												MIR-4298			
+												MIR-452			
+												MIR-4644			
+												MIR-498			
+												MIR-506			
+												MIR509			
+												MIR-520E			
+												MIR-574			
+												MIR628			
+												MIR-671			
+												MIR-6780B			
+												MIR-7107			
+												MIR-744			
+												MIR-7847			
+												MIR-90B			
+												MIR‐99A			
+												MIRNA			
+												MIRNA-106A			
+												MIRNA-141			
+												MIRNA-200B			
+												MIRNA-21			
+												MIRNA-34A			
+												MIRNA-MRNA			
+												MITOCHONDRIAL			
+												MITOCHONDRIAL-DRIVEN			
+												MK2			
+												MKI67			
+												MLH			
+												MMP			
+												MMP-1			
+												MMP10			
+												MMP13			
+												MMP16			
+												MMP2			
+												MMP-2			
+												MMP8			
+												MMP9			
+												MMP-9			
+												MMP‐9			
+												MMPS			
+												MNSOD			
+												MOESIN			
+												MONITORING			
+												MONOCYTE			
+												MORPHOLOGIC			
+												MORPHOLOGY			
+												MOTILITIES			
+												MOTILITY			
+												MOTION			
+												MOVEMENTS			
+												MPP9			
+												MRNA			
+												MRP-1ALDH1			
+												MRTF-A			
+												MSH2			
+												MT1/2-MMP			
+												MT1JP			
+												MT1-MMP			
+												MT-MMP			
+												MTMR3			
+												MTOR			
+												MTT			
+												MUC1			
+												MUCIN			
+												MULTICONSTRICTION			
+												MUSCLE			
+												MUTATION			
+												MYB			
+												MYC			
+												MYCN			
+												MYD88			
+												MYLIP			
+												MYOCARDIN-RELATED			
+												NAD			
+												NAD(P)H			
+												NAMPT/VISFATIN			
+												NANODIAMONDS			
+												NANOG			
+												NANOPARTICLE			
+												NANOPARTICLES			
+												NANOSTRUCTURES			
+												NANOTUBE			
+												N-CADHERIN			
+												N‐CADHERIN			
+												NDY1/KDM2B			
+												NECROSIS			
+												NEGATIVE			
+												NEOGENEIN			
+												NEOGENIN			
+												NEP			
+												NEPRILYSIN			
+												NESTIN			
+												NETWORK			
+												NEU			
+												NFAT5			
+												NFATC1			
+												NFKAPPAB			
+												NF-KAPPAB			
+												NF-ĸB			
+												NFKB1			
+												NFΚB			
+												NF-ΚB			
+												NF-ΚB/MMP-2			
+												NHE1			
+												NICASTRIN			
+												NK1R			
+												NK2R			
+												NK-92			
+												NK-CELL			
+												NKG2D			
+												NKP30			
+												NKP44			
+												NKP46			
+												NMI			
+												N-MYC			
+												NODES			
+												NOMOGRAM			
+												NONCODING			
+												NON-CODING			
+												NOS			
+												NOTCH			
+												NOTCH1			
+												NOTCH2			
+												NOTCH3			
+												NOTCH4			
+												NPC1			
+												NPM1			
+												NRF2			
+												NRG1			
+												NRH2			
+												NTHL1			
+												NUCLEAR			
+												NUCLEAR/CYTOPLASMIC			
+												NUCLEOSTEMIN			
+												NUCLEOTIDE			
+												NUMB			
+												NUMB6			
+												NUMBER			
+												NUMBERS			
+												NUPR1			
+												NURD			
+												N-WASP			
+												OATP			
+												OBSCURIN			
+												OCT			
+												OCT3/4			
+												OCT4			
+												OCT-4			
+												OCT4A			
+												OESTROGEN			
+												OGG1			
+												O-GLCNACOMIC			
+												OMICS			
+												ONCRNAS			
+												OPG			
+												OPN			
+												OSTEOBLAST-LIKE			
+												OSTEOPONTIN			
+												OSTEOPROTEGERIN			
+												OUTCOME			
+												OX2			
+												OXPHOS			
+												OXYGEN			
+												P15			
+												P16			
+												P18			
+												P21			
+												P21WAF1/CIP1			
+												P24			
+												P27			
+												P38			
+												P38-STAT1			
+												P42/44			
+												P53			
+												P53/MIEAP			
+												P62			
+												P63			
+												P65			
+												PABPC1			
+												PAKT			
+												P-AKT			
+												PALB2			
+												PANCYTOKERATIN			
+												PANX2			
+												PAPILLOMAVIRUS			
+												PARP			
+												PARP1			
+												PARP1-NUA4			
+												PARTICLE			
+												PARTICLES			
+												PATHWAY			
+												PATHWAYS			
+												P-CADHERIN			
+												PCAM			
+												PCK			
+												PD-1			
+												PD-1/PD-L1			
+												PDCD4			
+												PDCD6			
+												PDE5			
+												PDGF			
+												PDGFR			
+												PDGFΑ			
+												PDI			
+												PDK-1			
+												PDL1			
+												PD-L1			
+												PDL2			
+												PD-L2			
+												PEGFR			
+												PENETRATION			
+												PERK			
+												PERMEABILITY			
+												P-GP			
+												PGR			
+												PH3			
+												PHALLOIDIN			
+												PHER2			
+												PHOSPHATASE			
+												PHOSPHATE			
+												PHOSPHATIDYLINOSITOL			
+												PHOSPHO-EGFR			
+												PHOSPHO-EIF2Α			
+												PHOSPHO-ERK1/2			
+												PHOSPHO-HER2			
+												PHOSPHO-HER3			
+												PHOSPHOLIPID			
+												PHOSPHO-PERK			
+												PHOSPHOPROTEIN			
+												PHOSPHOPROTEINS			
+												PHOSPHORYLATION			
+												PHOSPHOS-FAK(Y)397			
+												PHOSPHO-SRC			
+												PHOTOCHEMOTHERAPEUTIC			
+												PI(4)P			
+												PI3K			
+												PI3K/AKT			
+												PI3K/AKT/MTOR			
+												PI3K/AKT/NF-ΚB			
+												PI3K-P38			
+												PIK3CA			
+												PIK3R1/PIK3R3			
+												PINX1			
+												PKH26			
+												PLASMA			
+												PLATE			
+												PLGF			
+												PODOSOMES			
+												POINTS			
+												POLARITY			
+												POLG1			
+												POLYMERASE			
+												POMC			
+												POSITIVE			
+												POTENTIAL			
+												PP2A			
+												PR/ERΑ			
+												PRA			
+												PRAS40			
+												PRC1			
+												PRC2			
+												PRECISION			
+												PRESENTATION			
+												PRIMA-1			
+												PRIMARY			
+												PRMT1			
+												PROCASPASE-3			
+												PROCR			
+												PRODUCTION			
+												PRODUCTS			
+												PROFILE			
+												PROFILING			
+												PROGESTERONE			
+												PROINFLAMMATORY			
+												PROLACTIN			
+												PROPORTION			
+												PROSTACYCLIN			
+												PROTEASE			
+												PROTEIN			
+												PROTEIN-1/CC-CHEMOKINE			
+												PROTEINS			
+												PROTEOLYSIS			
+												PROTEOLYTIC			
+												PROTEOMIC			
+												PROTOPORPHYRIN			
+												PROTRUSION			
+												PROTRUSIONS			
+												PSMA			
+												PTEN			
+												PTHRP			
+												PTPRD			
+												PTTG1			
+												PTX			
+												PTX3			
+												QUANTIFICATION			
+												QUIESCIENCE			
+												R/C			
+												R/PR			
+												R643,645,647E			
+												RAB22A			
+												RAB27A			
+												RAC1			
+												RAD52			
+												RADIATION			
+												RADIOSENSITIVE			
+												RADIXIN			
+												RAMP1			
+												RAN			
+												RANKL			
+												RANKL/OPG			
+												RANTES			
+												RAS			
+												RAS/MAPK/ERK			
+												RAS/NF-ΚB			
+												RAS/RAF/MAPK			
+												RASGRF2			
+												RASSF			
+												RASSF1A			
+												RATE			
+												RATES			
+												RATIO			
+												RATIOS			
+												RAYLEIGH			
+												RB1			
+												RBBP4/7			
+												REACTIVE			
+												RECALL			
+												RECEPTOR			
+												RECEPTOR-B			
+												RECEPTOR-DEPENDENT			
+												RECEPTORS			
+												RECEPTOR-Α			
+												RECK			
+												RECOMBINATION			
+												RECOVERY			
+												RECRUITMENT			
+												REELIN			
+												REGULATION			
+												REGULATORS			
+												REPAIR			
+												REPETITIVE			
+												RESPONSE			
+												RESPONSES			
+												RET			
+												REV3			
+												RHOA			
+												RHOA/ROCK			
+												RHOA-ROCK			
+												RHOC			
+												RHOGDI2			
+												RHOGTPASES			
+												RICTOR			
+												RIPK1			
+												RNA			
+												RNAS			
+												ROGEN			
+												ROS			
+												RQCD1			
+												R-RAS2			
+												RSK			
+												RSK1			
+												RSK2			
+												RTK5			
+												RUK/CIN85			
+												RUNX			
+												RUNX2			
+												RUNX3			
+												R-Α			
+												S100A2			
+												S40			
+												S6K1			
+												SAE1/UBA2			
+												SALL1			
+												SALL4			
+												SAR			
+												SASH1			
+												SCARB1			
+												SCATTERING			
+												SCN4B			
+												SCORE			
+												SCR			
+												SCRAMBLE			
+												SCREEN			
+												SDF1			
+												SDF-1			
+												SECRETE			
+												SECRETED			
+												SECRETION			
+												SECRETOME			
+												SELECTIVE			
+												SELL			
+												SENSITIVITY			
+												SEQUENCES			
+												SERINE			
+												SEROTONIN			
+												SET/PP2A/AKT			
+												SHARP-2			
+												SHH			
+												SIGNALING			
+												SIGNATURE			
+												SILIBININ			
+												SIMPLEX			
+												SIN3A			
+												SINGLE			
+												SIRT1			
+												SIX2			
+												SIZE			
+												SKP2			
+												SLC19A2			
+												SLC25A19			
+												SLC34A2			
+												SLUG			
+												SMA			
+												SMAD			
+												SMAD1			
+												SMAD2			
+												SMAD3			
+												SMAD4			
+												SMALL			
+												SMGGDS			
+												SNAI1			
+												SNAI2			
+												SNAIL			
+												SNCG			
+												SNHG14			
+												SNX9			
+												SOCS1			
+												SOLID			
+												SOMATIC			
+												SONIC			
+												SORTED			
+												SOS			
+												SOX-1			
+												SOX10			
+												SOX-17			
+												SOX2			
+												SOX-2			
+												SOX4			
+												SPECIES			
+												SPECIFIC			
+												SPECIFICITY			
+												SPECTRAL			
+												SPREADING			
+												SQSTM1/P62			
+												SRC			
+												SSEA-1			
+												STABILITY			
+												STAINING			
+												STANDARD			
+												STAT1			
+												STAT3			
+												STAT3/IL‐6			
+												STAT5			
+												STAT6			
+												STATUS			
+												STAU1			
+												STC1			
+												STC2			
+												STELLATE			
+												STEMNESS			
+												STK11			
+												STRAND			
+												STROMAL			
+												STRUCTURE			
+												SUB-CELLULAR			
+												SURVIVAL			
+												SURVIVIN			
+												SUV420H2			
+												SYNTHESIS			
+												T3P			
+												TAFI			
+												TAK1			
+												TAK-1			
+												TAM			
+												TAP63Α			
+												TAZ			
+												TBX3			
+												TELOMERASE			
+												TEMPERATURE			
+												TFDP3			
+												TGFALPHA			
+												TGF-BETA			
+												TGFBR3			
+												TGFΒ			
+												TGF-Β			
+												TGF-Β/SMAD			
+												TGF-Β1			
+												TGF-Β3			
+												TH1			
+												THBD			
+												THBS1			
+												THERAPY			
+												THIAMINE			
+												TIAM1			
+												TIE2			
+												TIL			
+												TIME			
+												TIMELESS			
+												TIMP-1			
+												TIMP‐1			
+												TIMP-2			
+												TIMP‐2			
+												TK1			
+												TKS4			
+												TKS5M			
+												TLR3			
+												TLR9			
+												T-LYMPHOCYTE			
+												TMEM2			
+												TNF			
+												TNF/NF-ΚB			
+												TNFΑ			
+												TNF-Α			
+												TOPOISOMERASE			
+												TOR			
+												TOXICITY			
+												TP53			
+												TPH			
+												TPH1			
+												TPK1			
+												TPM4			
+												TPR			
+												TRACTION			
+												TRAIL			
+												TRANSCRIPTION			
+												TRANSCRIPTOMIC			
+												TRANSENDOTHELIAL			
+												TRANSFECTION			
+												TRANSMIGRATING			
+												TRANSMIGRATION			
+												TRANSPORTERS			
+												TRASTUZUMAB/HER2			
+												TREG			
+												TRIACYLGLYCEROL			
+												TRIGLYCERIDE			
+												TRIM21			
+												TRIM29			
+												TRIO			
+												TRKB			
+												TROP-2			
+												TRUE			
+												TUBB4B			
+												TUBB5			
+												TUBE			
+												TUBE-LIKE			
+												TUG1			
+												TUMOR			
+												TUMORIGENICITY			
+												TUMOR-INFILTRATING			
+												TUMORITROPIC			
+												TWIST			
+												TWIST1			
+												TWIST-1			
+												TWIST2			
+												TYPE			
+												TYPES			
+												UBC9			
+												UCH‐L1			
+												UPF3A			
+												UPTAKE			
+												USP2			
+												UV-C			
+												VARIANT			
+												VARIANTS			
+												VARIATIONS			
+												VASCOLARIZATION			
+												VAV2			
+												VCAM-1			
+												VDR			
+												VE-CADHERIN			
+												VEGF			
+												VEGFA			
+												VEGF-A			
+												VEGF-A/NEUROPILIN			
+												VEGFR2			
+												VELOCITY			
+												VESICLE			
+												VESSEL			
+												VIA			
+												VIABILITY			
+												VIM			
+												VIMENTIN			
+												VIMENTINE			
+												VIRUS			
+												VITAMIN			
+												VITRONECTIN			
+												WEIGHT			
+												WHSC1L1			
+												WIDE			
+												WISP2			
+												WNT			
+												WNT/NOTCH			
+												WNT/Β-CATENIN			
+												WNT1			
+												WNT3A			
+												WNT5B			
+												WSB-1			
+												WST-1			
+												XBP-1			
+												XCR4/NF-ΚB/SMO			
+												XRCC1			
+												YAP			
+												YAP/TAZ			
+												YB1			
+												YB-1			
+												Y-BOX-BINDING			
+												YM155			
+												YM55			
+												YP4Z2P			
+												ZEB1			
+												ZEB-1			
+												ZEB2			
+												ZETA			
+												ZNF132			
+												ZNF154			
+												ZO-1			
+												Α1-ANTITRYPSIN			
+												Α2			
+												Α5			
+												Α6Β4			
+												ΑCSC			
+												Α-ESA			
+												ΑSMA			
+												Α-SMA			
+												Α-SMOOTH			
+												ΑTC			
+												ΑV			
+												Β/SMAD			
+												Β1			
+												Β2			
+												Β2-AR-PKA-MTOR			
+												Β3			
+												Β-CATENIN			
+												Β‐CATENIN			
+												Β-CATENIN/ABCG2			
+												ΒCSC			
+												ΒIG-H3			
+												ΒTC			
+												Γ-H2AX			

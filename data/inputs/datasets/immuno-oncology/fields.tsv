@@ -1,0 +1,24 @@
+Model no.	Number	Model of immuno-oncology which is described in a paper.	NA
+Disease area	Drop-down list	Type of cancer.	For example: Breast cancer Colorectal cancer Leukaemia Lung cancer
+Disease feature	Drop-down list	The main disease feature studied by the model.	For example: Angiogenesis Cancer intitiation and develop. Gene therapy Immunotherapy
+Disease feature (1 to 3)	Drop-down list	Other disease features studied by the model.	See disease feature
+Cellular input	Drop-down list	Type of cellular input used to stimulate or treat the model	For example: Adaptive NK cells CAR T-cells
+Model	Drop-down list	Source of physical biological material or its registered properties in use.	For example: A-549 Biopsis MCF-7
+Category	Drop-down list	The category of non-animal model assigned to the model.	In vitro In silico In vitro/in silico
+Type	Drop-down list	More specifications of the model category.	Cells Cell-free Ex vivo Computational Algorithm Simulation Mathematical
+Cells	Drop-down list	If the model employs cells, this field specifies which kind of cells are used.	Immortalised Primary Stem cells
+Cell culture type	Drop-down list	If the model employs cells, this field specifies the type of cell culture.	Culture Co-culture MPS (Microphysiological systems)
+Cel culture dimensions	Drop-down list	If the model employs cells, this field specifies the dimensions of the cell culture.	2D 2.5D 3D
+3D type	Drop-down list	If the model uses 3D cell cultures, this field specifies the type of the 3D dimension.	Scaffolds Spheroid Organoid
+Ex vivo	Drop-down list	If the model is based on ex vivo cells/tissues, this field specifies the type of materials.	Biopsies Organ slice Whole organ
+Applications	Drop-down list	Main scientific aim or application of the model.	For example: Diagnosis of diseases Model/method development Diseases mechanism Drug development/testing
+Biological endpoints	Drop-down list	List of potential biological endpoints used in a model system to describe the disease mechanism and/or study focus.	For example: Cell proliferation Cytotoxicity T-cell activation
+Throughput	Drop-down list	Regarding productivity/automatisation of the model.	High Low Medium
+Potential	Drop-down list	Possible multiple model application in addressing disease features.	Yes (The method/model has future potential for its immune oncology applications) No (The method/model has no future potential for its immune oncology applications) n/a (not specified)
+Relevance	Drop-down list	Biological relevance of the model for the disease feature in replacing animal models.	Direct (The model is sufficient for the conclusions of the study) Supportive (The model is partially supporting the conclusions of the study) n/a (Not specified by authors)
+Status		Model developmental stage.	Proof of concept (New method/model description) In research use (Method/model in use by research community but not widely deployed) Internally qualified (The research group is referencing its own previous article/s) Externally qualified (The research group is referencing previous article/s published by others and accepted by the research community) EMA or FDA approvals (Recognition by the European or USA regulatory agencies)
+Content		Quantity of information retrieved.	High Medium Low
+Predictive		Whether the model was used with a predictivity aim or not.	Yes (The model has a predictive purpose) No (The model has not a predictive purpose) N/A (Not specified)
+Year	Free text	Publication year from 2014 to 2019.	NA
+First author name	Free text	Name of the first author of the peer-reviewed article.	NA
+Link to abstract (DOI)	Free text	Digital Object Identification number to retrieve the publication abstract. If not available, an alternative link is provided.	NA

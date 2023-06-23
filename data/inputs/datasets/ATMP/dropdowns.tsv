@@ -1,0 +1,70 @@
+Disease area	Study / Disease Feature	ATMP type	Category	Type	Cells	ATMP Input	Cell culture type	Cell culture dimensions	3D type	Model Cell Source 1	Model Cell Source 2	Model Cell Source 3	Biological endpoints	Throughput	Potential	Potential 2	Relevance	Status	Content	Predictive	Year
+AIDS	3D modeling	Cell therapy	In silico	Cell free	Immortalised cells	Adenovirus / Non-small cell lung cancer	Cell free culture	2D	n/a	A459	CD3+ T lymphocytes	CD34+ Hematopoietic Stem and Progenitor Cells	Activation markers	High	Model development / experimental	n/a	Direct	In research use	High	n/a	2014
+Allotransplantation	Alloreactivity study 	Gene therapy	In vitro	Cells	n/a	Adenovirus / PSCs	Co-culture	2.5D	Organoids	CD14+ cell-depleted allogeneic PBMCs	CTLs	CD4+ T-cells	Activation of monocytes	Low	Model development / theoretical	No	Supportive	Proof of Concept	Low	No	2015
+Alpha-1-antitrypsin deficiency	Immune cells profiling	Gene / Cell therapy		Computational	Primary cell culture	Allogenic SCs	n/a	2D / 2.5D	Scaffolds	Daudi B lymphoblast cell line	Lymphocytes	Monocytes	Activation, proliferation and cytokines levels	Medium	Therapy development	Yes			Medium	Yes	2016
+Broad	Immune response mechanism	Tissue engineering		Mathematical	Primary cell culture / Immortalised cells	Amniotic mesenchymal cells (hAMTCs)		3D	Spheroids	DCs	Macrophages	n/a	Allele and antigen mismatches		Therapy development / mechanism of action						2017
+Cancer	Immunogenic properties				Stem cells	AT-MSCs		n/a		Lymphocytes	Monocyte-derived DCs		Antibody-dependent cellular cytotoxicity		Therapy qualification						2018
+Cardiovascular	Immunogenicity decrease strategy					BM-MSCs				Macrophages	Monocytes		CD107a, NK cell lytic activity								2019
+Cartilage disease	Immunotherapy					BM-MSCs / AT-MSCs				mixed	n/a		CD107a, T cell proliferation								
+Cholangiocarcinoma	Modulation of immune response					BM-MSCs / Liver-MSCs				Monocytes	NKs and DCs		CD45RO, CD28, CCR7, CD95, proportion of different T cell phenotypes								
+Diabetes	Regeneration strategy					BM-MSCs derived chondrocytes / AT-MSC derived chondrocytes				Monocyte-derived DCs	PBMCs		CD8/CD4/reg T cell proliferation, CD3 T cell infiltration, TNF-α, CD25, CD69, PRF1, GZMB, FOXP3								
+Ebola						BM-MSCs / AT-MSCs				n/a	T cells		Cell death and IFN-γ								
+Eye diseases						BM-MSCs / Cardiomyocyte progenitor cells				Neutrophils	Whole blood		Cell recruitment								
+Immune disorders						BM-MSCs / K299 cells				NKs			Cell viability, proliferation, cytokines release and phenotyping								
+Immune oncology						Cardiac SCs				PBMCs			Cytokine profiling and degranulation								
+Inflammatory bowel disease						CAR-T cells				Platelet-poor plasma			Cytolytic activity								
+Liver disease						Chondrocytes				T cells			Cytotoxicity								
+Melanoma						CTL				Th17 cells			Cytotoxicity and phenotyping								
+Multiple Sclerosis						DCs				THP-1 macrophages			Cytotoxicity, degranulation and cytokine levels								
+Neurodegeneration						DCs / Monocytes							DC activation								
+Psoriasis						Differentiated osteogenic cells							DC CD80, CD83, CD86 and HLA-DR and cytokine production								
+Skeletal						ECM							DC cytokine production and maturation and MLR								
+Skin						Endothelial colony-forming cells							DCs migration								
+Trauma						Endothelial progenitor cell / AT-MSCs / UC-MSCs							IFN-α/β and TNF-α								
+Wound healing						ESC-derived corneal epithelial-like cells							IFN-γ								
+						ESC-derived pancreatic progenitor cells							IFN-γ, T-bet, IL12R, IL18R, pSTAT4, NF-κB								
+						ESC-MSCs							IL6, ICOS-L, IL8, CSF2								
+						ESC-MSCs / BM-MSCs							Immune cells proliferation, cytokine secretion, cytotoxic molecules								
+						ESCs							Inflammation response, proliferation, apoptosis								
+						Hematopoietic SCs							Innate immune response inflammatory markers								
+						Hepatocytes / Adult-derived human liver progenitor cells							LDH								
+						HSPCs							Leukocyte proliferation, LDH								
+						iPSC-Neural progenitors							Lymphocyte activation and metabolic activity								
+						iPSCs / iPSC-derived cardiomyocytes		 					Lymphocyte proliferation assay								
+						iPSCs / iPSC-derived endothelial cells and MSCs							Lymphocyte proliferation assay, IL10, IFN-γ								
+						Lentivirus							Lymphocytes proliferation								
+						Liver SCs							Macrophage activation								
+						Menstrual SCs							Mitochondrial activity testing								
+						Monocytes							MLR, HLA phenotyping, cytokine production								
+						MSCs							MLR, PBMC proliferation, IL10, IFN-γ, LIF, PGE2								
+						Neural Progenitor Cells							MLR								
+						Oncolytic vaccinia viruses (Pexa-Vec)							MLR and cytokines production								
+						Pancreatic beta cell lines							MLR and mitogen stimulation assay								
+						Pericytes							Mononuclear cells proliferation								
+						Periodontal ligament SCs							Multiple immune markers								
+						Periodontal ligament SCs / BM-MSCs							NK cell CD187 and CD107a and NK cell lytic activity								
+						Pox virus							NK cells lytic activity								
+						PSC-cardiomyocytes							PBMC proliferation, perforin and granzyme B								
+						RNA							Procoagulant activity								
+						Skin‐derived precursors							Proliferation and apoptosis								
+						T cells							Proliferation, cytokines production and immune activation								
+						UC-DCs / Adult peripheral blood monocyte-derived DCs							Proliferation, cytotoxic degranulation, and IFN-γ production								
+						UC-lining epithelial cells							Proliferation, surface markers, PGE2 and IFN-γ								
+						UC-MSCs							T cell activation								
+						UC-MSCs/UC-MSC derived chondrocytes							T cell activation and proliferation								
+						UC-perivascular cells-derived cardiomyocytes							T cell proliferation								
+						WJ-MSCs							T cell proliferation, CD1b levels								
+													T cell proliferation, CD25, CD69								
+													T cell proliferation, cytokine expression								
+													T cell proliferation, cytokine secretion								
+													T cell proliferation, cytotoxicity, IFN-γ, TNF-α								
+													T cell proliferation, IFN-γ and TNF-α								
+													T cell proliferation, IL6, IL17A, IFN-γ								
+													T cell proliferation, monocyte differentiation towards DC and MLR								
+													T cell proliferation, NK degranulation, DC differentiation								
+													T cells generation from 3D artificial thymic organoids								
+													T lymphocyte proliferation and IL2 and IFN-γ								
+													T lymphocyte proliferation, LDH								
+													T-cell response to allogenic HLA-peptides								
+													Th17 proliferation, CD39, CD73, IL17A, IFN-γ								
+													Treg differentiation, Teff proliferation								

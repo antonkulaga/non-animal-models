@@ -1,0 +1,47 @@
+FIELD	DEFINITION
+Model number	Model of immonogenicity which is described in a paper
+Disease Area	ATMP disease target
+Study / Disease Feature	The main disease feature studied by the model
+ATMP Type	"Type of advanced therapy: ""Gene therapy"", ""Cell therapy"", ""Gene / Cell therapy""* or ""Tissue engineering"" "
+Category	"The category of non-animal model assigned to the model: ""In vitro"" or ""In silico"""
+Type	"More specifications of the model category: ""Cell-free"", ""Cells"", ""Computational"" or ""Mathematical"""
+Cells	"If Type = Cells: ""Immortalised cells""; ""n/a"", ""Primary cell culture"", ""Primary cell culture / Immortalised cells"" or ""Stem cells"""
+ATMP Input	ATMP to be tested
+Cell culture type	"If Type = Cells: ""Cell free culture"", ""Co-culture"", ""Culture"" or ""n/a"""
+Cell culture dimensions	"If Type = Cells: (""2D"", ""2.5D"", ""2D / 2.5D"", ""3D"", ""n/a"")"
+3D type	"If Cell Culture Dimensions = 3D: ""n/a"", ""Organoids"", ""Scaffolds"" or ""Spheroids"""
+Model cell source (1 to 3)	If the model employs cells, this field specifies the cell cource
+Biological endpoints	List of potential biological endpoints used in a model system to describe the disease mechanism and/or study focus
+Throughput	"Regarding productivity/automatisation of the model: ""High"", ""Low"" or ""Medium"""
+Potential 	Types of model application
+Potential 2  [1]	Possible multiple model application in addressing disease features
+Relevance [2]	"Biological relevance of the model for the disease feature in replacing animal models: ""Direct"" or ""Supportive"""
+Status [3]	Model developmental stage: “In research use” or “Proof of concept”
+Content	"Quantity of information retrieved: ""High"", ""Low"" or ""Medium"""
+Predictive [4]	"Whether the model was used with a predictivity purpose or not: ""n/a"", ""No"" or ""Yes"""
+Link to abstract (DOI) 	Digital Object Identification number to retrieve the publication abstract
+First Author Name	Name of the first author of the peer-reviewed article
+Year	Publication year (2014 to 2019)
+	
+	
+	
+DEFINITIONS	
+[1] Potential 2:	
+n/a: 	Not specified.
+No: 	The method/model has no future potential for its immunogenicity applications.
+Yes: 	The method/model has future potential for its immunogenicity applications.
+	
+[2] Relevance:	
+Direct:	The model is sufficient for the conclusions of the study.
+Supportive:	The model is partially supporting the conclusions of the study.
+	
+[3] Status:	
+In research use:	Method/model in use by research community but not widely deployed.
+Proof of concept:	New method/model description.
+	
+[4] Predictive:	
+n/a:	Not specified.
+No:	The model has not predictive purpose.
+Yes:	The model has a predictive purpose.
+	
+* Gene/Cell Therapy	Following the definition of EC Directive 1394/2007, this category should be defined as gene therapy only. However for technical and scientific clarity the multiple application is indicated.

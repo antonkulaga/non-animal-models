@@ -1,0 +1,73 @@
+stages:
+  download_ATMP:
+    deps:
+      - data/inputs/datasets/ATMP/models.tsv
+    cmd: python prepare.py download --dataset ATMP
+    outs:
+      - data/inputs/datasets/ATMP/papers
+  download_CVD:
+    deps:
+      - data/inputs/datasets/CVD/models.tsv
+    cmd: python prepare.py download --dataset CVD
+    outs:
+      - data/inputs/datasets/CVD/papers
+  download_breast_cancer:
+    deps:
+      - "data/inputs/datasets/breast-cancer/models.tsv"
+    cmd: "python prepare.py download --dataset breast-cancer"
+    outs:
+      - "data/inputs/datasets/breast-cancer/papers"
+  download_immuno_oncology:
+    deps:
+      - "data/inputs/datasets/immuno-oncology/models.tsv"
+    cmd: "python prepare.py download --dataset immuno-oncology"
+    outs:
+      - "data/inputs/datasets/immuno-oncology/papers"
+  download_neurodegenerative:
+    deps:
+      - "data/inputs/datasets/neurodegenerative/models.tsv"
+    cmd: "python prepare.py download --dataset neurodegenerative"
+    outs:
+      - "data/inputs/datasets/neurodegenerative/papers"
+  download_respiratory:
+    deps:
+      - "data/inputs/datasets/respiratory/models.tsv"
+    cmd: "python prepare.py download --dataset respiratory"
+    outs:
+      - "data/inputs/datasets/respiratory/papers"
+  parse_ATMP:
+    deps:
+      - data/inputs/datasets/ATMP/papers
+    cmd: python prepare.py parse --dataset ATMP
+    outs:
+      - data/inputs/datasets/ATMP/parsed_papers
+  parse_CVD:
+    deps:
+      - data/inputs/datasets/CVD/papers
+    cmd: python prepare.py parse --dataset CVD
+    outs:
+      - data/inputs/datasets/CVD/parsed_papers
+  parse_breast_cancer:
+    deps:
+      - "data/inputs/datasets/breast-cancer/papers"
+    cmd: "python prepare.py parse --dataset breast-cancer"
+    outs:
+      - "data/inputs/datasets/breast-cancer/parsed_papers"
+  parse_immuno_oncology:
+    deps:
+      - "data/inputs/datasets/immuno-oncology/papers"
+    cmd: "python prepare.py parse --dataset immuno-oncology"
+    outs:
+      - "data/inputs/datasets/immuno-oncology/parsed_papers"
+  parse_neurodegenerative:
+    deps:
+      -  "data/inputs/datasets/neurodegenerative/papers"
+    cmd: "python prepare.py parse --dataset neurodegenerative"
+    outs:
+      - "data/inputs/datasets/neurodegenerative/parsed_papers"
+  parse_respiratory:
+    deps:
+      - "data/inputs/datasets/respiratory/papers"
+    cmd: "python prepare.py parse --dataset respiratory"
+    outs:
+      - "data/inputs/datasets/respiratory/parsed_papers"

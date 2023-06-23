@@ -1,0 +1,164 @@
+schema: '2.0'
+stages:
+  download_ATMP:
+    cmd: python prepare.py download --dataset ATMP
+    deps:
+    - path: data/inputs/datasets/ATMP/models.tsv
+      hash: md5
+      md5: 32f127a139be3957fe06480dd5caa9e6
+      size: 25280
+    outs:
+    - path: data/inputs/datasets/ATMP/papers
+      hash: md5
+      md5: 17ace39c9a8ab38e3f6249d4feec335e.dir
+      size: 197874985
+      nfiles: 87
+  download_breast_cancer:
+    cmd: python prepare.py download --dataset breast-cancer
+    deps:
+    - path: data/inputs/datasets/breast-cancer/models.tsv
+      hash: md5
+      md5: 4fd66c0fb66a8616f3fd02c7e8ed6a9d
+      size: 249074
+    outs:
+    - path: data/inputs/datasets/breast-cancer/papers
+      hash: md5
+      md5: 5e713f3d06dc02e68507b585becd4e3c.dir
+      size: 1435757873
+      nfiles: 477
+  download_immuno_oncology:
+    cmd: python prepare.py download --dataset immuno-oncology
+    deps:
+    - path: data/inputs/datasets/immuno-oncology/models.tsv
+      hash: md5
+      md5: 9ba01f5c59eeac80526d7e7196799d6f
+      size: 168291
+    outs:
+    - path: data/inputs/datasets/immuno-oncology/papers
+      hash: md5
+      md5: ad48a1ea4eae19953074687886d4698a.dir
+      size: 873115074
+      nfiles: 330
+  download_CVD:
+    cmd: python prepare.py download --dataset CVD
+    deps:
+    - path: data/inputs/datasets/CVD/models.tsv
+      hash: md5
+      md5: 982fbb273f2b3860c06188c537e34456
+      size: 117001
+    outs:
+    - path: data/inputs/datasets/CVD/papers
+      hash: md5
+      md5: e516ffceb425ef0ccfe088c0ea822995.dir
+      size: 1128957914
+      nfiles: 437
+  download_neurodegenerative:
+    cmd: python prepare.py download --dataset neurodegenerative
+    deps:
+    - path: data/inputs/datasets/neurodegenerative/models.tsv
+      hash: md5
+      md5: 7e0eb6a04a2ce6a628530baa165f4451
+      size: 240657
+    outs:
+    - path: data/inputs/datasets/neurodegenerative/papers
+      hash: md5
+      md5: 6938cbeacb920b21e1e49e8ca0a2fe94.dir
+      size: 51653987
+      nfiles: 505
+  download_respiratory:
+    cmd: python prepare.py download --dataset respiratory
+    deps:
+    - path: data/inputs/datasets/respiratory/models.tsv
+      hash: md5
+      md5: 39fa700e9996f3cbe8bf336c53aecbb9
+      size: 335375
+    outs:
+    - path: data/inputs/datasets/respiratory/papers
+      hash: md5
+      md5: f9dc2b7d61f48083264b1383028bb1c3.dir
+      size: 61141857
+      nfiles: 276
+  parse_ATMP:
+    cmd: python prepare.py parse --dataset ATMP
+    deps:
+    - path: data/inputs/datasets/ATMP/papers
+      hash: md5
+      md5: 17ace39c9a8ab38e3f6249d4feec335e.dir
+      size: 197874985
+      nfiles: 87
+    outs:
+    - path: data/inputs/datasets/ATMP/parsed_papers
+      hash: md5
+      md5: d751713988987e9331980363e24189ce.dir
+      size: 0
+      nfiles: 0
+  parse_CVD:
+    cmd: python prepare.py parse --dataset CVD
+    deps:
+    - path: data/inputs/datasets/CVD/papers
+      hash: md5
+      md5: e516ffceb425ef0ccfe088c0ea822995.dir
+      size: 1128957914
+      nfiles: 437
+    outs:
+    - path: data/inputs/datasets/CVD/parsed_papers
+      hash: md5
+      md5: d751713988987e9331980363e24189ce.dir
+      size: 0
+      nfiles: 0
+  parse_breast_cancer:
+    cmd: python prepare.py parse --dataset breast-cancer
+    deps:
+    - path: data/inputs/datasets/breast-cancer/papers
+      hash: md5
+      md5: 5e713f3d06dc02e68507b585becd4e3c.dir
+      size: 1435757873
+      nfiles: 477
+    outs:
+    - path: data/inputs/datasets/breast-cancer/parsed_papers
+      hash: md5
+      md5: d751713988987e9331980363e24189ce.dir
+      size: 0
+      nfiles: 0
+  parse_immuno_oncology:
+    cmd: python prepare.py parse --dataset immuno-oncology
+    deps:
+    - path: data/inputs/datasets/immuno-oncology/papers
+      hash: md5
+      md5: ad48a1ea4eae19953074687886d4698a.dir
+      size: 873115074
+      nfiles: 330
+    outs:
+    - path: data/inputs/datasets/immuno-oncology/parsed_papers
+      hash: md5
+      md5: d751713988987e9331980363e24189ce.dir
+      size: 0
+      nfiles: 0
+  parse_neurodegenerative:
+    cmd: python prepare.py parse --dataset neurodegenerative
+    deps:
+    - path: data/inputs/datasets/neurodegenerative/papers
+      hash: md5
+      md5: 6938cbeacb920b21e1e49e8ca0a2fe94.dir
+      size: 51653987
+      nfiles: 505
+    outs:
+    - path: data/inputs/datasets/neurodegenerative/parsed_papers
+      hash: md5
+      md5: d751713988987e9331980363e24189ce.dir
+      size: 0
+      nfiles: 0
+  parse_respiratory:
+    cmd: python prepare.py parse --dataset respiratory
+    deps:
+    - path: data/inputs/datasets/respiratory/papers
+      hash: md5
+      md5: f9dc2b7d61f48083264b1383028bb1c3.dir
+      size: 61141857
+      nfiles: 276
+    outs:
+    - path: data/inputs/datasets/respiratory/parsed_papers
+      hash: md5
+      md5: d751713988987e9331980363e24189ce.dir
+      size: 0
+      nfiles: 0

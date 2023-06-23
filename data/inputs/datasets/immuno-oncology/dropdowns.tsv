@@ -1,0 +1,499 @@
+Disease area	Disease feature 	Disease feature 1	Disease feature 2	Disease feature 3	Cellular Input	Model	Category	Type	Cells	Cell culture type	Cell culture dimensions	3D type	Ex vivo	Applications	Biological endpoints	Throughput	Potential	Relevance		Status	Content	Predictive
+Acute B Lymphoblastic Leukemia	Adoptive Cell Therapy	adoptive cell therapy	 anti-cancer therapy	anti-cancer therapy	293FT	 721.221.AEH	In silico	Algorithms	Immortalized cells	Coculture	2D	n/a	Biopsies	Diagnosis of disease	 Bcl-2 and cIAP-2 , citotoxicity, TNFalpha, Apo3L and FasL, NF-kappa B 	High	No	Direct		Proof of Concept	High	No
+Acute Lymphoblastic Leukemia	Allele population study	adoptive immunotherapy	 anti-cancer treatment		Activated iNKT cells, CAR-T cells	 aAPC/mOKT3 cell (source K562), NALM-6	In vitro	Cell free	Immortalized cells / primary cell culture	Culture	2D/3D	Organoids	n/a	Diagnosis of disease Model/method dev - theor	 BETi and CTLA-4 inhibitor effect and correlation	Low	Yes	Supportive		Proof of Concept/Qualified externally	Low	Yes
+Acute Myeloid Leukemia	Angiogenesis	allele population study	 biomarkers		Adaptive NK Cells	 B16-F10 melanoma	In vitro/In silico	Cell free / Ex vivo	Immortalized cells / Stem cells	Culture / Coculture	3D	Scaffolds	Organ slice	Disease mechanism (exp/theor)	 Cancer Cells and T Cells	Medium				Proof of Concept/Qualified internally	Medium	
+Anaplastic Large Cell Lymphoma	Anti-Cancer Therapy	angiogenesis	 Cancer and patient classification		autologous T cells,	 CD3(+) CD8(+) T cells		Cell free / Simulation	n/a	MPS	n/a	Spheroids		Disease mechanism (exp/theor) Disease therapy dev	 CD25 and TRAIL R2/DR5					Qualified externally		
+Anaplastic Thyroid Carcinoma	Anti-Cancer Therapy/Immunomodulation	anti-cancer drug delivery system	 cancer initiation and dev		B cells,T cells 	 H460 (lung), LNCaP (prostate), MCF-7 (estrogen receptor positive breast cancer) and MDA-MB-231 (triple negative breast cancer) 		Cells	Primary cell culture	n/a				Disease mechanism (exp/theor) Drug dev/testing	 CD3 and CD8, correlation					Qualified internally		
+B-Cell Malignancies	Anti-Cancer Therapy/Immunotherapy	anti-cancer drug design and discovery	 chemiotherapy		CAFs	 HCC-1187, HCC-70, BT20, MCF-7, MDA-MB-231, BC		Cells / Cell free	Primary cell culture / Stem cells					Disease mechanism (exp/theor) Model/method dev - exp	 CD8+ T cell proliferation, induction of MDSCss					Qualified internally/Qualified externally		
+Bladder Cancer	Biomarkers	anti-cancer therapy	 drug design and discovery		CAR	 HCT-116		Cells / Computational	Primary cell culture / Stem-cell like					Disease mechanism (exp/theor) Model/method dev - theor	 DEFA6, ABCB1 and GAL, mutational profile,ALDH1							
+Bladder Urothelial Carcinoma	Cancer classification	anti-cancer treatment	 immunoclassification		CAR, NK92	 HCT-116, HT-29, RKO, SW480, and SW620		Cells / Ex vivo						Disease therapy dev	 dynamics between the bacillus Calmette-Guarin (BCG) vaccine concentration, immune-system and tumor cells							
+Breast Cancer	Cancer initiation and develop.	antibody dev	 immunomodulation		CD27 memory cells	 HepG2, PLC/PRF/5, and Hep3B		Cells / Ex vivo /Computational						Disease therapy dev Drug dev/testing	 IL-10 and TGF- receptors, citotxicity							
+Breast Cancer, Head And Neck Squamous Cell Carcinomas	Cell isolation and processing	autologous adoptive cell therapy	 immunoomdulation		CIK cells	 K562 and NB4		Cells / Mathematical						Disease therapy dev Model/method dev - exp	 IL-12 and GM-CSF expression							
+Breast Cancer, Non-Hodgkin’S B-Cell Lymphoma	Chemiotherapy	biomarkers	 Immunotherapy		CIK, DC-CIK	 KLM-1 and T3M4, Panc-2 		Cells / Simulation						Disease therapy dev Model/method dev - theor	 IL12p70 and IFN-gamma, P38, MACD, migration							
+Breast Cancer, Ovarian Cancer	Drug design and discovery	cancer classification	 microenvironment		CIKs	 LNCaP, Du-145, 22RV1		Computational						Drug dev/testing	 let-7a and let-7b , D3 + , CD8 + , CD45RO (PTPRC) + , and FOXP3 + cell densities, correlation							
+Breast Cancer, Ovarian Cancer, Gastric Cancer, Esophageal Cancer Transformed Embryonic Kidney And Retinoblast Cells	Gene therapy	cancer identification and classification	 microenvironment 		CIKs, CAR-T	 MDA-MB-231, BT-474		Ex vivo						Drug dev/testing Model/method dev - exp	 MMP-9, IDO, apoptosis, GM-CSF, TNF-α, and IFN-γ							
+Breast Cancer, Prostate Cancer, Lung Carcinoma	Genomic landscape	cancer initiation and dev	 patient immunoprofile		Complement Factor H Antibodies	 renal cell carcinoma cells RCC4, UMRC2, Caki-2, A-498 and 786–0		Ex vivo / Computational						Drug dev/testing Model/method dev - theor	 NY-ESO1, multiple members of the MAGE and SSX families and NY-SAR35, SSX2, epigenetic profiles, RNA profile							
+Breast, Colon And Prostate Cancers	Identification and characterization of circulating cells or DNA	cell isolation and processing	 patient stratification		CTLs	 SK-BR-3		Mathematical						Model/method dev - exp	 PD-L1, clinical outcome correlation							
+Burkitt’S Lymphoma	Immunomodulation	chemioimmunotherapy	 radiotherapy		CTLs 	 SK-BR-3 (Her2(+)) and MDA-MB-231 (Her2(-)).		Simulation						Model/method dev - exp Model/method dev - theor	 TNF, IFNG and FOXP3 methylation, correlation							
+Cervical Cancer	Immunoprofiling	Chemiotherapy	 virotherapy		CTLs, DCs	 T cells 								Model/method dev - theor	16INK4a, CD56, correlation							
+Cervical Cancer 	Immunotherapy	CIK cell infusion therapy			cytokine induced Killer cells (CIK)	 U251, A172 (IL-13R2 +ve) and T98G (IL-13R2 -ve) glioma cell lines								Model/method qualification	1A3 , apoptosis							
+Cholangiocarcinoma	Immunotherapy/Anti-cancer therapy	drug design and discovery			cytokine-induced-Killer	 U87, HEK293T 									4-1BB, CD3, CD4, CD8, CD16, CD56, CD57, Granzyme B, T-bet, γδ T-cell receptor (TCR), CD27, CD28, CD45, CD45RA, CD45RO, CCR7, BTLA , PD-1, KLRG1, IFNγ secretion, TILs growth and CD8+ count							
+Chronic Lymphocytic Leukemia	Microenvironment	gene therapy			DC	22RV1, Du-145, MCF-7, H460, SUM149									4-1BB, T cells count, citotoxicity, IFN-gamma							
+Chronic Myelogenous Leukemia	Patient Stratification	genomic landscape			DC cells	253J, T24									ABCB5, cytokines,  IFN‐γ, TNF-α							
+Chronic Myeloid Leukemia	Radiotherapy	identification and characterization of circulating cells or DNA			DCs	26 NSCLC cell lines (list not available)									ADAM10, NKG2DLs and ADAM10 and ADAM17, degranulation, citotoxiciy							
+Clear Cell Renal Cell Carcinomas	Tumor characterization	immunomodulation			DCs, citotoxic Lymphocytes	293F and 293FT,  PC10, H226, LK2 and LC-1, A-549, REPF-LC-MS, VMRC-LCD and ABC-1, Biopsies									ADAM17, cell viability							
+Colon Adenocarcinomas	Tumor classification	immunoprofiling			DCs, T cells	293T									ADCC, CD16a or FcγRIIIa, proliferation, citotoxicity							
+Colon Adenocarcinomas , Cervix Adenocarcinoma , Gastric Tumor Cell, Pancreas Adenocarcinoma	Virotherapy 	immunotherapeutic agents design and discovery			DCs, T-cells	293T, U87-MG (ATCC, HTB-14), LN-18 (ATCC, CRL-2610), PC3 (ATCC, CRL-1435), MDA-MB-231BR									ADCC, degranulation							
+Colon Cancer		immunotherapy			dendritic cell lysate	3 medulloblastoma cell lines (18), D283 and D341, and 2 PXA cell lines, 645 and 2363									Adenosine A2a Receptor, citotoxicity, PD-1							
+Colorectal And Prostate Cancer		immunotherapy (photoimmunotherapy)			Dendritic cells	3AO, A2780, HO-8910, OVCAR-3 and SKOV-3, K562									AK2 and STAT1, miR-21							
+Colorectal Cancer		landscape 			Dendritic cells (DCs) and cytotoxic T-Lymphocytes (CTLs)	55 cell lines, 139 Biopsies									AKAP4							
+Craniopharyngioma 		microenvironment			dendritic cells, T-Regs, CTLs	55 cell lines, Biopsies									alpha-SMA, CK19, morphology, citotoxicity							
+Cutaneous Angiosarcoma		Patient Stratification			exosomes	55 patient-derived melanoma cell lines									AMPK/Akt/mTOR pathway, IL-2, IL-10, insulin-like growth factor (IGF)-beta and vascular endothelial growth factor (VEGF), proliferation, invasion							
+Cutaneous T-Cell Lymphoma		Radiotherapy			gamma delta T cells	8505-c, TPC1, BHT101-5									Ang, RNH1, cytotoxicity							
+Diffuse Large B-Cell Lymphoma		Radiotherapy immunomodulation			HCT- 116 and MCF-7 lysates	9 CTC primary cell lines									angiogenesis,  cell-adhesion							
+Edwig Sarcoma, Neuroblastoma		Radiotherapy immunotherapy			hepatic stellate cells	A-253 cells, FaDu cells, IMC-3, M108, K562-MSLN									angiogenesis, caspase-3, p53, proliferation,  IL-6, TNF-α and IFN-γ, and a EGFR, CD4, CD8							
+Endometrial Cancer		T-cell therapy			hepatocellular carcinoma cell	A-549									Angiogenin, MMP9, TIMP2, angiogenesis, degranulation, cell-adhesion, ÑK secretome							
+Epithelial Cancers		Tumor characterization			HLA-A*02:01 primary cells	A-549 									angiopoietin/Tie2 pathway, Ang1 and Ang2, ICAM-1, proliferation, viability							
+Esophageal Cancer		Tumor classification			Human monocyte-derived DC, normal allogeneic T Lymphocytes (MLR)	A-549 (lung), HCT-116 (Colon) and MCF-7 (breast)									antibody profile 							
+Gastric Cancer		virotherapy 			Human peripheral blood Lymphocytes (PBL), TILs	A-549 and LETP-2									antigen presentation capacity, phagocytic activity, chemotaxis capacity, T-cell proliferation and cytokines release, migration capacity and T cell proliferation							
+Gastrointestinal Cancer					Human sera	A-549 and NCI-H460									antigene affinity							
+General					HUVEC	A-549, H1299, SPC-A-1, and H1975									antigene presentation							
+General 					infiltrating Lymphocytes 	A-549, H23 or H838									antigenome profile, immuno profiling, correlation, CCR8, BCMA 							
+General (Breast Cancer As Instrumental)					iNKT 	A-549, HT-29, and RAMOS									apoptosis , MYCN, citotoxicity							
+General (Cell Lines As Instrumental)					Jurkat T cells	A-549, NCI‐H1299									apoptosis, 							
+General (Cells As Instrumental)					LAA-expressing hybridoma cells	A-549, PC9, HCC-827, H1975, H1993, BEas-2B									apoptosis, citotoxicity							
+General (Colon Cancer As Instrumental)					liquid Biopsies (sera)	A2780 (ovarian) and HCT-116 (Colorectal)									apoptosis, Colony formation, TIM-3							
+General (Melanoma As Instrumental)					lymphatic endothelial cells (LECs)	A2780 and SKOV-3 									apoptosis, cytokines, 							
+General (Ovarian As Instrumental)					Lymphocytes	A375, A2058, G361 , SK-MEL-28									ARMC3, DDX53, FTHL17, GAGE1, MAGEA11, SYCE1, TCP11, and XAGE1							
+General (Renal Cell Carcinoma As Instrumental)					Lymphocytes, CIK	A431, Colo320, SW480, Caco-2, SW620, HT-29									B cell-associated protein 31 (BAP31), RNA profile, correlation							
+General Metastatic Cancer					lysosomes	ACHN cells									B7-H1 and B7-H4							
+Glioblastoma Multiforme					M phi 1 supernatant, T cells	aDu									B7-H1, Colony formation, 							
+Glioblastoma, Breast Cancer Brain Metastasis					macrophages	AGS and SGC-7901									B7-H1, invasion							
+Glioma					macrophages 	AML-M4, AML-M5									B7-H4, citotoxicity, t-cells infiltration							
+Haematological Cancer					MDA-MB-468 and MCF7	autologous sCSC									BIRC5, CA125, CEA, DDX43, EPCAM, FOLR1, Her-2/neu, MAGE-A1, MAGE-A2, MAGE-A3, MAGE-A4, MAGE-A6, MAGE-A10, MAGE-A12, MUC-1, NY-ESO-1, PRAME, p53, TPBG, TRT, WT1							
+Head And Neck Cancer					Membrane vesicles and TDEs from multiple head and neck cancer cell line	B cells, Raji cells, Z138 cells									blood mMDSCs to DC ratio							
+Head And Neck Squamous Cell Carcinoma					mestrual fluid	B-lymphoid cell, Dakiki, EBV, WAS2, WAS4, WAS R86H cell lines 									c-SRC kinase (CSK) , ERK, pMHC-induced IL-2 release							
+Hepatic Cancer					MMC	B16-F10,  LCC1									calreticulin (CRT), correlation							
+Hepatocellular Carcinoma					monocyte-derived DCs (MoDCs)	B16-F10, BHK-21, CT-26									cAMP, Notch receptor, proliferation, spheroid formation							
+Human Leukemia, Mesothelioma					Monocyte, HUVEC	B76 and MDHA-2774									cancer growth							
+Laryngeal Cancer					monocytes	Biopsies									cancer testis antigenes							
+Leukaemia					Monocytic MDSCs	Biopsies (lymphoid cells)									CCL-1, citotoxicity							
+Leukaemia And Lymphoma					myeloid and endothelial cells, T cells	Biopsies and sera form CRC patient									CCL17 and CCL22/CCR4							
+Leukaemia/Lymphoma/Myeloma					Myeloid-derived suppressor cell	Biopsies,  Hs 936.T , A2058 and Colo679,  WM983(B), 451 Lu, WM3918, and WM3912 ,  UACC1273 									CCL21 and IFNgamma							
+Leukoplakia					Myeloid-derived suppressor cells (MDSCss)	Biopsies,  SKO-007(J3), U266, RPMI 8226, ARP, ARK, OPM-2, and LP-1									CCR10, citotoxicity, chemiotaxis, CCL27, CCL28							
+Liver Cancer					n/a	Biopsies, BIU-87									CD137, ADCC, Fc gamma-RIIIA, citotoicity							
+Liver Cancer, Leukemia					NK	Biopsies, Capan-2 (HLA-A2þ), AsPC-1 (HLA-A2 ), Panc-1 (HLA-A2þ), and MIA-PaCa-2 (HLA-A2 )									CD14, CD3, IFN-gamma, cytotoxicity							
+Lung Adenocarcinoma					NK cells	Biopsies, HEK293T, HEK-PSCA									CD16, ADCC							
+Lung Cancer					NK cells, gamma delta T cells, alpha beta T cells	Biopsies, HeLa									CD16, IFN-gamma, citotoxicity							
+Lung Squamous Cell Carcinoma					NK cells, NK-92 cells	Biopsies, HL-60, KG-1, K562, MOLT-4, A431									CD169							
+Lung, Cervical Carcinoma, Leukemia And Pancreatic Cancer					NK-92	Biopsies, K1, BCPAP, 8505-c, 8305-c, Nthy-ori 3-1									CD1d , cell cycle, mitochondrial membrane depolarization							
+Lymphoma					NK-92 	Biopsies, liquid Biopsies									CD1d,  Erk/MAPK , CD80, B7-H2							
+Medulloblastoma, Pleomorphic Xanthoastrocytoma					NK-92MI	Biopsies, MCF-7, BT-474 and ZR-75-1									CD20, TNFR1 , cell death							
+Melanoma					NK92 	Biopsies, MGC-803, NCI-N87 and AGS									CD22							
+Melanoma And Haematological Cancer					NKT cells	Biopsies, NCI-N87, AGS, SNU216, SNU668, and SNU719, YCC3, YCC10, and PC9 									CD25 and DR5							
+Melanoma, Breast Cancer, Multiple Myeloma Cell, 					NKT-like Cells 	Biopsies, OV-90, SKOV-3 and OVCAR-3, CaOV-3									CD25, CD69, 4-1BB, and OX40, IFN-gamma, 							
+Metastatic Melanoma					PBMCs	Biopsies, serum and peripheral Blood									CD3, CD8, FOXP3, and CD68, Infiltrating Lymphocytes and Macrophages							
+Monocytic Leukemia, Myelomonocytic Leukemia					PBMCs 	Biopsies, several immortalized cell lines, NK cells									CD3(+) T cell proliferation, MDSCss titer							
+Multiple Myeloma					PBMCs - CAR-T	Biopsies, SW620									CD3/CD28, IL-21, CD3, CD28, CD4(+) and CD8(+) memory stem T cells							
+Multiple Myeloma And Oral Squamous Cell Carcinoma					PBMCs, macrophages derived from U937 	Biopsies, T24, UM-UC-3, J82, 5637, SW780, and RT4									CD33-CD3							
+Myeloma					PBMCs, monocytes and dendritic cells (DCs)	Biopsies, TAMs									CD38							
+Nasal Natural Killer/T-Cell Lymphoma					PBMCs, T-cells	Biopsies, TILs									CD38, CD101, PD1, CD8							
+Nasopharyngeal Cancer					PHA, K562	BT-474									CD38, cytotoxicity							
+Neck Squamous Cell Carcinoma					primary B-cells	BT-474, BJAB									CD40, CCR2							
+Neuroblastic Tumors					RAW 264.7 	BT-474, CAMA-1, MDA-MB-435, MDA-MB-436, SK-BR-3, CaOV-3, OVCAR-3, SKOV-3, N87, OE19, transformed embryonic kidney 293, retinoblast 911 cells, JIMT-1, HEY,  MKN-28, MKN-45 									CD41 and CD81, citotoxicity							
+Neuroblastoma					SKOV3, OVCAR-3, A2780, HEK-293T	C1 cells									CD44, CD133, Nanog, and Oct3/4, and immunosuppressive molecules HLA-G and -E							
+Neuroblastoma, Melanoma 					supernatants	Calu-6, NCI-H1299, HT-29,HepG2, 1321NI									CD56, NKG2D and NKp44							
+Neuroendocrine Tumor					T-cells	CaSki , SiHa									CD64, MAP, citotoxicity							
+Non-Hodgkin Lymphoma					T-cells, DCs, B cells	CD4(+) T cells 									CD68 (pan-M phi), CD80 (M1 M phi), CD163 (M2 M phi), CD4 (helper T cells: Th), CD8 (cytotoxic T cells), CXCR3, CCR5 (Th1), CCR4 (Th2), signal transducer and activator of transcription (STAT1), phosphorylated STAT1 (pSTAT1) and chemokine CXCL9, correlation							
+Non-Muscle Invasive Bladder Cancer					T-cells, NK cell, myeloid cells	CD8+ T cells									CD8 and PD-L1							
+Non-Small Cell Lung Cancer					T-cells, PBMCs	CHO-A1,HEK-A2B, HeLa-A2A ,HeLa-A3, lung Cancer tissue									CD8(+) T-cell expansion, RNA profiling, 							
+Non-Small Cell Lung Cancer, Lung Adenocarcinoma					T-cells, PBMCs and monocytes 	CIK cells									CD8(+) T-cells, dendritic cells and monocytes, LAG3, PD-1, TIM3 and CTLA4, correlation							
+Oral Squamous Cell Carcinoma (Oscc)					T-cells, TILs	CIK, NK, DCs									CD83, HLA-DR, CD80, CD86, IFN-g							
+Oral Squamous Cell Carcinoma (Oscc) 					T-Regs	CL-188, HTB-39, and HTB-37, Biopsies									CD86, CD21, IgD, CD27, correlation							
+Oropharyngeal Squamous Cell Carcinoma					T2	CNE2									CD86, IL-10, TNF-α							
+Osteosarcoma					THP-1, Jurkat, HL-60	Colo 205, HT-29 and Colo 320, Colon adenocarcinoma cells, HeLa cervix adenocarcinoma cells, MKN45 gastric tumor cell and Bx-PC3 pancreas adenocarcinoma									CDCP1							
+Ovarian Cancer					THP-1, U937	Colon adenocarcinoma cells LS174T and LoVo, MRC-5 normal fetal lung fibroblast cells, CCD-18Co a normal Colon fibroblast cell line									CEA-IL2v plasma concentrations							
+Ovarian Cancer, Breast Cancer					TILs	CRC cells									Cell Growth, Viability, EGFR, Erk1/2, and Akt							
+Pancreatic Adenocarcinoma					TILs, CTLs	CTLs									cell homing, immune invasion of tumor spheroids, and spheroid cytotoxicity							
+Pancreatic Cancer					TILs, TANs	DCs									cell infiltration, correlation							
+Papillary Thyroid Cancer					TREG, CTL, NK	DLD-1, HCT-116, SK-MEL-28, A2058 and CHO-K1, NCI-H1975, ES-2, MDA-MB-231, Biopsies									cell infiltration, PD-L1, PD-1							
+Penile Squamous Cell Carcinoma					tumor lysate	DM6, DM440, and DM443, DU54 									cell proliferation, apoptosis							
+Primary Acute Lymphoblastic Leukemia					UB protein extracted from tumors	Du-145, PC3, and LNCaP									cell proliferation, cytotoxicity							
+Primary Multiple Myeloma					V45.2.' T-cells	Eca-109 									cell size, cellular radioactivity distribution							
+Prostate Adenocarcinoma					γδ T-cells	EL4 cells									cell viability							
+Prostate Cancer						EOC 									cell-cell contact, immuno response, apoptosis							
+Prostate Cancer, Breast Cancer						FaDu, CAL27, CCL-138									chromogranin A (CGA), CD56, synaptophysin (SYN), CD3, and PD-L1							
+Prostate, Breast, And Lung Carcinoma						g SKMES-1, Calu-1, A-427, A-549, and SKLU-1, MRC-5, 3A5A, 1.3.11, 1.3.15, 3B1A, AJG-1, OSJV-1, CDS-1, MRLO-1, MRLO-2, and RCC1-20 NSCLC 									citokynes, IL12							
+Pulmonary Lymphoepithelioma-Like Carcinoma						GL261 and CT-2A GBM-like									citoticity, TGF-ß, PDL-1							
+Renal Carcinoma						H1299 and H226B									citotoxicity							
+Renal Cell Carcinoma						H1650, H1650GR 									citotoxicity on Cancer stem cell							
+Renal Cell Carcinoma 						H2087 (ATCC/CRL-5922), HeLa and Panc-1									citotoxicity,  IFIN-gamma							
+Rhabdomyosarcoma						H441, U937, T2, H2023,  H441,  DFCI024, DFCI032,  H1299,  HCC-2935									citotoxicity,  IL-35, TGF-beta and IL-10, Foxp3							
+Rhabdomyosarcoma, Breast, Prostate And Pancreatic Cancer						H460 and H1703									citotoxicity, ADCC							
+Salivary Adenoid Cystic Carcinoma						HCC-1428, MCF-7, T47D, BT-474, UACC-812, ZR-75-30									citotoxicity, antibosy stability							
+Salivary Gland Cancer						HCC-2935, NCI-H1993, H522									citotoxicity, apoptosis, migration							
+Sarcoma						HEK 293T, LS174T									citotoxicity, autophagy, apoptosis, PHLDA1 , apoptosis							
+Serous Ovarian Cancer						HEK293									citotoxicity, Bcl-x, Her2, Her3 and MUC16							
+Small Cell Lung Cancer						HEK293, HeLa, MKN45, Jurkat clone E6–1, U937 									citotoxicity, binding and internalization behavior of 425(scFv)-ETA							
+Soft Tissue Sarcomas						HEK293, MCF-7, A-549, HO-8910PM, HeLa, HepG2									citotoxicity, calcitonin receptor (CTR) , drug uptake							
+Squamous Cell Lung Carcinoma						HEK293, SKOV-3.ip1, SKOV-3.ip1-luc, OV-4 									citotoxicity, CD20							
+Superficial Bladder Cancer						HEK293T									citotoxicity, CD83, CD86 and major histocompatibility complex (MTIC)-II, LDH, FOXP3 , IL-12 and IFN-gamma 							
+T-Lymphoblastic Leukemia And Lung Carcinoma						HEK293T , A-549									citotoxicity, cell viability, proliferatio, migration, PD-L1							
+Thyroid Cancer						HeLa									citotoxicity, citokines							
+Urothelial Bladder Cancer						Hep-G2, QUY-703, L02									citotoxicity, CTLA-4/CD152 and PD-L1/CD274, CD70, CD275/ICOSL, CD134L/OX40L, and CD137L/41BBL, IFN-gamma							
+						HepG2 and K562									citotoxicity, degranulation and cytokine production							
+						HepG2 cells, HCC cells									citotoxicity, drug internalization, 							
+						HGCC									citotoxicity, eIF2 , IFN, IRF3, 							
+						HH, H9, Hut78, MJ, and Hut102 patient-derived									citotoxicity, FN-gamma, TNF-alpha,CD69							
+						HL-60 pro-monocytic									citotoxicity, HER2, degranulation							
+						HL-60, macrophages									citotoxicity, HLA class I expression							
+						HL60 and MOLT4									citotoxicity, IFM-gamma,  HLA-A*02:01/CT37							
+						HN4, HN6, HN30									citotoxicity, IFN-gamma							
+						HOS, U2OS									citotoxicity, IFN-β and LDH 							
+						HSB-2, Ramos, and Daudi cells									citotoxicity, IFN-β ELISA and LDH 							
+						HSC-2, HSC-3, and HSC-4									citotoxicity, IFN-γ 							
+						HSC-3, OSCC3, SCC-14a/b, SCC-4, SCC1, CAL27, HIOEC-B (HB), HaCaT									citotoxicity, infiltration, spheroid morphology							
+						HT-29									citotoxicity, internalization							
+						HT-29 and DLD-1									citotoxicity, mAB internalization							
+						HT-29, liquid Biopsies									citotoxicity, mogration							
+						HT-29, SW620									citotoxicity, Nipsnapl and glycine-tRNA ligase (GRS)							
+						HT-29, SW62D									citotoxicity, PD-1							
+						hTERT-HPNE and pancreatic cancer cell lines									citotoxicity, PD1/PDL1 axis							
+						Human breast (MDA-MB-231 and MCF-7), Colon (SW620, SW480, and Colo205), and prostate (LNCaP) tumor cell lines									citotoxicity, proliferation							
+						Human cutaneous melanoma cell lines (Mel 195, 275, 313, 346, 116, 120, 514, 142, 237, 403, 458, 345, 599, and 261) were generated from surgically removed metastatic lesions from melanoma patients, as previously described. Human hematological cancer cell lines (Daudi, HL-60, NALM-6, Raji, U-937, KG-1a, Jurkat, JY, Ri-1, K562) w									citotoxicity, proliferation, survival, antigen 6 complex, locus G6D (LY6G6D) , JAK/STAT5							
+						Human iPSCs derived from melanoma TILs									citotoxicity, proliferation, TNF-alpha, IL-1 beta, IL-6 and PEG(2)							
+						Human neuroblastoma cell lines LA-N-1 and SK-N-SH and a lymphoblastic lymphoma cell line (SupT1) 									citotoxicity, prolifetarion							
+						IMR-32, CHP-134									citotoxicity, protein inhibition, aploid nuclei							
+						IMR-32, LA-N-1, CHP-134 									citotoxicity, protein profile							
+						IMR-32, SK-N-BE, SH-5YSY, LA-N-6									citotoxicity, Runx2							
+						IMR-32, SK-N-FI, mel526 									citotoxicity, secreted IL2 and IL6, IL3, TNFα, and IFNγ							
+						iNKT									citotoxicity, T cell activation							
+						iNKT cells									citotoxicity, viability							
+						Invariant Natural Killer T (iNKT), hESC, H1  									citotxicity							
+						ISOS-1, HAMON, Biopsies									citotxicity, Colony formation, mutation profile							
+						Jurkat E6.1, Molt-3, KBM7, K562, THP-1, U266, TK6, HP, VB, BV, KÖ, CM, PH									citotxicity, Cytokine and Chemokine, Colony formation							
+						Jurkat T									citotxicity, STEAP1							
+						Jurkat, CHO-K1, HeLa, HCC-827, PC3, NCI-H2023, 4 T1, B16-F10, and CT-26									citoxicity							
+						K562 									correlation							
+						K562 cells									correlation, immune cell desity							
+						K562 cells, A431 									correlation, LAMC2 , lymph node metastasis, migration, invasion							
+						K562 or Daudi									correlation, NKp30 and NKp46, citotoxicity, degranulation, DNAM-1, CD57, CD10							
+						K562 Raji									correlation, proliferation, apoptosis, migration, invasion, 							
+						K562, Daudi, Raji, UB2MT, C1AK									correlation, T cell, cytokine							
+						K562, U937									correlation, T helper type 1 (Th1), Th2, Th17, and regulatory T (Treg) cells densities							
+						KG-1a									CT45							
+						KKU-055, KKU-100, and KKU-213 									CTCS presence							
+						L60, SK-BR-3, T47D, HCT-116, U937 and U251									CTL ratio,  WT-1, PRAME, MAGE, h-TERT 							
+						liquid Biopsies									CXCL9 and CXCL10, CD3, CD56 and FOXP3 , COX, TILs count, Chemokine regulation, correlation							
+						liquid Biopsies (metastatic pancreatic cancer patients' Blood;)									CXCR3, CXCR4 and CXCR6, citotoxicity, NK migration							
+						liquid Biopsies, LAPC4, PC3, Du-145, 22rv1, LNCaP,RWPE-1									CXorf61, cytotoxicity							
+						liver metastasis									Cytokine , citotoxicity							
+						LLC.OVA									Cytokines							
+						LNCaP, Du-145									cytokines secretion, citotoxicity, T cell activation							
+						LNCaP, MDA-MB-231									Cytokines, cytotoxicity, PD-L1, IFNγ 							
+						LNCaP, MDA-MB-231, NCI-H1703, JHC7									cytotoxicity							
+						LoVo, HCT-116									cytotoxicity, apoptosis, Hsp90, viability and Colony formation							
+						LP-1, OPM-2 and RPMI8226									cytotoxicity, cytokines							
+						Lymphocytes									Cytotoxicity, degranulation, and cytokine release, CD16, CD56							
+						M171, M425 and M579									cytotoxicity, HER2, CD79b, Calreticulin , HMGB1, apoptosis, CXCL10 							
+						M2-derived Kasumi-1									cytotoxicity, HSPA, endoplasmic retuculum stress, autophagy, apoptosis							
+						mast cells									cytotoxicity, IL-2, IL-15, IL-18, Ki67							
+						MBA-MB-231									Cytotoxicity, IL2Rα, CD56, CD69, IL6, IL12p70, TNFα							
+						MCF-10A									cytotoxicity, secreted citokines							
+						MCF-7									Degranulation , MICA/B and NKG2D-Fc fusion protein, HLA-I, citotoxicity							
+						MCF-7,  Natural Killer cell, and cytotoxic T Lymphocytes									degranulation, CD107, cytotoxicity, IL-15SA/IL-15RA, TGF-β1, SMAD2/3, EGFR							
+						MCF-7, HCC-1428, T47D, BT-474, UACC-812, ZR-75-30									degranulation, citotoxicity, 							
+						MCF-7, HCC-1954									Dendritic cell-derived exosomes, citotoxicity							
+						MCF-7, HDFa									densities of Th1, effector-memory T cells, T cells proliferation , PD1-PDL1, IMMUNOSCORE, satellite stability, correlation							
+						MCF-7, HUVEC									Disialoganglioside							
+						MCF-7, MCF-7 TamR, T47D, SK-BR-3, MDA-MB-231									DNA profile, IFNγ							
+						MCF-7, MDA-MB-231, SK-BR-3, BT-474									DNA profile, mutational profile							
+						MCF-7, SK-BR-3 and MBA-MB-231									DNA profile, NRAS mutation, correlation							
+						MCF-7, T47D									DNA profile, PD-L1, PD-1							
+						MCF-7, ZR-75-1, and MDA-MB-231, NHL									DNa profile, proteome profile, immuno profile,							
+						MCF‐10A									DNA profile,SCC4, SCC15, and SCC25							
+						MCW670, Panc-1									DNA profiling							
+						MDA-MB-231									DNA sequencing, mutational profile							
+						MDA-MB-231 and T47D									doses of Lymphocytes,  stability and its sensitivity o the model							
+						MDA-MB-231, HCC-70, MCF-7									drug delivery and penetration							
+						MDA-MB-231, MDA-MB-435S, MDA-MB-453, SK-BR-3, ZR-75-1, T47D, and MCF-7,									drug internalization, citotoxicity, LAMP1, ROS levels							
+						MDA-MB-231, MDA-MB-468									drug uptake							
+						MDA-MB-231, MDA-MB-468, and MCF-7, 293T,Phoenix cells									e B7-H3-specific mAb 376.96 staining							
+						MDA-MB-231; MCF-7; and MCF-10A									E2F-1, citotoxicity, CIK							
+						MDA-MB-435, HeLa, Colo-205, Du-145									EFGR, HER2, and PD-L1, CCL2, CCL21, VEGF and CXCL1							
+						MDA-MB-453, MCF-7, MBA-MB-231									EGFR, cytotoxicity, degranulation, IFNγ, citotoxicity							
+						MDA-MB-468, 231-H2N									EGFR, drug cellular uptake and localization, survival,  apoptosis/necrosis							
+						MDA-MB-468, normal ductal epithelium Biopsies									endocytosis, proliferation,  cytokine and chemokine							
+						MeCoP, MeTA, MeDeBO, and MeOV									EPHA2 , citotoxicity							
+						MEFs 									epigenetic profile, PD-L1 and HLA-DR							
+						MIA MIA-PaCa-2 and AsPC-1									epitope recognition							
+						MIA-PaCa-2 									equilibrium points of the model 							
+						MIA-PaCa-2 and Panc-1 , patient-derived organoids (PDOs), Biopsies									ErbB2 							
+						MIA-PaCa-2, MDA-MB-231									exosome protein profiles, E6/E7, p16, and survivin, apoptosis, proliferation							
+						MIA-PaCa-2, PK-45, Panc-1, KLM-1, Bx-PC3, and PK-1									expression of 18 cancer-testis antigene, correlate							
+						MM									expression of CTA							
+						MM.1S, U266B1, SCC4, SCC15, and SCC25									extravasation,  T-cell migration and cytotoxicity							
+						MOLM-13									FAK, T cell infiltration							
+						MOLM-13, MOLM14, and HL60									FAS, Colony formation, migration							
+						monocyte-derived DCs									FOXP3,  Treg-specific demethylated region (TSDR)							
+						monocytes 									gene profiling, ALG12, GUSB, RPLP0, KRBA2, and ADAT2, IFN gamma and TNF alpha							
+						myeloid derived suppressor cells (MDSCss) 									Genome profiling ,new antigenes,  immunomodulatory proteins and cytokine profiling 							
+						Myeloid-derived suppressor cells									genome profiling, DDB1, ERCC1, ERCC2, PRPF19, BCAT1, CDKN1B and MARK4, molecular signature							
+						Myeloid-derived suppressor cells (MDSCs) 									growth of tumor cells 							
+						Myeloid-derived suppressor cells (MDSCss) , T cells									Hemolysis , citotoxicity, apoptosis, migration							
+						n/a									HLA-A2/MIF, citotoxicity							
+						Natural Killer (NK) and CD8C T immune cells									HLA-DRA, HLA-DRB3, HLA-DMA, HLA-DMB, B2M, HLA-A, HLA-B), ADA (encoding adenosine deaminase), ADGRE5 (CD97), CD58 (LFA3), CD74 (encoding invariant chain and CLIP), CD83, CXCL8 (IL8), CXCL16, HLA-F, IL6, IL18, and KITLG, 							
+						NCI-H125									HLA, IFNγ , cytokine , cytotoxicity							
+						NCI-H226, NCI-H358 and NIH:OVCAR-3									HORMAD1 , correlation, PARP, ROS							
+						NCI-H69, NCI-H146, NCI-H446, NCI-H82, NCI-N592									HPV status, Chemokine and cytokine							
+						NCI-N87, MKN45, AGS, NUGC3, SGC-7901, MGC-803 and BGC823, and Jurkat cells, Biopsies									ICAM-1, citotoxicity							
+						NK									IDO-1, cancer-immune system interactions							
+						NK cells									IDO,  IL-2, IFN-gamma, perforin secretion, IL-10 and TGF-beta							
+						NK cells, PBMCs									IDO, CD31, and CD105, proliferation							
+						NK T cells									IDO1 inhibitors							
+						NK-92									IDO1- and TDO2, WARS, IFN gamma, GCN2-peIF2 alpha-ATF4 signaling							
+						NKT, DC									IDO1, methylation profile, Kyn in Human sera							
+						NUGC4, HCT-116, SW620, MOLM-13									IFN-beta , PD-L1, PI3K, IFN-beta-induced							
+						OPM-2, L363 and U266									IFN-gamma, RFXAP. miR-212-3p, 							
+						OV-MZ-6 and SKOV-3, Biopsies									IFN-γ release, cell viability, citotoxicity							
+						OVCAR-3, SKOV-3, and OVCAR-4									IFN-γ, IL-2, and IL-12p70,  oxidative and apoptotic stress, viability, prolieration							
+						P815 mastocytoma cells									IFNβ 							
+						Panc-1									IGF2BP3, correlation							
+						Panc-1 and SW1990									IL-11, JAK/STAT3, T cells proliferation							
+						Panc-1 or MIA MIA-PaCa-2									IL-13R2, IL-13, c-Jun, Fra-1, Jun-D, c-Fos, and Jun-B, JAK/STAT, 							
+						Panc-1,  Capan-1									IL-15, ILR-15							
+						Panc-1, MIA MIA-PaCa-2, K562									IL-17 mast cells count, correlation							
+						Panc-1, Panc-2, Colo-357, SU8686, AsPC-1, MIA MIA-PaCa-2 and Bx-PC3, HPDE-E6E7									IL-17, IL-2							
+						Panc03.27									IL-18. PD1, 							
+						panel of solid and liquid tumors									IL-1β, TNF-α, IL-6, and PGE2, citotoxicity							
+						patient-derived myeloid leukemia (AML) cells									IL-2							
+						PBMCs									IL-2, CD56, CD16, NKG2D, NKp30, IFN-γ, NKp46 and increases NKG2A/CD94							
+						PBMCs, Biopsies									IL-2, correlation							
+						PBMCs, Bone marrow mononuclear cells									IL-2, IFNγ, citotoxicity							
+						PBMCs, DCs									IL-2, IL-7 and IL-15							
+						PBMCs, NK									IL-2, TILs count, IFN-gamma, PD-1 and 4-1BB							
+						PC14,  LU99B, PCI6,  A172, HT-1080, MKN28, AZ-521, MCF-7 									IL-21R							
+						PC3									IL-27, IL-6, IFN-γ							
+						PC3, Du-145 and LNCaP 									IL-32α, metastasis, and invasion, JAK2/STAT3, N-cadherin, Vimentin, Snail, Zeb1							
+						PcCL3 									IL-6, STAT3, (HLA)-DR and CD86, ARG1, COX2, CTSL 							
+						PDAC, KLM-1, HCC-70,  A431/H9									IL-8							
+						peripheral Blood Lymphocytes from Colon cancer patients, SK-MEL-28, HCT- 116, M1/9 melanoma and IDC Tu2									IL-8/CXCL8, MCP-1/CCL2, angiogenesis, macrophage infiltration, p65, E1A							
+						peripheral Blood mononuclear cells (PBMCs), DCs (DCs) 									IL17A, cell proliferation, apoptosis							
+						PNT1A, LNCaP									IL1RAcP, proliferation, citotoxicity							
+						primary high-grade glioma cell line (HGG, representing glioma stem cells) SB2b									immune dynamycs							
+						Pumc-91 and T24 									immune system response, IL-2							
+						QU-DB (large-cell lung carcinoma) and A-549 (adenocarcinoma)									immunopeptidome profile, SLC45A2 and CTL sensitivity 							
+						Raji cells									immunoprofile							
+						Raji, MOLT-4, Jurkat									immunoprofile, cytokines							
+						RCC cells									immunoprofiling , T- and B-cell immunosequencing							
+						RCC85#21									immunoproteomic profile, genomic profile							
+						RMS									immunotoxicity, citokynes							
+						RPMI-8226									immunotoxicity, proteomic profiling							
+						RPMI-8226, IM-9, K562, THP-1, MOLT4, CCRF-CEM, Ramos, U937									in vivo tumore-immune interactions							
+						s ES-2, OVCAR-3, CaOV-3, HEY-A8, SKOV-3.ip1 and A2780 , Biopsies									infiltration							
+						SACC-83 and HN13 									infiltration, citotoxicity, MIP1α, RANTES, and CD40L							
+						scc-U2, scc-U8, and OSC19, A431									infiltration, fibroblast citotoxicity, T cells  activation; increased cytokine secretion, IL-2							
+						SCC4, SCC15, SCC19, SCC25, SCC84, SCC92, SCC99									interaction of tumour infiltrating cytotoxic Lymphocytes (TICLs) with tumour cells							
+						serum									interleukin (IL)-2, IL-7, and IL-15, ECCE,  IFN-γ and TNF-α, citotxicity							
+						SET-2, BV173, 697, SKLY-16, BA25, HL-60, Meso/A24 									inverse mapping 							
+						SGC-7901 									JAK/STAT pathway, PD-L1							
+						SGC-7901 and AGS									killing rates of CD8+ T cell and NK cells							
+						SiHa and Caski									KIR3DL1, HLA-B, correlation							
+						SiHa keratinocytes									KY-CC-14/ACTR1A, KY-CC-19/TSGA2, KY-CC-12/FKBP4, KY-CC-15/PLRG1							
+						SiHa, HeLa, DoTc2 4510, HPV 16 E6/E7-transformed, Ect1/E6E7									L-33, Fox3p, T-Regs density, cell proliferation, correlation							
+						SK-BR-3									LAG-3, PD-11, PD-L1, infiltration of T-cells, correlation							
+						SK-BR-3, A431, NCI-N87, MKN-7, AGS, JIMT-1									least effective concentration and the half-life of the drug							
+						SK-BR-3, BT-474, MCF-7, MDA-MB-231, SK-OV-3									LRIG1 , correlation							
+						SK-MEL-23, SK-MEL-37, ALAB, MCF-7, 734B, ARK , U266, T2-1B 									lymphatic vessel density (LVD), CD8+ T cell infiltration, INOS, IDO							
+						SK-MES-1, U251, HEC-1B, SK-MEL-2									Lymphocytes telomerase activity, 							
+						SK-OV-3									MAGE A11							
+						SK-OV-3, HEC-1A, ovarian tumor									MAGED4B and FJX1, citotxicity							
+						SKMEL-28 cells									MAP3K3, correlation							
+						SKNBE(1)n and SKNMM									MAPK/ERK and NFB/RelB							
+						SKOV-3									maturation and  number of CTLs, PD-L1, citotoxicity							
+						SKOV-3-IP									MCF-7, ZR-75-1, and MDA-MB-231, citotoxicity, ROS, radiation-nduced transcriptional changes							
+						SKOV-3, A2780, and OVCAR-3									MDSCs suppression, PDL1, DC HIL, 							
+						SKOV-3, A2780, OV-90, FHIOSE118hi 									Melanoma antigen family A4 (MAGEA4), correlation							
+						SKOV-3, HEK293 cells and H460 lung cancer cells									MHC class I chain-related A/B, citotoxicity, 3-BrPA, NK-92MI-mediated cytotoxicity.							
+						Skov‐3, OVCA433, TR175 and Daudi, Biopsies									MHC, binding affinity							
+						SMMC7721, BEL7402, HEP3									migration,  CCL22, CXCL9, CXCL10 and CXCL12, N gamma and TNF alpha							
+						SNK-6, SNT-8, and SNK-1									migration,  S1P receptor 							
+						SUNE1, 5–8F, S18, S26 and CNE2									migration, extravasion							
+						SV-BR-1-GM									migration, invasion, proliferation. morphology, β-catenin/TCF4							
+						SW480 									migration, Lymphocytes levels, correlation							
+						SW480 cells and CT-26									miR-3127-5p/p-STAT3, PD-L1, cell viability							
+						SW480 or SW620									MIR21,  CD3(+), CD8(+), CD45RO (PTPRC)(+), and FOXP3(+) T cells							
+						SW480, Caco-2, HKE3, 22Rv11, VCaP and LNCaP									MLH1, MSH2, MSH6, and PMS2, CD8, programmed cell death protein 1 (PD-1), and programmed death-ligand 1 (PD-L1)) and p53							
+						SW480, SW620, HCT-116									mTOR, MAPK, PD-1/PD-L1							
+						SW620 									MUC-1, prolifetration							
+						T cell									MUC18, incasion, migration							
+						T cells									mutation profile							
+						T cells from ascites Lymphocytes									mutational analyses, somatic point mutations, small insertions and deletions, mutational signatures, and somatic copy number alterations							
+						T cells, Three HPV(+) cell lines (UM-SCC-2, UM-SCC-47and UPCI:SCC-90, HPV(−) cell lines (PCI-13, PCI-30)									MYC, PD-L1, IFN-gamma							
+						T-cells									MYCN, NKG2D , DNAM1, correlation							
+						T-cells, PBMCs									neoepitopes in cancer							
+						T-Regs									NF-κB/β-catenin and STAT3/IL-6 Pathways							
+						T24									NKG2D , MICA, MICB, ULBP-2, and ULBP-3, MMP-9, correlation, RNA profile							
+						T24, UM-UC-3, J82, RT-112, RT4, and SW780									NKG2D, IL-2, BCG, degranulation, IFNγ, citotoxicity							
+						TC-1									NKp30, NKp44 and NKp46, and perforin, citotoxicity							
+						TC-71, SK-N-MC, MHH-NB11									NLRC5 and PD-L1 							
+						TE-1, Eca-109 and Eca-9706, Biopsies									numerical simulations and the classical linear stability analysis							
+						Tet-21/N cell line									NY-ESO-1							
+						THP-1 (Human acute monocytic leukemia), A-549, T2, U937, and MCF-7									NY-ESO-1-, MAGE-A3-, MAGE-A1- and β-actin, CTLA-4-, PD-1-, PD-L1							
+						TIB-152, AKR-209									NY-ESO-1, CA-15–3, CEA and survivin							
+						TILs									NY-ESO-1, Cytokeratin							
+						TILs, Biopsies									OCT3/4, SOX2, KLF4, and c-MYC, morphology, karyotype							
+						TILs, Myeloid-derived suppressor cells									oxidative DNA damage 							
+						TKIs , NCI-H1975, PC9									OY-TES-1 antigene							
+						triple negative breast cancer cell									OY-TES-1, correlation							
+						Tumor-associated B cells									PD-1, GDNF, JAK2-STAT1 signaling pathway							
+						tumor-infiltrating Lymphocytes (TILs)									PD-1, LDH, cytotoxicity							
+						U251, GL-15									PD-1, PD-L1 and T Lymphocytes Expression,  CD3 and FOXP3							
+						U2OS, Colo829, Biopsies									PD-1, PD-L1, migration							
+						U87-MG, LN229, 293 T, U251									PD-1, PDL-1, infiltration							
+						U937, MOLT4									PD-1, RNA profile, IFN-gamma, T-Regs exhaustion							
+						Vero, HT-29, SW480, C32, A375, MDA-MB-231, 4T1, HepG2, and A-549									PD-1/PD-L1, citotoxicity							
+						YPK-1									PD-1/PD-L1, MAPK, citotoxicity in organoids							
+						YPK2 and YPK5 									PD-1/PD-Li immune inhibitory axis, T cells							
+						γδ T cells									PD-11, PD-L1, infiltration of T-cells, correlation							
+															PD-L1							
+															PD-L1 and EGFR 							
+															PD-L1 and PD-L2, IL-2, IFN 							
+															PD-L1 protein expression, tumor mutation burden, and expression of an immune gene signature,  IFN-gamma, correlation							
+															PD-L1, Cell migration and invasion activity							
+															PD-L1, citotoxicity,  cell viability, migration, invasion, cell cycle, apoptosis							
+															PD-L1, correlation, T-cell density, B-cell density,							
+															PD-L1, EMT transition							
+															PD-L1, FOXP3, correlation							
+															PD-L1, PD-L2, DNA methylation, RNA profile, protein profile							
+															PD-L1/PD-1 pathway, cytotoxicity,  PD-1, TIM-3, and LAG-3, CD137							
+															PD-L1/PD-1, citotoxixcity,  T cell activation, proliferation, secretion of IFN gamma, spheroid assay, T cell infiltration							
+															PD-L2, T-cell reactivity							
+															PD1-PDL1 axis and/or the CTLA4							
+															PD1/PDL1,  Lymphocytes proliferation and CTL activity							
+															PDL-1, correlation							
+															PDL1, CD8, citotoxicity							
+															peptide binding							
+															perforin, citotoxicity							
+															perforin, ICAM-1/TGF beta 2							
+															persistency of effecto cells							
+															PI3K, CLEC2							
+															PI3K/Akt/mTOR , citotoxicity							
+															Pin1-FOXM1, cell cycle, Colony formation							
+															PLAC1/CP1, IFN-γ, cytotoxic T Lymphocytes							
+															Plasminogen activator inhibitor-1, macrophages infiltration,  FAK, LRP1							
+															PLK1							
+															polio virus receptor and Nectin-2, whereas UL16-binding proteins , MICA/B and HLA							
+															poliovirus receptor (PVR), CD155, immunotoxicity, viral propragation, cell proliferation							
+															PRC2, H3K27 , migration, Chemokines ,CXCL9 and CXCL10							
+															predicted clinical outcome							
+															proliferation							
+															proliferation,  Th1 cytokines (IFN-gamma, TNF-alpha, IL-12) and Th2 cytokines (IL-10, IL-4)							
+															proliferation, amine, citolysis, viability							
+															proliferation, cytotoxicity, cytolines							
+															proliferation, HERV-K, cell-adhesion							
+															proliferation, HLA-ABC, HLA-DR, CD80, CD86, CD83 and MUC1							
+															proliferation, invasion, Phagocytosis, T-cell proliferation							
+															proliferation, lysis, cytokines							
+															proliferation, scFV							
+															proportion of PD-Li-positive carcinoma cells, corelation							
+															prostate stem cell antigen (PSCA), citotoxicity							
+															protein profiling							
+															PSMA, antigene binding							
+															PTEN, IL-12							
+															PTTG1, TGFB1/SMAD3, RNA profile, migration, invation, CyclinD1 and MMP-2							
+															R-CHOP variants							
+															RAS, RAF, ERK, AKT, proliferation, citotoxicity							
+															regulatory T cells count, CD39, Foxp3,  ICOS, PD-L1 and CTLA-4							
+															RET/PTC3 , IDO1, TREG density, correlation,STAT1-IRF1 pathway							
+															Rhein, citotoxicity, effector Lymphocytes , HIF-1							
+															RNA profile							
+															RNA profile,  E2, E6, and E7 antigens, PD-1, IDO-1, citotoxicity, T-cell							
+															RNA profile, CD3, FoxP3							
+															RNA profile, CTLA4							
+															RNA profile, mutation profile							
+															RNA profiling, 16S rRNA, lysosomal associated membrane protein 3 (LAMP3), STAT1, TAP1, intratumor microbiota							
+															RNA profiling, immune profile, mutational rate, neoantigen formation, and MMR status							
+															RNA profiling, JAK2, JAK3, 							
+															ROR1							
+															ROR1, 5T4, CAIX, Nanog, OCT4, LDH , IFN-γ secretion, degranulation							
+															secreted kynurenine 							
+															secreted MMP1, MMP7, MMP9, IL-6, VEGFA, IL-l alpha, TNF-alpha, GM-CSF, IL-1RA, and IL-8, PDL1, CD47, FASL, and IDO							
+															sensitivity to NK, citotoxicity, apoptosis							
+															Siglec-7 and Siglec-9, citotoxicity							
+															signaling pathways, gene transactivation, cell viability, lactate dehydrogenase and HMGB1 release							
+															signatures of T cell dysfunction and exclusion							
+															single T cells transcriptional profile							
+															SMAD5, IFNγ, DNA profile, mutation profile 							
+															SOX-2							
+															SPANX-CD, MAGEB2, MAGEA1, MAGEB6, and CXORF48 , CXORF48, MAGEB6, and CRISP2							
+															sperm protein 17							
+															spheroid formation, citotoxicity, sNKG2D 							
+															SS1P							
+															stability of the tumor-free equilibrium							
+															STAT3 , T cells IFN gamma and granzyme-B							
+															STAT3, RNA profiling							
+															STEAP1 and STEAP1B							
+															T cell activation							
+															T cell activation and proliferation, citotoxicity							
+															T cell activation, IL-2, IL-10, and INF-gamma, PD-L1, IDO-1							
+															T cell activity, CD1d							
+															T cell count							
+															T cell count and reactivity							
+															T cell counts, cytokines, IFN-gamma, IFN-alpha, IL-17							
+															T cell infiltration							
+															T cell proliferation							
+															T cell proliferation, TGF-β and IL-10							
+															T cell response							
+															T cell responses 							
+															T cell viability, citotoxicity							
+															T cells proliferation, correlation							
+															T cells, correlation, DNA profiling							
+															T Lymphocytes proliferation, PSMA, 1BBL, IL-12, citotoxicity							
+															T-cell infiltration							
+															T-cell Infiltration, citotoxicity							
+															T-cell profiling, PD-1 and IFNγ, cytokine 							
+															T-cell reactivity							
+															T-cell response							
+															T-cell response 							
+															T-cell response,  MHC class-I and class-II, major histocompatibility complex class I-related chain A/B, Fas, IL-1 beta and TNF-alpha, PD-L1							
+															T-cell response, antigen HM1.24 							
+															T-cell response, BTLA, HVEM							
+															T-cell response, citotoxicity, PD-1, PD-L1, CEA691, IFNγ 							
+															T-cell response, DNA profile							
+															T-cell response, IFN-γ, TNF-α and IL-17A							
+															T-cell response, migration, cytokines							
+															T-cell response, myothelin, IL-2, IL-15 and IL-21,FN-gamma and TNF-alpha							
+															T-cell response, PD-1 and Tim-3							
+															T-cell response, PD-1, CD27, FAS, CD45RA, CCR7, correlation							
+															T-cell response, phagocytosis, migration							
+															T-cell response, TIL reactivity , HLA-I, CD- proteins							
+															T-cell response, Ub-proteins, IFN-gamma							
+															T-cell tissue cellularity, PD-L1 ,  PD-1, CD3, PD-1/PD-L1, correlation, T-cell infiltration							
+															T-cell trafficking							
+															T-cells count, MUC-1, brachyury, and CEA 							
+															T-cells proliferation, citotoxicity, 							
+															t-periodic system							
+															T11 Target Structure, cells interactive dynamics							
+															TAM density, correlation							
+															TAP2, LMP2 and 7, HIF							
+															temporal dynamics of cytotoxic T cells and cancer cells							
+															TEX19							
+															TGF-β							
+															Th-like cytokine profiles, IL-4, 							
+															TIL count, PD-L1, RNA profile							
+															TILs							
+															TILs count, GARP							
+															TILs reactivity, T-cell receptors							
+															TIM-3							
+															TIM3, lymph node metastasis, CD8(+) T cells and CD11b(+) CD33(+) Myeloid-derived suppressor cells (MDSCss), 							
+															TLR3, progression, invasion and immune evasion, cytotoxicity, cell viability							
+															Toll-like receptor 4, IFN-gamma,  CD25, CD69 and 4-1BB, cytokines and chemokines							
+															transcriptional profile							
+															transcriptional profile, ARFL, correlation							
+															transcriptome and genome alterations ,  PI3K/AKT pathway, AKT activity, FAS, PUMA, NOXA							
+															treatment effectiveness							
+															Treg immunosuppressive activity, correlation							
+															Treg-like CCR7(+) mononuclear cells titer, CD45RA, CD25, FOXP3							
+															TREM-1, COX-2 							
+															TRL4, cytokine and chemokine							
+															tryptophan and kynurenine metabolism							
+															tryptophan-2,3-dioxygenase,  T-cell activation and proliferation 							
+															Tumor immune dynamics							
+															tumor mutational burden							
+															tumor mutational burden (TMB) ,  PD1/PD-L1, correlation							
+															tumor volumes							
+															tumor-free equilibrium and coexisting equilibrium							
+															tumor-immune dynamics after BCG instillations							
+															tumor-infiltrating Lymphocytes (TIL), PD-L1, PD-1							
+															tumor-infiltrating T-cells  distribution, TIm-3, PD-1,  IFN-gamma							
+															tumour-immune interaction							
+															Tumour-TICLs Interactions							
+															ULBP2 , ADAM10 , citotoxicity							
+															vaccine structure							
+															VentX, Tumor-associated macrophages (TAMs)  count							
+															viability, TREG:TEFF ratio, IL-10							
+															viral infection, cytotoxicity							
+															WEE1, immunopotentation							
+															Wnt pathway,  proliferation and cytolytic activity, mTOR, Bcl-2, CD62L or CCR5							
+															XAGE-1b							

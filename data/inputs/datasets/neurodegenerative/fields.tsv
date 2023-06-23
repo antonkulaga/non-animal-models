@@ -1,0 +1,14 @@
+Field	Field Type	
+Model no. 	Number	This number refers to a model of a respiratory disease which is described in a paper. The same paper can describe more than a model.
+Disease area	Drop-down list	Upon abstract screening, and again upon full text screening, papers were categorised by disease area, being one of the 5 NDD diseases (PD, AD, FTD, ALS, MS),  or several NDD
+Disease feature	Drop-down list	Specific endpoints of the disease with options for " Exploratory/ no specific feature"  and "na". 
+Category	Drop-down list	Upon abstract screening, papers were categorised by large groups, and these were revised upon full text evaluation
+Type	Drop-down list	More specifications, if applicable,  on the model used.
+Application/ aim	Drop-down list	Explanation on main scientific aim, or application of the model/method described.
+Biological or disease-specific endpoint	Drop-down list	List of potential biological endpoints, used in a model system to describe either the characteristics of a model, or changes in the model system related to disease feature.
+Assay throughput/Content	Drop-down list	If applicable, the models is described in tems of throughput.
+Potential	Free text	Possible multile model application in addressing disease features
+Relevance	Free text	Biological relevance of the model for the disease feature in replacing animal models
+First author	Free text	First author of the paper which describes the model of neurodegenerative disease.
+Author	Free text	DOI link, or other links.
+Year	Free text	Year of publication of the paper which describes the model of neurodegenerative disease.
