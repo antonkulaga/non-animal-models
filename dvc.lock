@@ -36,9 +36,9 @@ stages:
     outs:
     - path: data/inputs/datasets/immuno-oncology/papers
       hash: md5
-      md5: 298ece84109345362cb154da7d56d7b6.dir
-      size: 1157669896
-      nfiles: 445
+      md5: ff8a62b24cd66777be26672a308fac6f.dir
+      size: 890647515
+      nfiles: 488
   download_CVD:
     cmd: python prepare.py download --dataset CVD
     deps:
@@ -62,7 +62,7 @@ stages:
     outs:
     - path: data/inputs/datasets/neurodegenerative/papers
       hash: md5
-      md5: d9b7697beb98620d4fd88fb9d0b2e202.dir
+      md5: a95e092c90e1006c9019e96d5d11edb5.dir
       size: 52775902
       nfiles: 505
   download_respiratory:
@@ -125,27 +125,27 @@ stages:
     deps:
     - path: data/inputs/datasets/immuno-oncology/papers
       hash: md5
-      md5: 298ece84109345362cb154da7d56d7b6.dir
-      size: 1157669896
-      nfiles: 445
+      md5: ff8a62b24cd66777be26672a308fac6f.dir
+      size: 890647515
+      nfiles: 488
     outs:
     - path: data/inputs/datasets/immuno-oncology/parsed_papers
       hash: md5
-      md5: 54f7069f6c4e0fd727b3a3f2742bbf5c.dir
-      size: 22178085
-      nfiles: 443
+      md5: b3ba2304e5e9d6a09cfbd3bd66788cb5.dir
+      size: 16805544
+      nfiles: 339
   parse_neurodegenerative:
     cmd: python prepare.py parse --dataset neurodegenerative --recreate_parent true
     deps:
     - path: data/inputs/datasets/neurodegenerative/papers
       hash: md5
-      md5: d9b7697beb98620d4fd88fb9d0b2e202.dir
+      md5: a95e092c90e1006c9019e96d5d11edb5.dir
       size: 52775902
       nfiles: 505
     outs:
     - path: data/inputs/datasets/neurodegenerative/parsed_papers
       hash: md5
-      md5: d50c264ccf2d5538cdf707cdd0326c37.dir
+      md5: 8e86e3c330b5ae849fdd2a34e5afbd9b.dir
       size: 642081
       nfiles: 9
   parse_respiratory:
