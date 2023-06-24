@@ -26,7 +26,7 @@ dependencies:
       - getpaper
       - polars
       - langchain>=0.0.202
-      - dvc_gdrive
+      - dvc_gdrive>=2.20.0
       - chromadb
       - scidownl
       - 'git+https://github.com/facebookresearch/detectron2.git@e2ce8dc#egg=detectron2'

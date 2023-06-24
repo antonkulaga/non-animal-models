@@ -11,24 +11,51 @@ def read_tsv(path: Path):
 
 class DatasetNAM:
 
+
     models: pl.DataFrame
     fields: pl.DataFrame
     dropdowns: pl.DataFrame
     papers_folder: Path
+    parsed_folder: Path
     index_folder: Path
     dois: List[str]
 
+    @property
+    def doi_cols(self):
+        result = [c for c in self.models.columns if "DOI" in c]
+        assert len(result) == 1, f"there should be only one DOI column, but there are {doi_cols}"
+        return result
+
     def __init__(self, folder: Path):
         self.models = read_tsv(folder / "models.tsv")
-        doi_cols = [c for c in self.models.columns if "DOI" in c]
-        assert len(doi_cols) == 1, f"there should be only one DOI column, but there are {doi_cols}"
-        self.dois = self.models[doi_cols[0]].unique().to_list()
+        self.dois = self.models[self.doi_cols[0]].unique().to_list()
         self.dropdowns = read_tsv(folder / "dropdowns.tsv")
         self.fields = read_tsv(folder / "fields.tsv")
         self.papers_folder = folder / "papers"
+        self.parsed_folder = folder / "parsed_papers"
         self.papers_folder.mkdir(exist_ok=True, parents=True)
         self.index_folder = folder / "index"
         self.index_folder.mkdir(exist_ok=True, parents=True)
+
+
+
+    @property
+    def extended_models(self):
+        """
+        Model extended with downloaded data
+        :return:
+        """
+        def doi_to_path(doi: str):
+            return self.papers_folder / (doi+".pdf")
+
+        def doi_to_parsed_path(doi: str):
+            return self.papers_folder / (doi+".txt")
+        def exists(string: str):
+            return Path(string).exists()
+        doi_col = pl.col(self.doi_cols[0])
+        path_col = doi_col.apply(doi_to_path).alias("path")
+        exist_col = path_col.apply(exists).alias("exists")
+        return self.models.with_columns([path_col, exist_col])
 
     def validate_downloads(self):
         total = len(self.dois)
@@ -53,9 +80,8 @@ class DatasetNAM:
         print(f"TOTAL DOWNLOADED [{good}/{good+bad}], FAILED: {bad}")
         return succeeded
 
-
-    def parse(self, destination: Optional[Path], strategy: str = "auto", threads: int = 5 ):
-        return getpaper.parse.parse_papers_async(self.papers_folder, destination, strategy=strategy, threads=threads)
+    def parse(self, destination: Optional[Path], strategy: str = "auto", cores: Optional[int] = None,  recreate_parent = True):
+        return getpaper.parse.parse_papers(self.papers_folder, destination, strategy=strategy, cores=cores, recreate_parent=recreate_parent)
 
     def index(self):
         return self.papers_folder

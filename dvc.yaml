@@ -68,6 +68,8 @@ stages:
   parse_respiratory:
     deps:
       - "data/inputs/datasets/respiratory/papers"
-    cmd: "python prepare.py parse --dataset respiratory"
+    cmd: "python prepare.py parse --dataset respiratory --recreate_parent true"
     outs:
       - "data/inputs/datasets/respiratory/parsed_papers"
+  draw_pipeline:
+    cmd: dvc dag --dot | dot -Tsvg -o dvc_pipeline.svg
