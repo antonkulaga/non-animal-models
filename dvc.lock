@@ -10,8 +10,8 @@ stages:
     outs:
     - path: data/inputs/datasets/ATMP/papers
       hash: md5
-      md5: dc533021dd1dc49f90a91021d7de6f26.dir
-      size: 174154022
+      md5: cf0af8a3ebfa445466357bcccadf15aa.dir
+      size: 154752965
       nfiles: 87
   download_breast_cancer:
     cmd: python prepare.py download --dataset breast-cancer
@@ -23,9 +23,9 @@ stages:
     outs:
     - path: data/inputs/datasets/breast-cancer/papers
       hash: md5
-      md5: 81e8375cd187bb2f26b96d0b0c63675b.dir
-      size: 886624277
-      nfiles: 687
+      md5: 537df90f01902975b207e810b5df47da.dir
+      size: 2110529081
+      nfiles: 830
   download_immuno_oncology:
     cmd: python prepare.py download --dataset immuno-oncology
     deps:
@@ -49,8 +49,8 @@ stages:
     outs:
     - path: data/inputs/datasets/CVD/papers
       hash: md5
-      md5: a322453fceb2daa57d9c412c1ce0cf62.dir
-      size: 981762088
+      md5: bc3673d94ea772a3c52b711609fb39db.dir
+      size: 843036065
       nfiles: 437
   download_neurodegenerative:
     cmd: python prepare.py download --dataset neurodegenerative
@@ -79,49 +79,49 @@ stages:
       size: 780368865
       nfiles: 276
   parse_ATMP:
-    cmd: python prepare.py parse --dataset ATMP
+    cmd: python prepare.py parse --dataset ATMP --recreate_parent true
     deps:
     - path: data/inputs/datasets/ATMP/papers
       hash: md5
-      md5: dc533021dd1dc49f90a91021d7de6f26.dir
-      size: 174154022
+      md5: cf0af8a3ebfa445466357bcccadf15aa.dir
+      size: 154752965
       nfiles: 87
     outs:
     - path: data/inputs/datasets/ATMP/parsed_papers
       hash: md5
-      md5: eba3a53fb20c40f6fff78b346f1a9e33.dir
-      size: 3826313
-      nfiles: 74
+      md5: 2bb488da15bd5cf45b2f62fbec37f4ca.dir
+      size: 3467572
+      nfiles: 67
   parse_CVD:
-    cmd: python prepare.py parse --dataset CVD
+    cmd: python prepare.py parse --dataset CVD --recreate_parent true
     deps:
     - path: data/inputs/datasets/CVD/papers
       hash: md5
-      md5: a322453fceb2daa57d9c412c1ce0cf62.dir
-      size: 981762088
+      md5: bc3673d94ea772a3c52b711609fb39db.dir
+      size: 843036065
       nfiles: 437
     outs:
     - path: data/inputs/datasets/CVD/parsed_papers
       hash: md5
-      md5: 82ebd9199e741bb866ecfc4c89e67861.dir
-      size: 14133907
-      nfiles: 286
+      md5: 174f905a7b7487757bc4fad023ace727.dir
+      size: 11770926
+      nfiles: 240
   parse_breast_cancer:
-    cmd: python prepare.py parse --dataset breast-cancer
+    cmd: python prepare.py parse --dataset breast-cancer --recreate_parent true
     deps:
     - path: data/inputs/datasets/breast-cancer/papers
       hash: md5
-      md5: 81e8375cd187bb2f26b96d0b0c63675b.dir
-      size: 886624277
-      nfiles: 687
+      md5: 537df90f01902975b207e810b5df47da.dir
+      size: 2110529081
+      nfiles: 830
     outs:
     - path: data/inputs/datasets/breast-cancer/parsed_papers
       hash: md5
-      md5: 2d0a43e49d532a0032a9d62a2276bc17.dir
-      size: 14935187
-      nfiles: 285
+      md5: f024acfcba2c5e3bc3da6c762414144f.dir
+      size: 34880363
+      nfiles: 683
   parse_immuno_oncology:
-    cmd: python prepare.py parse --dataset immuno-oncology
+    cmd: python prepare.py parse --dataset immuno-oncology --recreate_parent true
     deps:
     - path: data/inputs/datasets/immuno-oncology/papers
       hash: md5
@@ -135,7 +135,7 @@ stages:
       size: 22178085
       nfiles: 443
   parse_neurodegenerative:
-    cmd: python prepare.py parse --dataset neurodegenerative
+    cmd: python prepare.py parse --dataset neurodegenerative --recreate_parent true
     deps:
     - path: data/inputs/datasets/neurodegenerative/papers
       hash: md5

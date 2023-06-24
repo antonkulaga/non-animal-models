@@ -38,31 +38,31 @@ stages:
   parse_ATMP:
     deps:
       - data/inputs/datasets/ATMP/papers
-    cmd: python prepare.py parse --dataset ATMP
+    cmd: python prepare.py parse --dataset ATMP --recreate_parent true
     outs:
       - data/inputs/datasets/ATMP/parsed_papers
   parse_CVD:
     deps:
       - data/inputs/datasets/CVD/papers
-    cmd: python prepare.py parse --dataset CVD
+    cmd: python prepare.py parse --dataset CVD --recreate_parent true
     outs:
       - data/inputs/datasets/CVD/parsed_papers
   parse_breast_cancer:
     deps:
       - "data/inputs/datasets/breast-cancer/papers"
-    cmd: "python prepare.py parse --dataset breast-cancer"
+    cmd: "python prepare.py parse --dataset breast-cancer --recreate_parent true"
     outs:
       - "data/inputs/datasets/breast-cancer/parsed_papers"
   parse_immuno_oncology:
     deps:
       - "data/inputs/datasets/immuno-oncology/papers"
-    cmd: "python prepare.py parse --dataset immuno-oncology"
+    cmd: "python prepare.py parse --dataset immuno-oncology --recreate_parent true"
     outs:
       - "data/inputs/datasets/immuno-oncology/parsed_papers"
   parse_neurodegenerative:
     deps:
       -  "data/inputs/datasets/neurodegenerative/papers"
-    cmd: "python prepare.py parse --dataset neurodegenerative"
+    cmd: "python prepare.py parse --dataset neurodegenerative --recreate_parent true"
     outs:
       - "data/inputs/datasets/neurodegenerative/parsed_papers"
   parse_respiratory:

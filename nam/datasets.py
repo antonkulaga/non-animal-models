@@ -55,8 +55,8 @@ class DatasetNAM:
         doi_col = pl.col(self.doi_cols[0])
         path_col = doi_col.apply(doi_to_path).alias("path")
         exist_col = path_col.apply(exists).alias("exists")
-        parsed_path_col = doi_col.apply(doi_to_parsed_path).alias("path")
-        parsed_exist_col = parsed_path_col.apply(exists).alias("exists")
+        parsed_path_col = doi_col.apply(doi_to_parsed_path).alias("parsed_path")
+        parsed_exist_col = parsed_path_col.apply(exists).alias("parsed_exists")
         return self.models.with_columns([path_col, exist_col, parsed_path_col, parsed_exist_col])
 
     def validate_downloads(self):
