@@ -16,14 +16,14 @@ class DatasetNAM:
     fields: pl.DataFrame
     dropdowns: pl.DataFrame
     papers_folder: Path
-    parsed_folder: Path
+    parsed_papers_folder: Path
     index_folder: Path
     dois: List[str]
 
     @property
     def doi_cols(self):
         result = [c for c in self.models.columns if "DOI" in c]
-        assert len(result) == 1, f"there should be only one DOI column, but there are {doi_cols}"
+        assert len(result) == 1, f"there should be only one DOI column, but there are {result}"
         return result
 
     def __init__(self, folder: Path):
@@ -32,8 +32,8 @@ class DatasetNAM:
         self.dropdowns = read_tsv(folder / "dropdowns.tsv")
         self.fields = read_tsv(folder / "fields.tsv")
         self.papers_folder = folder / "papers"
-        self.parsed_folder = folder / "parsed_papers"
         self.papers_folder.mkdir(exist_ok=True, parents=True)
+        self.parsed_papers_folder = folder / "parsed_papers"
         self.index_folder = folder / "index"
         self.index_folder.mkdir(exist_ok=True, parents=True)
 
@@ -49,13 +49,15 @@ class DatasetNAM:
             return self.papers_folder / (doi+".pdf")
 
         def doi_to_parsed_path(doi: str):
-            return self.papers_folder / (doi+".txt")
+            return self.parsed_papers_folder / (doi+".txt")
         def exists(string: str):
             return Path(string).exists()
         doi_col = pl.col(self.doi_cols[0])
         path_col = doi_col.apply(doi_to_path).alias("path")
         exist_col = path_col.apply(exists).alias("exists")
-        return self.models.with_columns([path_col, exist_col])
+        parsed_path_col = doi_col.apply(doi_to_parsed_path).alias("path")
+        parsed_exist_col = parsed_path_col.apply(exists).alias("exists")
+        return self.models.with_columns([path_col, exist_col, parsed_path_col, parsed_exist_col])
 
     def validate_downloads(self):
         total = len(self.dois)
