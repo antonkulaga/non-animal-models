@@ -2,15 +2,18 @@ from pathlib import Path
 
 import getpaper.parse
 import polars as pl
-from typing import List, OrderedDict, Optional
+from typing import List, Optional
+
+import tiktoken
 from getpaper.download import download_papers
+from collections import OrderedDict
 from getpaper.parse import parse_papers
 
 def read_tsv(path: Path):
     return pl.read_csv(path, sep="\t", infer_schema_length=10000, null_values=["N/A", "-", "null", "None"])
 
-class DatasetNAM:
 
+class DatasetNAM:
 
     models: pl.DataFrame
     fields: pl.DataFrame
@@ -19,6 +22,7 @@ class DatasetNAM:
     parsed_papers_folder: Path
     index_folder: Path
     dois: List[str]
+    default_model: str
 
     @property
     def doi_cols(self):
@@ -26,7 +30,9 @@ class DatasetNAM:
         assert len(result) == 1, f"there should be only one DOI column, but there are {result}"
         return result
 
-    def __init__(self, folder: Path):
+    def __init__(self, folder: Path, default_model: str = "gpt-3.5-turbo-16k"):
+        self.default_model = default_model
+        self.encoding = tiktoken.encoding_for_model(self.default_model)
         self.models = read_tsv(folder / "models.tsv")
         self.dois = self.models[self.doi_cols[0]].unique().to_list()
         self.dropdowns = read_tsv(folder / "dropdowns.tsv")
@@ -36,8 +42,6 @@ class DatasetNAM:
         self.parsed_papers_folder = folder / "parsed_papers"
         self.index_folder = folder / "index"
         self.index_folder.mkdir(exist_ok=True, parents=True)
-
-
 
     @property
     def extended_models(self):
@@ -52,12 +56,27 @@ class DatasetNAM:
             return self.parsed_papers_folder / (doi+".txt")
         def exists(string: str):
             return Path(string).exists()
+
+        def load_text(url: str):
+            where = Path(url)
+            if not where.exists():
+                return None
+            return where.read_text("utf-8")
+
+        def num_tokens(text: Optional[str]):
+            if text is None:
+                return None
+            return len(self.encoding.encode(text))
+
+        from getpaper.parse import num_tokens_openai
         doi_col = pl.col(self.doi_cols[0])
         path_col = doi_col.apply(doi_to_path).alias("path")
         exist_col = path_col.apply(exists).alias("exists")
         parsed_path_col = doi_col.apply(doi_to_parsed_path).alias("parsed_path")
         parsed_exist_col = parsed_path_col.apply(exists).alias("parsed_exists")
-        return self.models.with_columns([path_col, exist_col, parsed_path_col, parsed_exist_col])
+        text_col = parsed_path_col.apply(load_text).alias("text")
+        tokens_number = text_col.apply(num_tokens).alias("token_number")
+        return self.models.with_columns([path_col, exist_col, parsed_path_col, parsed_exist_col, tokens_number, text_col])
 
     def validate_downloads(self):
         total = len(self.dois)
@@ -83,7 +102,12 @@ class DatasetNAM:
         return succeeded
 
     def parse(self, destination: Optional[Path], strategy: str = "auto", cores: Optional[int] = None,  recreate_parent = True):
-        return getpaper.parse.parse_papers(self.papers_folder, destination, strategy=strategy, cores=cores, recreate_parent=recreate_parent)
+        return parse_papers(self.papers_folder, destination, strategy=strategy, cores=cores, recreate_parent=recreate_parent)
 
     def index(self):
         return self.papers_folder
+
+    def get_dropdowns_dictionary(self, columns: Optional[List[str]] = None) -> OrderedDict[str, List[str]]:
+        cols = self.dropdowns.columns if columns is None else columns
+        lists = [(col.lower().replace(" ", "_").replace("_/_", "_or_"), self.dropdowns.filter(pl.col(col).is_not_null()).select(col).to_series().to_list()) for col in cols]
+        return OrderedDict(lists)
