@@ -1,5 +1,31 @@
 # non-animal-models
-The code to experiment with non-animal models extraction
+
+This code is prototype of the extraction from non-animal models datasets.
+It is super-early and produces bad early results so far.
+
+# Progress update
+
+What has been done so far:
+* Micromamba environment with all required dependencies
+* DVC management of the datasets (all datasets are downloaded and DVC-controled)
+* Downloading most of the papers in existing datasets - 2585 papers has been downloaded so far
+* Parsing of the downloaded papers with 1613 papers has been successfully parsed, for others some issues can be fixed.
+*  Setting up classes to work with NAM datasets
+* Converting papers to OpenAI embeddings
+* Applying langchain prompts with ChatGPT API for classifications with configurable fields and clarifications
+* Tracking results with https://langchain.plus/
+## Datasets used in the prototype:
+
+Respiratory diseases: https://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/EURL-ECVAM/datasets/BiomedResearchReview/Respiratory_data%20catalogue_v2September2020.xlsx
+Neurogenerative diseases https://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/EURL-ECVAM/datasets/BiomedResearchReview/Neurodegenerative_data%20catalogue_v27April2021.xlsx
+Breast cancer https://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/EURL-ECVAM/datasets/BiomedResearchReview/Breast%20cancer_data%20catalogue.xlsx
+Immuno-oncology https://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/EURL-ECVAM/datasets/BiomedResearchReview/Immuno-oncology_data%20catalogue.xlsx
+Immunogenicity https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/EURL-ECVAM/datasets/BiomedResearchReview/ATMP_data_catalogue_v23March2022.xlsx
+Autoimmunity https://data.jrc.ec.europa.eu/dataset/700397b2-edd7-4ed6-86f7-fc1b164ed432
+Cardio-vascular diseases https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/EURL-ECVAM/datasets/BiomedResearchReview/Carciovascular_data_catalogue_v29September2022.xlsx
+
+
+# Getting started
 
 To create environment use micromamba:
 ```bash
