@@ -16,13 +16,13 @@ What has been done so far:
 * Tracking results with https://langchain.plus/
 ## Datasets used in the prototype:
 
-Respiratory diseases: https://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/EURL-ECVAM/datasets/BiomedResearchReview/Respiratory_data%20catalogue_v2September2020.xlsx
-Neurogenerative diseases https://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/EURL-ECVAM/datasets/BiomedResearchReview/Neurodegenerative_data%20catalogue_v27April2021.xlsx
-Breast cancer https://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/EURL-ECVAM/datasets/BiomedResearchReview/Breast%20cancer_data%20catalogue.xlsx
-Immuno-oncology https://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/EURL-ECVAM/datasets/BiomedResearchReview/Immuno-oncology_data%20catalogue.xlsx
-Immunogenicity https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/EURL-ECVAM/datasets/BiomedResearchReview/ATMP_data_catalogue_v23March2022.xlsx
-Autoimmunity https://data.jrc.ec.europa.eu/dataset/700397b2-edd7-4ed6-86f7-fc1b164ed432
-Cardio-vascular diseases https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/EURL-ECVAM/datasets/BiomedResearchReview/Carciovascular_data_catalogue_v29September2022.xlsx
+* [Respiratory diseases](https://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/EURL-ECVAM/datasets/BiomedResearchReview/Respiratory_data%20catalogue_v2September2020.xlsx)
+* [Neurogenerative diseases](https://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/EURL-ECVAM/datasets/BiomedResearchReview/Neurodegenerative_data%20catalogue_v27April2021.xlsx)
+* [Breast cancer](https://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/EURL-ECVAM/datasets/BiomedResearchReview/Breast%20cancer_data%20catalogue.xlsx)
+* [Immuno-oncology](https://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/EURL-ECVAM/datasets/BiomedResearchReview/Immuno-oncology_data%20catalogue.xlsx)
+* [Immunogenicity](https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/EURL-ECVAM/datasets/BiomedResearchReview/ATMP_data_catalogue_v23March2022.xlsx)
+* [Autoimmunity](https://data.jrc.ec.europa.eu/dataset/700397b2-edd7-4ed6-86f7-fc1b164ed432)
+* [Cardio-vascular diseases](https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/EURL-ECVAM/datasets/BiomedResearchReview/Carciovascular_data_catalogue_v29September2022.xlsx)
 
 
 # Getting started
