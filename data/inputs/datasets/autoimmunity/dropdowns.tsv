@@ -1,0 +1,185 @@
+First Author Name	Year of Publication	Link to Abstract (DOI)	Disease area	Disease feature	Cell Source	Category	Type	Cells	Culture type	Dimensions	3D	Ex vivo	Application	Biological endpoint																	Status	Throughput	Content	Relevance	Predictive	Potential
+Alsaleh, G.	2014	10.4049/jimmunol.1400160	Pemphigus Foliaceus	Angiogenesis	B cells	In silico	Cells	Stem cells	Culture Co-culture	2.5D	Spheroid	Biopsies	Disease therapy develop	ROS, dermal-epidermal separation																	Proof of Concept	High	High	Supportive	No	n/a
+Angiolilli, Chiara	2015	10.1002/cpph.56	Psoriasis	Apoptosis	B cells 	In vitro	Algorithms	Immortalized cells	Culture	2D	Organoid	Organ slice	Diagnosis of disease	Protocol for model																	In research use Qualified internally	Medium	Medium	Direct	Yes	Yes
+Annunziata, Pasquale	2016	10.1117/1.JBO.20.6.067004	Systemic sclerosis	Autoantigen/Autoantibodies	B lymphocytes		Computational	Primary cell culture & Stem cells	Co-culture	2D 2.5D	Organ slice	Whole organ	Model/method qualification	Molecular distribution																	In research use Qualified externally	Low	Low		n/a	No
+Alahgholi-Hajibehzad, M.	2017	10.1111/all.13131	Epidermolysis bullosa acquisita	Autoantigen/Autoantibodies pathogenesis	Caco-2 epithelial colorectal cells		Ex vivo		MPS	2D 3D	Whole organ		Disease mechanism (exp/theor)	Dermal-epidermal separation																	Qualified externally					
+Aghili, B.	2018	10.1111/all.13376	Bullous pemphigoid	Cardiac pathophysiology	CD34+ cells		Cells/Ex vivo	Primary cell culture		2D 3D			Drug develop/ testing	Dermal-epidermal separation, MMP-9																	In research use Qualified internally/externally					
+Alvarez-Sanchez, Nuria	2019	10.1016/j.jdermsci.2016.12.010	Pemphigus vulgaris	Channels kinetic	Colonic crypts		Mathematical	Immortalized cells & Primary cell culture		3D				Dsg1, Dsc1, PG, desmosomal length, structural changes, dissociation																	In research use					
+Salvi, Valentina		10.18632/oncotarget.12487		Cytokine physiology	CRL-4025 dermal microvascular epithelial cells 									Cell viability, IL-6, TNFa, MMP-1, MMP-3, mPEGS-1, COX-2, p38, p-JNK, p-ERK, IkB-a, HO-1, Nrf2																	Qualified internally					
+Sisto, Margherita		10.1016/j.phrs.2016.09.031	Autoimmune rheumatic diseases	Cytotoxicity	Epidermal keratinocytes 									TNF-a activity																						
+Li, D.-G.		10.1016/j.celrep.2016.12.006	Systemic lupus erythematosus	DCs physiology	Erythrocytes									CD4+ T cells migration, CCR1, CXCR3																						
+Piscianz, E.		10.1691/ph.2017.6946	Anti-Ro autoimmune diseases	Enteropathy	ES/hiPS-derived pancreatic endocrine cells									Cell invasion, tube formation and inflammatory markers.																						
+Liu, Dongmei		10.1016/j.mbs.2017.03.006	Rheumatoid arthritis and osteoarthritis	Fibrosis	ESC-derived insulin producing cells									Muscle movement, calcium transients, action potentials, vimentin, GFAP, synaptophysin, BTX, C3, LDH assay																						
+Liu, Wenjie		10.1016/j.jim.2015.08.014	Juvenile idiopathic arthritis	Hematopoietic and mesenchymal lineages differentiation	Fetal pancreatic tissue									MSL2 expression.																						
+Chen, James C.		10.2500/aap.2018.39.4113	Alopecia areata	Hematopoietic system	Fibroblast-like limbal stem cells									Lymphocyte proliferation, FOXP3+ CD4+ T cells																						
+Iizuka-Koga, M		10.1167/iovs.18-25466	Primary biliary cirrhosis	Immune activation	Fibroblast-like synoviocytes									S1P, ceramide, sphingosine, sphingolipid pathway enzymes activity, T cell migration assay																						
+Su, Xiaohui		10.1186/s12906-017-2035-2	Graves' ophthalmopathy	Insulin production										Reverse pro-inflammatory profile																						
+Kim, J.Y.		10.1021/acs.biomac.5b01097	Vitiligo	Lipid/protein distribution	Fibroblasts 									Antigen binding specificity																						
+Ge, Fei		10.1111/jdv.12929	Celiac disease	NETosis	H69 immortalized biliary epithelial cells 									IL-6, IL-8, STAT3, p-STAT3, NFkB p65, HSP70, VDR																						
+Sisto, M.		10.1039/c7fo00210f	Type 1 diabetes	Osteoclast differentiation	H9 ES/iPS-derived neurons 									Monocytes subtypes frequency, CD80, HLA-DR, IL-17A, IFN-g, T cell subtypes frequency																						
+Matsuda, S.		10.1074/jbc.M115.668061	Myasthenia gravis	Pro-inflammatory phenotype	HaCaT keratinocytes									IDO, TGFb, Kynurenine, FOXP3																						
+Iwamoto N		10.1186/s13287-017-0611-5	Rheumatoid arthritis and Systemic sclerosis	T cell dynamics	HEK293									Phenotyping, HLAG, TGFb, IDO, COX2, HGF, PDL1, FAS, FASL, MCP-1, IL-6, AIRE, IFN-g, IL-4, IL-17, RORgT, cell proliferation, mixed leukocyte reaction, cell cycle, Treg subtypes																						
+Ren, S.		10.1136/annrheumdis-2015-209064	Lymphocyte-induced autoimmune diseases	Target discovery	HeLa 									CCL2																						
+Furini, Federica		10.5021/ad.2018.30.5.566	Chronic immune thrombocytopenia purpura	Vascular pathophysiology	HET-1A esophageal squamous epithelial cells									IL-6, IL-1b, TNFa, cell viability, FFAR2, FFAR3																						
+Peng, Zhixi		10.3389/fimmu.2018.02901	Ankylosing spondylitis		HMEC-1 microvascular endothelial cells 									Apoptosis, cell viability, lncRNA GAS5																						
+Steinbeck, J.A.		10.1186/s13075-015-0824-x	Several		iPS-derived hematopoietic precursor cells									Characterization reprograming and differentiation																						
+Khansai, Manatsanan		10.1073/pnas.1413970111	Behçet’s disease		iPS-derived insulin producing cells									Outcome of drug treatment																						
+Kim, Y.		10.1177/1352458516664210	Non-infectious uveitis		iPSCs									Pro-inflammatory activation of monocytes and B lymphocytes by TLR stimulation																						
+Miyazaki, Yusuke		[[ @WOS:000390406200005 ]]	Sjögren’s syndrome		Jurkat T lymphocytes 									Proliferation, STAT1, STAT3, SOCS1, SOCS3																						
+Mathias, Amandine		10.1371/journal.pone.0106895	Idiopathic pulmonary fibrosis		Keratinocytes 									NO, cell viability, cell activity																						
+Janes, Tiffany M.		10.1093/imammb/dqt005	Autoimmune polyglandular syndrome 1		Leukocytes									Hypothalamus-pituitary-thyroid feedback																						
+Bouchi, R.		10.1016/j.stemcr.2018.02.005	Allergy		Lymph node stromal cells 									Progenitor and proliferation markers, insulin, human C-peptide																						
+Ferreira, T.B.		10.3389/fimmu.2016.00578	Autoimmune inflammatory arthritis		Lymphocytes 									Cell viability, TLR2, TLR3, TLR9, HMGB1, RAGE, TNF-a, IL-6, IL-10, TRIF, MyD88																						
+Coppola, Antonina		10.1016/j.ejphar.2017.05.018	Pernicious anaemia		Macrophages									Reverse pro-inflammatory activation																						
+Khawaja, Akif A.		10.1016/j.cellsig.2014.03.029	Rheumatoid arthritis		Melanocytes									S1P1, S1P1R, SPL, ponesimod, internalization																						
+Sacramento, Priscila M.		10.3892/mmr.2017.6150	Autoimmune diseases		MH7A synovial fibroblasts									IL-6, CD63, CD81, HSP70, exosomal RNA																						
+Luisa Castejon, Maria		10.1111/cei.13006	Aplastic anemia		Monocyte-derived DCs									TNF-a, IL_17, IFN-g, IL-10, Treg levels																						
+Benchabane, Sarah		10.1038/srep35145	Aicardi-Goutières syndrome		Monocyte-derived macrophages									Pancreatic islets markers, insulin, c-peptide, intracellular calcium, morphology																						
+Giusti, Delphine		10.3390/cells8040348	Autoimmune pancreatitis 		Monocytes 									Apoptosis, autophagy, intracellular PT-giladin																						
+Lovewell, Thomas R. J.		10.4049/jimmunol.1301555	Antiphospholipid syndrome		Mononuclear cells									Migration assay, C5a, cytokine/chemokine array, extracellular glutamate, morphology/volume astrocytes																						
+Seren, S.		10.1371/journal.pone.0201851	Multiple sclerosis		MSCs									IL-6, IL-8, nanoparticle uptake																						
+Elliott, T R		10.1097/MPA.0000000000000480	Rheumatic diseases		Myoblasts 									Characterize eotaxin-3 expression																						
+Hilderink, J		10.3389/fendo.2018.00591	Hashimoto's thyroiditis		Neutrophils									IL-36a, IFN-g, TNF-a, IL-6, IL-17A																						
+Ciechomska, M.		10.1161/CIRCULATIONAHA.115.009800	Granulomatosis with polyangiitis		Orbital fibroblasts									Delayed potassium currents, HERG																						
+Rongna, A.		10.17219/acem/75611	Grave’s disease		Pancreatic myofibroblasts									Cell viability and apoptosis.																						
+Ao, R.-B.Y.		10.1136/annrheumdis-2014-205326	Autoimmune thyroid disease		PBMCs 									Urokinase-type plasminogen activator expression, proliferation, apoptosis.																						
+Chen, Wei-Ping		10.1016/j.jtbi.2015.05.033	Inflammatory bowel disease		Peripheral blood lymphocytes									Immune system interactions with hair follicle																						
+Romano, Eloisa		10.3892/ijmm.2018.3883	Lupus nephritis		Peripheral polymorphonuclear cells									Cell proliferation and apoptosis. SOCS3 levels.																						
+Moise, Nicolae		10.3892/mmr.2018.8567	Neuromyelitis optica spectrum disorder		Plasmacytoid DCs									Proliferation, IL-17, IL-23																						
+Hahnlein, Janine S.		10.1016/j.thromres.2016.10.028	Graves' orbitopathy		Primary human islets									IFN-g, IL-2, IL-4, IL-13. G-CSFR, T-bet, GATA-3, apoptosis																						
+Lee, J		10.1080/08820139.2016.1208216	Vogt-Koyanagi-Harada disease		Salivary gland epithelial cells									IL-17, cell viability, RORgt, IFN-g, Foxp3, IL-2c, IL-21, p-p38, elF-4E																						
+Li, Hong		10.1007/s12026-018-9008-5			Salivary gland stem cells									T cell proliferation, IFNg, IL-6, IL-10, IL-17, IL-22																						
+Banerjee, Poulomi		10.1039/c8lc00202a			Skin									Leukocyte adhesion																						
+Matteucci, L.		10.1155/2017/5968618			Skin fibroblasts 									Keratinocyte proliferation, IFN-g, IL-1b, IL-17F, TNF-a, IL-6, CXCL8, STAT1, 																						
+Di Mitri, D.		10.2174/1871530316666160819133111			SW982 synovial fibroblasts									Apoptosis																						
+Fu, Qiang		10.1089/scd.2016.0181			Synovial fibroblasts									AGTR2, CA9, CD44, CXCL1, HTN3, IL-2, PTGER4, and TSLP gene expression.																						
+de Graauw, E.		10.3389/fphar.2018.00004			Synovial fibroblasts 									IgD-IgDR affinity, PBMC and CD4+ T cell proliferation, IgDR, p-Lck, T cell activation, IL-1a, IL-1b, IL-6, IL-8, TNF-a																						
+Junker, Fabian		10.1002/art.39418			Synovial stromal cells									CD8+ and CD4+ effector T cell proliferation																						
+Kim, A.		10.4049/jimmunol.1601649			T cells									GM-CSF, TNF-a, IL-6, IL-10, B cell subtypes, apoptosis, p-STAT5/6, NF-kB activity																						
+Chen, Yiyue		10.1016/j.cels.2015.11.001			TEC 1A3 thymus cells									Cytotoxicity; IKZF1 and DLX4 levels.																						
+Jatczak-Pawlik, Izabela		10.4049/jimmunol.1700473			THP-1 monocytes 									Vimentin, CD4+ T cell proliferation, anti-vimentin IgG, IL-4/TGFb1/IL-17+ T cells																						
+Bolkhovskaya, O.V.		10.1089/scd.2016.0115			Thymic cells									Get functional insulin producing cells																						
+Fujimoto, Takehide		10.1080/08923973.2018.1474921			Thymic-derived cells									IL-1b, IL-6, TNF																						
+Chen, Nan		10.1093/imammb/dqx009			Thyrocytes									Immune cells autoreactive dynamics with hair cycle																						
+Ploehn, Svenja		10.1016/j.chembiol.2017.07.011			U937 histiocytic lymphoma cells 									Cell cycle, alkaline comet assay, POLA1, POLD1, POLE																						
+Hu, Jianping		10.3892/mmr.2016.5570			UC-MSCs									Cell viability, apoptosis, IL-6, IL-8, IL-10, ICAM-1, COX-2, PGE2, IkBa, p-IkBa																						
+Dobreva, A.		10.1371/journal.pone.0198644			Villous trophoblasts									Complement system																						
+Kotsiou, Eleni		10.32598/bcn.9.6.458			Eosinophils									T-bet/Gata-3 expression 																						
+Molins, B.		10.1136/jim-2016-000176			Keratinocytes									Cell cycle, proliferation.																						
+Azimi, Maryam		10.1016/j.stem.2017.07.009			T cells 									ssDNA, L1, LINEs, retrotransposition, neuronal markers, apoptosis, organoid viability, IFNb, IFNa, p-IRF3, interferon stimulated genes																						
+Clottu, Aurelie S.		10.1038/mt.2016.64			Explanted dermal microvascular endothelial cells									Treg proliferation, Treg phenotype, supressive function, migration																						
+Medrano-Campillo, P.		10.3892/ol.2017.6834			THP-1 monocytes									Proliferation, cell viability, NE, Trappin-2, IL-6, IL-8, ICAM-1																						
+Cao Xianbing		10.1016/j.ajog.2019.02.058			PBMCs									IgG transfer																						
+Barygina, Victoria		10.1002/art.40659			Induced neural cell-derived astrocytes									EpCAM, organoid forming efficiency, a-amylase, cell cycle gene expression, GLB1L2, telomere length, EGFR																						
+Kannan, Venkateshan		10.5114/reum.2017.72623			Lung fibroblasts									PY2K, p-PY2K, CD40L, CTLA-4, PBMC proliferation																						
+Oza, Harshal B.		10.1111/bjd.16560			Adult pancreatic tissue									Interactions of keratinocytes, T cells and dendritic cells																						
+Gies, Vincent		10.3389/fimmu.2019.00701			Neutrophils 									NET formation																						
+Tao, T.		10.1016/j.jsbmb.2017.01.017			Dermal fibroblasts									Cytokine/Chemokine array, NF-kB activity, RKIP																						
+Pandiyan, B.		10.3994/mbe.2018032			Endothelial cells									VCAM-1, ICAM-1, LTbR, IL-7, BAFF, IL_6, CXCL12, CCL19, CCl21, CXCL13, NO, T cell proliferation																						
+Navabi, Fereshteh		10.1016/j.biopha.2018.04.145			CD14+ monocytes									Teff proliferation, IL-17, IFNg, CD73, p-AMPK, p-mTOR																						
+Kundu-Raychaudhuri, Smriti		10.1111/jpi.12442			DCs									Dopamine induced activation of T cells																						
+Pandiyan, Balamurugan		10.3892/mmr.2016.5263			APCs									NK cell ligands, NK cell receptors, cell viability, degranulation																						
+Lin, M.		10.1039/c8ay00870a			Umbilical artery smooth muscle cells 									BBB disruption and infiltration																						
+Byun, Jung Woo		10.1016/j.stem.2015.07.010			Monocytes									Mini-guts/spheroid formation, Wnt/Notch signaling pathways and apoptosis.																						
+Palizgir, Mohammad Taghi		10.1007/s11424-016-5198-x			Thyroid cells									T-cell modulation																						
+Serr, I.		10.1186/ar4579			Placenta									Cell viability, IL-6, IL-8, IL-1b, TNF-a, NF-kB signaling pathway, MAPK signaling pathway																						
+Roy, Sucharita		10.1002/jcb.28442			HT-29 epithelial colorectal cells									Proliferation and apoptosis.																						
+Drehmer, M.N.		10.1016/j.cyto.2015.12.020			Jurkat T-lymphocytes									CD3+ T cell proliferation, apoptosis																						
+Recke, A.		10.4049/jimmunol.1700719			AT5B1 fibroblasts 									RA FLS proliferation, apoptosis, cell cycle, Bcl-2, Bax, PARP1, CCND1, P21, STAT3, p-STAT3, P65, p-P65, P50, p-P50, P105, p-P105																						
+Svegliati, S.		10.1016/j.jtbi.2018.10.039			Astrocytes									Cell viability, IL-6, TNF-a, NO, iNOS, NF-kB signaling party																						
+Faigle, Wolfgang		10.1038/s41598-018-37852-5			Umbilical vein endothelial cells									Neutrophil adhesion, neutrophil migration, DNA release, NETosis																						
+Seiffert-Sinha, K.		10.1038/srep32669			Melanocytes 									Proliferation, TNF-a, IL-1b, IL-6, miR-451. p38 MAPK																						
+Paolella, G.		10.1186/s13075-018-1529-8			CD34+ hematopoietic stem cell-derived neutrophils									TRAP+ cells																						
+Asghar, Kashif		10.1111/bjd.15151			NKs									Apoptosis, HMGB1, melanin																						
+Manzar, G.S.		10.1111/cei.12479			Epithelial cells									Block internalization of anti-mithocondrial antibodies that induce mithocondrial dysfunction																						
+Khoryati, Liliane		10.3389/fimmu.2019.00540			CCL-75 lung fibroblasts									T cell proliferation, IFN-g																						
+Burmester, Imke A K		10.1038/ncomms5242			NK cells (Nishi)									Insulin, c-peptide, differentiation characterization, enteroendocrine cell subtypes																						
+Lawless, Oliver J.		10.1016/j.bbi.2014.05.013			H9 ES-derived motor neurons 									IL-4																						
+Manai, Federico		10.3389/fimmu.2018.01694			Jurkat T lymphocytes									Cell-cell junction structure, elasticity, apoptosis																						
+Piatek, Pawel		10.1186/s13075-016-1003-4			COLO320DM intestinal epithelial cells									IL-1b, TNFa, IL-18, PGE2, NO, iNOS, COX-2, NF-kB/NLRP3 signaling pathway, SOD, MDA																						
+Aparicio-Soto, M.		10.3390/genes10020075			BJAB B cells									COL22A1, COL1A1, fibronectin, ACTA2, CTGF, differential gene signature expression																						
+Campbell, Nicole K.		10.1074/jbc.M117.784280			Lymphocytes									Get funcional insulin producing cells																						
+Bu, Xiaolin		10.1039/C8LC01298A			Pulmonary artery smooth muscle cells									Cell viability, differentiation characterization, insulin, calcium transients																						
+Rutman, Alissa K.		10.26355/eurrev_201802_14370			UC blood-endothelial cells									Characterization differentiation																						
+Takamura, Yosuke		10.1186/ar4470			HeLa									IL-15																						
+Liang, Wenli		10.1002/eji.201847525			HEK293T									Interaction of immune system and CNS																						
+Petrelli, A.		10.3892/ijmm.2016.2755			Brain endothelial cells									Apoptosis, cell proliferation, TNF-a signaling pathway, IL-6																						
+Loomans, C.J.M.		10.1016/j.stem.2015.10.002			Synovial fluid mononuclear cells									Apoptosis, cell viability, AChR antibody, IgG																						
+Petho, Zoltan		10.1042/BSR20180626			Islets									Cell viability, NO, iNOS, PGE2, COX-2, TNF-a, IL-6, TLR4, MyD88, NF-kB activation																						
+Leroy, Marie		10.1111/imm.12497												CD8+CD4+ T cell/Memory B cell migration, 																						
+Morin, Caroline		10.1155/2018/2310970												Cell viability, HO-1, DC maturation, phagocytic activity, IL-12, IL-23, TNF-a, IL-10, pro-IL-1b, p-MAPK/ERK/p38, CD4+ T cell proliferation																						
+De la Cruz-Mosso, U.		10.3389/fimmu.2018.01663												mTEC markers, AIRE, PRDM1, FEZF2, a-AChR, TG, PLP, GAD67, IL-6, CCL21, CCL19, TGF-b																						
+Sur Chowdhury, C.		10.2478/caim-2019-0003												DC activation																						
+Roy, Amit Kumar		10.1111/jcmm.12564												Cell cycle, proliferation and apoptosis.																						
+Jaberi-Douraki, M.		10.1186/s12967-016-0917-6												Permeability																						
+Huhtakangas, Johanna A.		10.1167/iovs.15-19037												ROS, HO-1, hyaluronan, adipocytes, PPAR-g, c/EBP-a, c/EBP-b																						
+Etesam, Zahra		10.3389/fimmu.2018.01380												Gene expression array, STAT1																						
+Li, Guoqing		10.1007/s10753-018-0872-x												T cell proliferation, apoptosis																						
+Clemente Ximenis, Antonio		10.1016/j.exphem.2018.10.003												Hematopoiesis-related gene expression																						
+Lorthois, Isabelle		10.1002/jcb.27838												Tresp cell proliferation, IL-2, IL-4, IL-6, IL-17A, IL-10, IFN-g																						
+Chen, Yumay		10.1038/s41419-019-1448-x												TRAP, CTSK, NFATc1, p-p65, p-JNK, p-p38, p-AKT, p-ERK, cytokine array, CXCL5, bone resorption assay, miRNA array, luciferase assay, miR-4284																						
+Chen, Z.		10.1371/journal.pone.0108658												T cell clonal size distributions																						
+Chen, Kun		10.1016/j.jid.2016.04.004												Spot forming cells, CD8+/IFNg+ cells, apoptosis, inflammatory cytokines																						
+Cohen S		10.1007/s10528-016-9752-y												Modulation of the expression of B-cell activation factor 																						
+Li, Fu Jun		10.1016/j.pjnns.2016.02.003												Inhibition of Th1 cells activation																						
+Peng, Shiqiao		10.1111/imm.12271												IL-21, AICDA, IgG BCL6, XBP1, p-Btk, p-STAT1, pSTAT3																						
+Rezaei, N.		10.1016/j.biopha.2019.108875												Cell viability, IL-6, MMP-1, MMP-3, MMP-13, MAPK signaling pathway, NF-kB activation, 																						
+Kong, Xiaotong		10.1007/s11481-015-9589-x												Cytokine expression, NK1R, TAC1																						
+D'Addio, F.		10.1016/j.jim.2017.12.002												T cell proliferation, IFN-g, T cell subtypes frequency																						
+Son, M.Y.		[[ @WOS:000368140100086 ]]												Degradation of the cartilage and increase of the synovial membrane																						
+Li, Rui		10.1016/j.jneuroim.2016.12.009												ATP release, NO																						
+Pan, Fang		10.1080/00207179.2016.1217566												PBMC proliferation, CD25, cytokine/chemokine array																						
+Pennisi, Marzio		10.1093/rheumatology/keu532												Cell invasion																						
+Qu, Yuan		10.1038/cmi.2015.63												RA FLS proliferation, apoptosis, cell cycle, p-4E-BP1, p-p70s6k, IGF-IR, PI3K, AKT, m-TOR, p-mTOR																						
+Nielsen, N.		10.1038/s41598-018-28488-6												Psoriasis outcome																						
+Pringle, Sarah		10.3892/mmr.2018.9422												Protein acetylation, cell viability, IL-1b inducible genes, IL1-b																						
+Dobreva A		10.1016/j.jid.2017.03.016												Granzyme B, NK cytotoxicity																						
+Gomez, A.M.		10.1007/s00726-016-2307-z												Peptide uptake, TG2, enzyme activity																						
+Sun, Xiaotong		10.1371/journal.pone.0109775												BAFF, miR-30a-3p, luciferase assay, IL-6, cell viability																						
+Hartwell, Brittany L.		10.1016/j.imlet.2015.03.010												Proliferation																						
+Jones, Albert R.		10.12659/MSMBR.890644												COX-2, HSP90b, IL-8, TLR-4, IL-23a, IL-1b, TNF-a, BAX, FAS, BCL-2																						
+Mi-Young Son		10.3390/ijms20071670												Proliferation, cell cycle, apoptosis, CXCL11, Hedgehog signaling pathway related genes																						
+Hirigoyen, Daniela		10.1186/s12976-017-0073-6												Treatment outcome																						
+Cipriani, Paola		10.1007/s10916-017-0688-5												Classification of subjects																						
+Santa, Kazuki		10.1002/2211-5463.12326												Inhibit cytokine expression																						
+Hao, W.		10.1074/jbc.RA118.001922												PR3 expression.																						
+Gatfield, J.		10.1016/j.humimm.2015.10.001												Teff cells proliferation, TNFa, IFNg, IL-17A, IL-6, IL-10, IL-4																						
+Wardwell, Patricia R.		[[ @WOS:000406493100001 ]]																																		
+Wang, W.		10.1002/art.39679												Robo4, Robo1, Slit2, cell viability, tube formation, wound healing assay																						
+Wang, Zhan-Chao		10.1002/jcb.26155												COL1A1, a-SMA, p-SMAD1/5, p-SMAD2/3, p-TbRI, ET-1, ETAR/TbRI immunoprecipitation																						
+Wang, S.-P.		10.1002/jcp.27878												WIF-1, COL1A1, ROS, ATF-3, c-Jun																						
+Vilhena, Joao		10.1002/mnfr.201601080												tubule length, endothelin-1, VEGF, a-smooth muscle actin, fibroblast proliferation																						
+Wang, E.H.C.		10.1007/s10238-016-0429-y												Cell viability, FOXP3, BAFF, IFN-γ, TNF, IL-2, IL-5, IL-10, IL-9, IL-17, IL-1b, IL-6, Tregs subtypes, HIOMT																						
+Wang, F.		10.1016/j.bcp.2017.10.001												IL-10, STAT3																						
+Zhang, Xiaoqi		10.1016/j.cellimm.2017.12.010												DNMT1 levels in CD4+T cells																						
+Wu, Yu-jing		10.1016/j.jdermsci.2015.05.003												CD4+CD25- T resp cells proliferation																						
+Yun, Su Jin		10.1016/j.jdermsci.2017.03.006												Inhibit proteolytic activity of Cathepsin S in lymphoid and myeloid cells																						
+Totzke, J.		10.1016/j.jtbi.2015.07.032												TLR9, CD19, CD21, CD86+CD69+ B cells, TACI+CD25+ B cells, IL-6, IL-10, TNF-a, CD80+VD86+ pDC, MHCII																						
+Thomas, C.A.		10.1016/j.stemcr.2017.04.010												IL-1b, IL-6, intracellular calcium concentration, P2X7R, NLRP3																						
+Tukaj, S.		10.1038/emm.2016.27												TLR3, TLR7, TLR9																						
+Villegas, Jose A.		10.1080/08923973.2017.1418881												Pro-inflammatory pathways																						
+Zhu, Jin		10.1080/09273948.2018.1433306												IL-1b, IL-6, TNFa																						
+Vilisaar, Janek		10.1111/cei.12737												Morphology, M1/M2 phenotype markers, IL-1b, IL-6, TNF-a, IL-10, endocytosis, phagocytosis, apoptosis, MerTK																						
+Yoshida, K.		10.1111/exd.12671												Beta-cell death																						
+Wang, Meiying		10.1111/imm.12288												IL-9, IL-17, IFN-g, PBMC proliferation																						
+Yan, Z. F.		10.1111/jcmm.12555												CD8+CLA+T cell proliferation, TGFb, IL-10																						
+Yue, Yuankun		10.1111/jpi.12208												TIMP-1, MMP-1, TGF-β and TAB1 levels.																						
+Yao, Qiu-ming		10.1126/scisignal.2004592												FcɛRI, HLA-DR, CD86, CCR7, IFNa, intracellular calcium																						
+Watanabe, Tomoya		10.1126/scitranslmed.aag1782												Induce pro-inflammatory cytokine expression																						
+Vogelsang, P.		10.1136/annrheumdis-2018-213239												Immune activation.																						
+Trzybulska, Dorota		10.1159/000445625												Extracellular vesicles uptake, IL-6, IL-1b, TNF-a, IL-10, IL-4, IL-17, IFN-g, lymphocyte proliferation, CD69, GAD65 antibody																						
+Yan, K.		10.1172/jci.insight.96795												IL-35, IL-17, IFN-g, IL-6, IL-1b, TNF-a																						
+Xu, M.		10.1186/ar4682												IL-17, Th17 cells																						
+Yousefi, Bahman		10.1186/s13075-015-0754-7												ROS, enzyme activity, cell cycle, cell viability																						
+Thanei, Sophia		10.1186/s13075-015-0848-2												Cytotoxicity, FCM assay, CDC activity, ADCC activity																						
+Yazdanpanah, Esmaeil		10.1210/en.2018-00649												miR-98 and Fas levels. Apoptosis of T cells.																						
+Yoon, B.R.		10.1371/journal.pone.0111266												Lipid accumulation, LC-CoA, fatty acid oxidation, reduced NADPH, O2 consumption, lipid peroxidation																						
+Zewde, Nehemiah		10.1371/journal.pone.0115596												Cell viability, insulin secretion test																						
+Wang, Lin		10.1371/journal.pone.0188474												Fibronectin, vimentin, E-cadherin, CK-7, Keratin-5, p-SMAD, p-ERK, MMP2, MMP9, Collagen 1, Ras, Raf, ZO-1, IL-6, IL-10																						
+Wu, Z.		10.1684/ejd.2014.2436																																		
+Xie, Lin		10.3109/09273948.2013.854391																																		
+Ye, Zhao		10.3389/fphar.2019.00435																																		
+		10.3892/mmr.2016.5354																																		
+		10.3899/jrheum.171290																																		
+		10.4049/jimmunol.1501659																																		
+		IJIv12i4A2																																		

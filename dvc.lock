@@ -164,3 +164,109 @@ stages:
       nfiles: 275
   draw_pipeline:
     cmd: dvc dag --dot | dot -Tsvg -o dvc_pipeline.svg
+  stats_ATMP:
+    cmd: python prepare.py stats --dataset ATMP --access data/inputs/datasets/ATMP/access.json
+    deps:
+    - path: data/inputs/datasets/ATMP/models.tsv
+      hash: md5
+      md5: 32f127a139be3957fe06480dd5caa9e6
+      size: 25280
+    outs:
+    - path: data/inputs/datasets/ATMP/access.json
+      hash: md5
+      md5: b31c8f09000892cff0fa7c6264ede8c2
+      size: 38229
+  stats_CVD:
+    cmd: python prepare.py stats --dataset CVD --access data/inputs/datasets/CVD/access.json
+    deps:
+    - path: data/inputs/datasets/CVD/models.tsv
+      hash: md5
+      md5: 982fbb273f2b3860c06188c537e34456
+      size: 117001
+    outs:
+    - path: data/inputs/datasets/CVD/access.json
+      hash: md5
+      md5: 18cdc8d8f7a2ef13c8d5b8acc17a417b
+      size: 186679
+  stats_breast_cancer:
+    cmd: python prepare.py stats --dataset breast_cancer --access data/inputs/datasets/breast_cancer/access.json
+    deps:
+    - path: data/inputs/datasets/breast_cancer/models.tsv
+      hash: md5
+      md5: 4fd66c0fb66a8616f3fd02c7e8ed6a9d
+      size: 249074
+    outs:
+    - path: data/inputs/datasets/breast_cancer/access.json
+      hash: md5
+      md5: 82c8f0183b3987f6340fbccfb5983054
+      size: 384800
+  stats_immuno_oncology:
+    cmd: python prepare.py stats --dataset immuno_oncology --access data/inputs/datasets/immuno_oncology/access.json
+    deps:
+    - path: data/inputs/datasets/immuno_oncology/models.tsv
+      hash: md5
+      md5: 9ba01f5c59eeac80526d7e7196799d6f
+      size: 168291
+    outs:
+    - path: data/inputs/datasets/immuno_oncology/access.json
+      hash: md5
+      md5: a47e2d0945a0fb2b482426e2ddbc19fa
+      size: 235485
+  stats_neurodegenerative:
+    cmd: python prepare.py stats --dataset neurodegenerative --access data/inputs/datasets/neurodegenerative/access.json
+    deps:
+    - path: data/inputs/datasets/neurodegenerative/models.tsv
+      hash: md5
+      md5: 7e0eb6a04a2ce6a628530baa165f4451
+      size: 240657
+    outs:
+    - path: data/inputs/datasets/neurodegenerative/access.json
+      hash: md5
+      md5: 00cf8f7882acd7f75d85088582ab3af7
+      size: 72679
+  stats_respiratory:
+    cmd: python prepare.py stats --dataset respiratory --access data/inputs/datasets/respiratory/access.json
+    deps:
+    - path: data/inputs/datasets/respiratory/models.tsv
+      hash: md5
+      md5: 39fa700e9996f3cbe8bf336c53aecbb9
+      size: 335375
+    outs:
+    - path: data/inputs/datasets/respiratory/access.json
+      hash: md5
+      md5: 3001be02f8d653390e8a0ced2719804d
+      size: 121108
+  stats_all:
+    cmd: jq -s 'reduce .[] as $item ({}; . * $item)' 
+      data/inputs/datasets/{ATMP,CVD,breast_cancer,immuno_oncology,neurodegenerative,respiratory}/access.json
+      > data/inputs/datasets/access_all.json
+    deps:
+    - path: data/inputs/datasets/ATMP/access.json
+      hash: md5
+      md5: b31c8f09000892cff0fa7c6264ede8c2
+      size: 38229
+    - path: data/inputs/datasets/CVD/access.json
+      hash: md5
+      md5: 18cdc8d8f7a2ef13c8d5b8acc17a417b
+      size: 186679
+    - path: data/inputs/datasets/breast_cancer/access.json
+      hash: md5
+      md5: 82c8f0183b3987f6340fbccfb5983054
+      size: 384800
+    - path: data/inputs/datasets/immuno_oncology/access.json
+      hash: md5
+      md5: a47e2d0945a0fb2b482426e2ddbc19fa
+      size: 235485
+    - path: data/inputs/datasets/neurodegenerative/access.json
+      hash: md5
+      md5: 00cf8f7882acd7f75d85088582ab3af7
+      size: 72679
+    - path: data/inputs/datasets/respiratory/access.json
+      hash: md5
+      md5: 3001be02f8d653390e8a0ced2719804d
+      size: 121108
+    outs:
+    - path: data/inputs/datasets/access_all.json
+      hash: md5
+      md5: 643ee9b73353619a21b594a98001c44a
+      size: 150153

@@ -1,0 +1,46 @@
+FIELD	DEFINITION
+Model	Sequential number
+First Author Name	Name of the first author of the peer-reviewed article.
+Year	Publication year.
+DOI	Digital Object Identification number to retrieve the publication abstract.
+Disease Area	Autoimmune disease type.
+Disease Feature	The disease feature addressed in the study.
+Cell Source	Biological material source, if any.
+Category	In vitro or In silico or both.
+Type	(Cells, Cell-free, Ex vivo), (Computational, Algorithm, Simulation, Mathematical).
+Cells	If Type = Cells: (Immortalised; Primary; Stem cells, n/a)
+Culture type	If Type = Cells: (Culture; Coculture, MPS, n/a)
+Dimensions	If Type = Cells: (2D, 2.5D, 3D, n/a)
+3D	If Dimensions = 3D: (Scaffolds, Spheroid, Organoid, n/a)
+Ex vivo	Aim of the study.
+Application	Disease therapy development Diagnosis Model and/or method qualification Disease mechanism (experimental and/or theoretical) Drug development and/or testing
+Biological endpoints	Disease mechanism and/or study focus.
+Status [1]	Model developmental stage: “Proof of concept”; “In research use”; “Internally qualified”; “Externally qualified”; “EMA or FDA approvals”.
+Throughput	Regarding productivity/automatisation: high; medium; low
+Content	Quantity of information retrieved: high; medium; low
+Relevance [2]	Biological relevance of the model for the disease feature in replacing animal models: Direct; Supportive, n/a.
+Predictive [3]	Yes; No, n/a
+Potential [4]	Possible multiple model application in addressing disease features.
+	
+[1] Status definitions:	
+Proof of concept:	New method/model description.
+In research use:	Method/model in use by research community but not widely deployed.
+Internally qualified:	The research group is referencing its own previous article/s.
+Externally qualified: 	The research group is referencing previous article/s published by others and accepted by the research community.
+EMA or FDA approvals:	Recognition by the European or USA regulatory agencies.
+Other approvals: 	Models approved by local medical-scientific committees or similar
+	
+[2] Relevance definitions:	
+Direct:	The model is sufficient for the conclusions of the study.
+Supportive:	The model is partially supporting the conclusions of the study.
+N/A: 	Not specified by authors.
+	
+[3] Predictive definitions:	
+Yes:	The model has a predictive purpose.
+No:	The model has not predictive purpose.
+N/A:	Not specified.
+	
+[4] Potential definitions:	
+Yes: 	The method/model has future potential for its autoimmune disease applications.
+No: 	The method/model has no future potential for its autoimmune disease applications.
+N/A: 	Not specified.

@@ -1,10 +1,69 @@
 stages:
+  stats_autoimmunity:
+    deps:
+      - data/inputs/datasets/autoimmunity/models.tsv
+    cmd: python prepare.py stats --dataset autoimmunity --access data/inputs/datasets/autoimmunity/access.json
+    outs:
+      - data/inputs/datasets/autoimmunity/access.json
+  stats_ATMP:
+    deps:
+      - data/inputs/datasets/ATMP/models.tsv
+    cmd: python prepare.py stats --dataset ATMP --access data/inputs/datasets/ATMP/access.json
+    outs:
+      - data/inputs/datasets/ATMP/access.json
+  stats_CVD:
+    deps:
+      - data/inputs/datasets/CVD/models.tsv
+    cmd: python prepare.py stats --dataset CVD --access data/inputs/datasets/CVD/access.json
+    outs:
+      - data/inputs/datasets/CVD/access.json
+  stats_breast_cancer:
+    deps:
+      - data/inputs/datasets/breast_cancer/models.tsv
+    cmd: python prepare.py stats --dataset breast_cancer --access data/inputs/datasets/breast_cancer/access.json
+    outs:
+      - data/inputs/datasets/breast_cancer/access.json
+  stats_immuno_oncology:
+    deps:
+      - data/inputs/datasets/immuno_oncology/models.tsv
+    cmd: python prepare.py stats --dataset immuno_oncology --access data/inputs/datasets/immuno_oncology/access.json
+    outs:
+      - data/inputs/datasets/immuno_oncology/access.json
+  stats_neurodegenerative:
+    deps:
+      - data/inputs/datasets/neurodegenerative/models.tsv
+    cmd: python prepare.py stats --dataset neurodegenerative --access data/inputs/datasets/neurodegenerative/access.json
+    outs:
+      - data/inputs/datasets/neurodegenerative/access.json
+  stats_respiratory:
+    deps:
+      - data/inputs/datasets/respiratory/models.tsv
+    cmd: python prepare.py stats --dataset respiratory --access data/inputs/datasets/respiratory/access.json
+    outs:
+      - data/inputs/datasets/respiratory/access.json
+  stats_all:
+    deps:
+      - data/inputs/datasets/ATMP/access.json
+      - data/inputs/datasets/CVD/access.json
+      - data/inputs/datasets/breast_cancer/access.json
+      - data/inputs/datasets/immuno_oncology/access.json
+      - data/inputs/datasets/neurodegenerative/access.json
+      - data/inputs/datasets/respiratory/access.json
+    cmd: jq -s 'reduce .[] as $item ({}; . * $item)' data/inputs/datasets/{ATMP,CVD,breast_cancer,immuno_oncology,neurodegenerative,respiratory}/access.json > data/inputs/datasets/access_all.json
+    outs:
+      - data/inputs/datasets/access_all.json
   download_ATMP:
     deps:
       - data/inputs/datasets/ATMP/models.tsv
     cmd: python prepare.py download --dataset ATMP
     outs:
       - data/inputs/datasets/ATMP/papers
+  download_autoimmunity:
+    deps:
+      - data/inputs/datasets/autoimmunity/models.tsv
+    cmd: python prepare.py download --dataset autoimmunity
+    outs:
+      - data/inputs/datasets/autoimmunity/papers
   download_CVD:
     deps:
       - data/inputs/datasets/CVD/models.tsv
@@ -13,16 +72,16 @@ stages:
       - data/inputs/datasets/CVD/papers
   download_breast_cancer:
     deps:
-      - "data/inputs/datasets/breast-cancer/models.tsv"
-    cmd: "python prepare.py download --dataset breast-cancer"
+      - "data/inputs/datasets/breast_cancer/models.tsv"
+    cmd: "python prepare.py download --dataset breast_cancer"
     outs:
-      - "data/inputs/datasets/breast-cancer/papers"
+      - "data/inputs/datasets/breast_cancer/papers"
   download_immuno_oncology:
     deps:
-      - "data/inputs/datasets/immuno-oncology/models.tsv"
-    cmd: "python prepare.py download --dataset immuno-oncology"
+      - "data/inputs/datasets/immuno_oncology/models.tsv"
+    cmd: "python prepare.py download --dataset immuno_oncology"
     outs:
-      - "data/inputs/datasets/immuno-oncology/papers"
+      - "data/inputs/datasets/immuno_oncology/papers"
   download_neurodegenerative:
     deps:
       - "data/inputs/datasets/neurodegenerative/models.tsv"
@@ -49,16 +108,16 @@ stages:
       - data/inputs/datasets/CVD/parsed_papers
   parse_breast_cancer:
     deps:
-      - "data/inputs/datasets/breast-cancer/papers"
-    cmd: "python prepare.py parse --dataset breast-cancer --recreate_parent true"
+      - "data/inputs/datasets/breast_cancer/papers"
+    cmd: "python prepare.py parse --dataset breast_cancer --recreate_parent true"
     outs:
-      - "data/inputs/datasets/breast-cancer/parsed_papers"
+      - "data/inputs/datasets/breast_cancer/parsed_papers"
   parse_immuno_oncology:
     deps:
-      - "data/inputs/datasets/immuno-oncology/papers"
-    cmd: "python prepare.py parse --dataset immuno-oncology --recreate_parent true"
+      - "data/inputs/datasets/immuno_oncology/papers"
+    cmd: "python prepare.py parse --dataset immuno_oncology --recreate_parent true"
     outs:
-      - "data/inputs/datasets/immuno-oncology/parsed_papers"
+      - "data/inputs/datasets/immuno_oncology/parsed_papers"
   parse_neurodegenerative:
     deps:
       -  "data/inputs/datasets/neurodegenerative/papers"
@@ -71,5 +130,11 @@ stages:
     cmd: "python prepare.py parse --dataset respiratory --recreate_parent true"
     outs:
       - "data/inputs/datasets/respiratory/parsed_papers"
+  parse_autoimmunity:
+    deps:
+      - data/inputs/datasets/autoimmunity/papers
+    cmd: "python prepare.py parse --dataset autoimmunity --recreate_parent true"
+    outs:
+      - data/inputs/datasets/autoimmunity/parsed_papers
   draw_pipeline:
     cmd: dvc dag --dot | dot -Tsvg -o dvc_pipeline.svg

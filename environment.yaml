@@ -23,7 +23,7 @@ dependencies:
   - uvicorn
   - dvc
   - pip:
-      - getpaper
+      - getpaper>=0.2.1
       - polars
       - langchain>=0.0.202
       - dvc_gdrive>=2.20.0

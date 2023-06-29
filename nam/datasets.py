@@ -1,13 +1,16 @@
-from pathlib import Path
-
-import getpaper.parse
-import polars as pl
-from typing import List, Optional
-
-import tiktoken
-from getpaper.download import download_papers
+import json
 from collections import OrderedDict
+from pathlib import Path
+from typing import List, Optional
+from getpaper.download import check_access
+import polars as pl
+import tiktoken
+from functional import seq
+from getpaper.download import download_papers
 from getpaper.parse import parse_papers
+from loguru import logger
+from semanticscholar.Paper import Paper
+
 
 def read_tsv(path: Path):
     return pl.read_csv(path, sep="\t", infer_schema_length=10000, null_values=["N/A", "-", "null", "None"])
@@ -34,7 +37,7 @@ class DatasetNAM:
         self.default_model = default_model
         self.encoding = tiktoken.encoding_for_model(self.default_model)
         self.models = read_tsv(folder / "models.tsv")
-        self.dois = self.models[self.doi_cols[0]].unique().to_list()
+        self.dois = [d.replace("https://doi.org/", "") for d in self.models[self.doi_cols[0]].unique().to_list()]
         self.dropdowns = read_tsv(folder / "dropdowns.tsv")
         self.fields = read_tsv(folder / "fields.tsv")
         self.papers_folder = folder / "papers"
@@ -68,7 +71,6 @@ class DatasetNAM:
                 return None
             return len(self.encoding.encode(text))
 
-        from getpaper.parse import num_tokens_openai
         doi_col = pl.col(self.doi_cols[0])
         path_col = doi_col.apply(doi_to_path).alias("path")
         exist_col = path_col.apply(exists).alias("exists")
@@ -84,21 +86,48 @@ class DatasetNAM:
         for doi in self.dois:
             if (self.papers_folder / doi).exists():
                 i = i + 1
-        print(f"DOWNLOADED DOIS {i} out of {total}")
+        logger.info(f"DOWNLOADED DOIS {i} out of {total}")
+
+    def check_access_paginated(self, page: int = 500):
+        if len(self.dois) < page:
+            return check_access(self.dois)
+        else:
+            slides = seq(self.dois).sliding(page, page).to_list()
+            pairs = [check_access(s.to_list()) for s in slides]
+            opened = seq([p[0] for p in pairs]).flatten().to_list()
+            closed = seq([p[1] for p in pairs]).flatten().to_list()
+            return opened, closed
+
+    def check_access(self, write_to: Optional[Path] = None):
+        opened, closed = self.check_access_paginated()
+        total = len(opened) + len(closed)
+        result = {
+            "total_papers": total,
+            "total_open": len(opened),
+            "total_closed": len(closed),
+            "opened": [p for p in opened],
+            "closed": [p for p in closed],
+            "not_found": len(self.dois) - total
+        }
+        if write_to is not None:
+            write_to.touch(exist_ok=True)
+            json_data = json.dumps(result)
+            write_to.write_text(json_data)
+        return result
 
     def download(self, threads: int = 5):
         """
         Downloads papers from the models
         :return:
         """
-        results = download_papers(self.dois, self.papers_folder, threads=threads)
-        succeeded: OrderedDict[str, Path] = results[0]
+        results: OrderedDict = download_papers(self.dois, self.papers_folder, threads=threads)
+        succeeded: OrderedDict[str, (str, Path, Path)] = results[0]
         failed = results[1]
         for f in failed:
-            print(f"download failed for {f}")
+            logger.warning(f"download failed for {f}")
         good = len(succeeded)
         bad = len(failed)
-        print(f"TOTAL DOWNLOADED [{good}/{good+bad}], FAILED: {bad}")
+        logger.info(f"TOTAL DOWNLOADED [{good}/{good+bad}], FAILED: {bad}")
         return succeeded
 
     def parse(self, destination: Optional[Path], strategy: str = "auto", cores: Optional[int] = None,  recreate_parent = True):
