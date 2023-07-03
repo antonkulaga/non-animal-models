@@ -10,31 +10,31 @@ stages:
     outs:
     - path: data/inputs/datasets/ATMP/papers
       hash: md5
-      md5: cf0af8a3ebfa445466357bcccadf15aa.dir
-      size: 154752965
-      nfiles: 87
+      md5: d751713988987e9331980363e24189ce.dir
+      size: 0
+      nfiles: 0
   download_breast_cancer:
-    cmd: python prepare.py download --dataset breast-cancer
+    cmd: python prepare.py download --dataset breast_cancer
     deps:
-    - path: data/inputs/datasets/breast-cancer/models.tsv
+    - path: data/inputs/datasets/breast_cancer/models.tsv
       hash: md5
       md5: 4fd66c0fb66a8616f3fd02c7e8ed6a9d
       size: 249074
     outs:
-    - path: data/inputs/datasets/breast-cancer/papers
+    - path: data/inputs/datasets/breast_cancer/papers
       hash: md5
       md5: 537df90f01902975b207e810b5df47da.dir
       size: 2110529081
       nfiles: 830
   download_immuno_oncology:
-    cmd: python prepare.py download --dataset immuno-oncology
+    cmd: python prepare.py download --dataset immuno_oncology
     deps:
-    - path: data/inputs/datasets/immuno-oncology/models.tsv
+    - path: data/inputs/datasets/immuno_oncology/models.tsv
       hash: md5
       md5: 9ba01f5c59eeac80526d7e7196799d6f
       size: 168291
     outs:
-    - path: data/inputs/datasets/immuno-oncology/papers
+    - path: data/inputs/datasets/immuno_oncology/papers
       hash: md5
       md5: ff8a62b24cd66777be26672a308fac6f.dir
       size: 890647515
@@ -83,9 +83,9 @@ stages:
     deps:
     - path: data/inputs/datasets/ATMP/papers
       hash: md5
-      md5: cf0af8a3ebfa445466357bcccadf15aa.dir
-      size: 154752965
-      nfiles: 87
+      md5: d751713988987e9331980363e24189ce.dir
+      size: 0
+      nfiles: 0
     outs:
     - path: data/inputs/datasets/ATMP/parsed_papers
       hash: md5
@@ -107,29 +107,29 @@ stages:
       size: 11770926
       nfiles: 240
   parse_breast_cancer:
-    cmd: python prepare.py parse --dataset breast-cancer --recreate_parent true
+    cmd: python prepare.py parse --dataset breast_cancer --recreate_parent true
     deps:
-    - path: data/inputs/datasets/breast-cancer/papers
+    - path: data/inputs/datasets/breast_cancer/papers
       hash: md5
       md5: 537df90f01902975b207e810b5df47da.dir
       size: 2110529081
       nfiles: 830
     outs:
-    - path: data/inputs/datasets/breast-cancer/parsed_papers
+    - path: data/inputs/datasets/breast_cancer/parsed_papers
       hash: md5
       md5: f024acfcba2c5e3bc3da6c762414144f.dir
       size: 34880363
       nfiles: 683
   parse_immuno_oncology:
-    cmd: python prepare.py parse --dataset immuno-oncology --recreate_parent true
+    cmd: python prepare.py parse --dataset immuno_oncology --recreate_parent true
     deps:
-    - path: data/inputs/datasets/immuno-oncology/papers
+    - path: data/inputs/datasets/immuno_oncology/papers
       hash: md5
       md5: ff8a62b24cd66777be26672a308fac6f.dir
       size: 890647515
       nfiles: 488
     outs:
-    - path: data/inputs/datasets/immuno-oncology/parsed_papers
+    - path: data/inputs/datasets/immuno_oncology/parsed_papers
       hash: md5
       md5: b3ba2304e5e9d6a09cfbd3bd66788cb5.dir
       size: 16805544
@@ -174,7 +174,7 @@ stages:
     outs:
     - path: data/inputs/datasets/ATMP/access.json
       hash: md5
-      md5: b31c8f09000892cff0fa7c6264ede8c2
+      md5: b6bb8c69c262e375a836b1c0e98bd8db
       size: 38229
   stats_CVD:
     cmd: python prepare.py stats --dataset CVD --access data/inputs/datasets/CVD/access.json
@@ -186,8 +186,8 @@ stages:
     outs:
     - path: data/inputs/datasets/CVD/access.json
       hash: md5
-      md5: 18cdc8d8f7a2ef13c8d5b8acc17a417b
-      size: 186679
+      md5: 2679f38a515a5d2d7783314b673be0ab
+      size: 186680
   stats_breast_cancer:
     cmd: python prepare.py stats --dataset breast_cancer --access data/inputs/datasets/breast_cancer/access.json
     deps:
@@ -198,7 +198,7 @@ stages:
     outs:
     - path: data/inputs/datasets/breast_cancer/access.json
       hash: md5
-      md5: 82c8f0183b3987f6340fbccfb5983054
+      md5: aa805782d516ec756aec08984838d74a
       size: 384800
   stats_immuno_oncology:
     cmd: python prepare.py stats --dataset immuno_oncology --access data/inputs/datasets/immuno_oncology/access.json
@@ -210,7 +210,7 @@ stages:
     outs:
     - path: data/inputs/datasets/immuno_oncology/access.json
       hash: md5
-      md5: a47e2d0945a0fb2b482426e2ddbc19fa
+      md5: fd814d0a2cbc6c55bb7575c58e22a93c
       size: 235485
   stats_neurodegenerative:
     cmd: python prepare.py stats --dataset neurodegenerative --access data/inputs/datasets/neurodegenerative/access.json
@@ -222,8 +222,8 @@ stages:
     outs:
     - path: data/inputs/datasets/neurodegenerative/access.json
       hash: md5
-      md5: 00cf8f7882acd7f75d85088582ab3af7
-      size: 72679
+      md5: 7b5318837fc6782783651796ff0f96fe
+      size: 73564
   stats_respiratory:
     cmd: python prepare.py stats --dataset respiratory --access data/inputs/datasets/respiratory/access.json
     deps:
@@ -234,39 +234,122 @@ stages:
     outs:
     - path: data/inputs/datasets/respiratory/access.json
       hash: md5
-      md5: 3001be02f8d653390e8a0ced2719804d
+      md5: ab2cc2860e3b97273b6a4b8714bba233
       size: 121108
   stats_all:
-    cmd: jq -s 'reduce .[] as $item ({}; . * $item)' 
-      data/inputs/datasets/{ATMP,CVD,breast_cancer,immuno_oncology,neurodegenerative,respiratory}/access.json
-      > data/inputs/datasets/access_all.json
+    cmd: python prepare.py stats_all --output data/inputs/datasets/access_all.json
+      -j data/inputs/datasets/ATMP/access.json -j data/inputs/datasets/CVD/access.json
+      -j data/inputs/datasets/breast_cancer/access.json -j data/inputs/datasets/immuno_oncology/access.json
+      -j data/inputs/datasets/neurodegenerative/access.json -j data/inputs/datasets/respiratory/access.json
+      -j data/inputs/datasets/autoimmunity/access.json
     deps:
     - path: data/inputs/datasets/ATMP/access.json
       hash: md5
-      md5: b31c8f09000892cff0fa7c6264ede8c2
+      md5: b6bb8c69c262e375a836b1c0e98bd8db
       size: 38229
     - path: data/inputs/datasets/CVD/access.json
       hash: md5
-      md5: 18cdc8d8f7a2ef13c8d5b8acc17a417b
-      size: 186679
+      md5: 2679f38a515a5d2d7783314b673be0ab
+      size: 186680
+    - path: data/inputs/datasets/autoimmunity/access.json
+      hash: md5
+      md5: 9cd32a529cad176dc3c406ff78fab461
+      size: 76718
     - path: data/inputs/datasets/breast_cancer/access.json
       hash: md5
-      md5: 82c8f0183b3987f6340fbccfb5983054
+      md5: aa805782d516ec756aec08984838d74a
       size: 384800
     - path: data/inputs/datasets/immuno_oncology/access.json
       hash: md5
-      md5: a47e2d0945a0fb2b482426e2ddbc19fa
+      md5: fd814d0a2cbc6c55bb7575c58e22a93c
       size: 235485
     - path: data/inputs/datasets/neurodegenerative/access.json
       hash: md5
-      md5: 00cf8f7882acd7f75d85088582ab3af7
-      size: 72679
+      md5: 7b5318837fc6782783651796ff0f96fe
+      size: 73564
     - path: data/inputs/datasets/respiratory/access.json
       hash: md5
-      md5: 3001be02f8d653390e8a0ced2719804d
+      md5: ab2cc2860e3b97273b6a4b8714bba233
       size: 121108
     outs:
     - path: data/inputs/datasets/access_all.json
       hash: md5
-      md5: 643ee9b73353619a21b594a98001c44a
-      size: 150153
+      md5: 636a89321dfdb6fa68b0a14738b5d299
+      size: 81
+  download_autoimmunity:
+    cmd: python prepare.py download --dataset autoimmunity
+    deps:
+    - path: data/inputs/datasets/autoimmunity/models.tsv
+      hash: md5
+      md5: cd26dedc9bd854c5083b673cc6302111
+      size: 53445
+    outs:
+    - path: data/inputs/datasets/autoimmunity/papers
+      hash: md5
+      md5: 6b2b63036ab9406f8dbf96c927b161c1.dir
+      size: 382191062
+      nfiles: 346
+  stats_autoimmunity:
+    cmd: python prepare.py stats --dataset autoimmunity --access data/inputs/datasets/autoimmunity/access.json
+    deps:
+    - path: data/inputs/datasets/autoimmunity/models.tsv
+      hash: md5
+      md5: cd26dedc9bd854c5083b673cc6302111
+      size: 53445
+    outs:
+    - path: data/inputs/datasets/autoimmunity/access.json
+      hash: md5
+      md5: 9cd32a529cad176dc3c406ff78fab461
+      size: 76718
+  parse_autoimmunity:
+    cmd: python prepare.py parse --dataset autoimmunity --recreate_parent true
+    deps:
+    - path: data/inputs/datasets/autoimmunity/papers
+      hash: md5
+      md5: 6b2b63036ab9406f8dbf96c927b161c1.dir
+      size: 382191062
+      nfiles: 346
+    outs:
+    - path: data/inputs/datasets/autoimmunity/parsed_papers
+      hash: md5
+      md5: ff4f9d7ae43021ac73ec538bced727a8.dir
+      size: 8453629
+      nfiles: 171
+  parse_all:
+    cmd: echo 'just a synthatic task to call all parsing'
+    deps:
+    - path: data/inputs/datasets/ATMP/parsed_papers
+      hash: md5
+      md5: 2bb488da15bd5cf45b2f62fbec37f4ca.dir
+      size: 3467572
+      nfiles: 67
+    - path: data/inputs/datasets/CVD/parsed_papers
+      hash: md5
+      md5: 174f905a7b7487757bc4fad023ace727.dir
+      size: 11770926
+      nfiles: 240
+    - path: data/inputs/datasets/autoimmunity/parsed_papers
+      hash: md5
+      md5: ff4f9d7ae43021ac73ec538bced727a8.dir
+      size: 8453629
+      nfiles: 171
+    - path: data/inputs/datasets/breast_cancer/parsed_papers
+      hash: md5
+      md5: f024acfcba2c5e3bc3da6c762414144f.dir
+      size: 34880363
+      nfiles: 683
+    - path: data/inputs/datasets/immuno_oncology/parsed_papers
+      hash: md5
+      md5: b3ba2304e5e9d6a09cfbd3bd66788cb5.dir
+      size: 16805544
+      nfiles: 339
+    - path: data/inputs/datasets/neurodegenerative/parsed_papers
+      hash: md5
+      md5: 8e86e3c330b5ae849fdd2a34e5afbd9b.dir
+      size: 642081
+      nfiles: 9
+    - path: data/inputs/datasets/respiratory/parsed_papers
+      hash: md5
+      md5: 63ec8e973bad3bd4bdc1eba51d284e6b.dir
+      size: 14305168
+      nfiles: 275

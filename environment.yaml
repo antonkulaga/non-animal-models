@@ -23,7 +23,7 @@ dependencies:
   - uvicorn
   - dvc
   - pip:
-      - getpaper>=0.2.1
+      - getpaper>=0.2.3
       - polars
       - langchain>=0.0.202
       - dvc_gdrive>=2.20.0
@@ -31,3 +31,4 @@ dependencies:
       - scidownl
       - 'git+https://github.com/facebookresearch/detectron2.git@e2ce8dc#egg=detectron2'
       - google-search-results
+      - paperscraper

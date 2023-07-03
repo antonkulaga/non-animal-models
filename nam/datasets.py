@@ -98,17 +98,18 @@ class DatasetNAM:
             closed = seq([p[1] for p in pairs]).flatten().to_list()
             return opened, closed
 
-    def check_access(self, write_to: Optional[Path] = None):
+    def open_access_stats(self, write_to: Optional[Path] = None, count_only: bool = True):
         opened, closed = self.check_access_paginated()
         total = len(opened) + len(closed)
         result = {
             "total_papers": total,
             "total_open": len(opened),
             "total_closed": len(closed),
-            "opened": [p for p in opened],
-            "closed": [p for p in closed],
             "not_found": len(self.dois) - total
         }
+        if not count_only:
+            result["opened"] = [p for p in opened]
+            result["closed"] = [p for p in closed]
         if write_to is not None:
             write_to.touch(exist_ok=True)
             json_data = json.dumps(result)

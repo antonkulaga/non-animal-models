@@ -49,7 +49,8 @@ stages:
       - data/inputs/datasets/immuno_oncology/access.json
       - data/inputs/datasets/neurodegenerative/access.json
       - data/inputs/datasets/respiratory/access.json
-    cmd: jq -s 'reduce .[] as $item ({}; . * $item)' data/inputs/datasets/{ATMP,CVD,breast_cancer,immuno_oncology,neurodegenerative,respiratory}/access.json > data/inputs/datasets/access_all.json
+      - data/inputs/datasets/autoimmunity/access.json
+    cmd: python prepare.py stats_all --output data/inputs/datasets/access_all.json -j data/inputs/datasets/ATMP/access.json -j data/inputs/datasets/CVD/access.json -j data/inputs/datasets/breast_cancer/access.json -j data/inputs/datasets/immuno_oncology/access.json -j data/inputs/datasets/neurodegenerative/access.json -j data/inputs/datasets/respiratory/access.json -j data/inputs/datasets/autoimmunity/access.json
     outs:
       - data/inputs/datasets/access_all.json
   download_ATMP:
@@ -136,5 +137,15 @@ stages:
     cmd: "python prepare.py parse --dataset autoimmunity --recreate_parent true"
     outs:
       - data/inputs/datasets/autoimmunity/parsed_papers
+  parse_all:
+    deps:
+      - data/inputs/datasets/ATMP/parsed_papers
+      - data/inputs/datasets/CVD/parsed_papers
+      - data/inputs/datasets/autoimmunity/parsed_papers
+      - data/inputs/datasets/respiratory/parsed_papers
+      - data/inputs/datasets/neurodegenerative/parsed_papers
+      - data/inputs/datasets/immuno_oncology/parsed_papers
+      - data/inputs/datasets/breast_cancer/parsed_papers
+    cmd: "echo 'just a synthatic task to call all parsing'"
   draw_pipeline:
     cmd: dvc dag --dot | dot -Tsvg -o dvc_pipeline.svg
