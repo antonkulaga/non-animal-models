@@ -58,6 +58,11 @@ class DiseaseClassifier:
 
 
     def compute_similarity(self, query: str):
+        """
+        NOT FINISHED!!!
+        :param query:
+        :return:
+        """
         from openai.embeddings_utils import get_embedding, cosine_similarity
 
         value = self.embeddings_model.embed_query(query)
@@ -70,12 +75,22 @@ class DiseaseClassifier:
 
 
     def predict(self, text: str) -> dict[str, str]:
+        """
+        predictions on a per example level
+        :param text:
+        :return:
+        """
         result = self.chain.predict(text = text,
                                   format_instructions = self.output_parser.get_format_instructions(),
                                   values = self.values)
         return self.output_parser.parse(result)
 
     def apply(self, df: pl.DataFrame):
+        """
+        applies predictions to thw whole dataframe
+        :param df:
+        :return:
+        """
         extra_cols = [
             pl.col("text").apply(lambda text: self.predict(text)["disease_area"]).alias("predicted_disease_area"),
             pl.col("text").apply(lambda text: self.predict(text)["confidence"]).alias("confidence")

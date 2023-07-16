@@ -1,15 +1,20 @@
 import json
+import math
 from collections import OrderedDict
 from pathlib import Path
-from typing import List, Optional
-from getpaper.download import check_access
+from typing import List
+from typing import Optional
+
+import pandas as pd
+import plotly.graph_objects as go
 import polars as pl
 import tiktoken
 from functional import seq
+from getpaper.download import check_access
 from getpaper.download import download_papers
 from getpaper.parse import parse_papers
 from loguru import logger
-from semanticscholar.Paper import Paper
+from plotly.subplots import make_subplots
 
 
 def read_tsv(path: Path):
@@ -18,6 +23,7 @@ def read_tsv(path: Path):
 
 class DatasetNAM:
 
+    folder: Path
     models: pl.DataFrame
     fields: pl.DataFrame
     dropdowns: pl.DataFrame
@@ -34,6 +40,7 @@ class DatasetNAM:
         return result
 
     def __init__(self, folder: Path, default_model: str = "gpt-3.5-turbo-16k"):
+        self.folder = folder
         self.default_model = default_model
         self.encoding = tiktoken.encoding_for_model(self.default_model)
         self.models = read_tsv(folder / "models.tsv")
@@ -45,6 +52,82 @@ class DatasetNAM:
         self.parsed_papers_folder = folder / "parsed_papers"
         self.index_folder = folder / "index"
         self.index_folder.mkdir(exist_ok=True, parents=True)
+
+    import pandas as pd
+
+    def plot_value_distributions(self, cols_to_plot: Optional[List[str]] = None, horizontal: bool = False, height: int = 4000, width: int = 1200, row_spacing: float = 0.5) -> go.Figure:
+        # Determine the optimal grid size
+        df: pd.DataFrame = self.models.to_pandas(use_pyarrow_extension_array=True)
+        if cols_to_plot is None:
+            cols_to_plot = [c for c in self.dropdowns.columns if c in self.models.columns]
+        ncols = 2  # two columns of plots
+        nrows = math.ceil(len(cols_to_plot) / ncols)  # calculate rows needed
+
+        fig = make_subplots(rows=nrows, cols=ncols, subplot_titles=cols_to_plot)
+
+        for i, col in enumerate(cols_to_plot, 1):
+            # Create the data for each bar chart
+            data = df[col].value_counts().reset_index()
+            data.columns = [col, 'Count']
+
+            # Create and add each bar chart to the subplot
+            if not horizontal:
+                fig.add_trace(
+                    go.Bar(x=data[col], y=data['Count'], name=col),
+                    row=(i-1)//ncols + 1,  # Calculate correct row position
+                    col=(i-1)%ncols + 1    # Calculate correct column position
+                )
+            else:
+                fig.add_trace(
+                    go.Bar(x=data['Count'], y=data[col], name=col, orientation='h'),
+                    row=(i-1)//ncols + 1,  # Calculate correct row position
+                    col=(i-1)%ncols + 1    # Calculate correct column position
+                )
+
+        fig.update_layout(height=height, width=width, title_text="Value Distributions", plot_bgcolor='rgba(0,0,0,0)',
+                          paper_bgcolor='rgba(0,0,0,0)',
+                          autosize=False,
+                          margin=dict(
+                              autoexpand=False,
+                              l=100,
+                              r=20,
+                              t=110,
+                          ),
+                          showlegend=False,
+                          xaxis=dict(
+                              autorange=True,
+                              showgrid=False,
+                              ticks='',
+                              showticklabels=False
+                          ),
+                          yaxis=dict(
+                              autorange=True,
+                              showgrid=False,
+                              ticks='',
+                              showticklabels=False
+                          )
+                          )
+        return fig
+
+    def save_plot_value_distributions(self, file_format: str = 'png', save_to: Optional[Path] = None, horizontal: bool = False, cols_to_plot: Optional[List[str]] = None, height: int = 4000, width: int = 1200, row_spacing: float = 0.5) -> None:
+        fig = self.plot_value_distributions(cols_to_plot, horizontal=horizontal, height=height, width=width, row_spacing=row_spacing)
+
+        if save_to is None:
+            save_to = self.folder / f"{self.folder.name}_plot.{file_format}"
+        # Ensure the path exists
+        save_to.parent.mkdir(parents=True, exist_ok=True)
+
+        # Save to file
+        if file_format == 'html':
+            fig.write_html(str(save_to))
+        elif file_format in ['png', 'jpeg', 'svg', 'webp']:
+            fig.write_image(str(save_to), format=file_format)
+        else:
+            print(f'Unsupported file format: {file_format}. Supported formats are html, png, jpeg, svg, webp.')
+        logger.info(f"saved to {save_to}")
+        return save_to
+
+
 
     @property
     def extended_models(self):
